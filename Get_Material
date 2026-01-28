@@ -1,0 +1,4 @@
+For this experiment, we use images from the ObScene database. 
+The excels contain the name of the selected images. 
+To access the stimuli, you can download all images from the ObScene dataset at https://osf.io/4pqsu/overview?view_only=9478429999754bd1afc3823c4876de18 
+Once downloaded, it suffces to change the names of the folders (i.e.Scenes_Dataset and Objects_Dataset) and move them to the same folder as the psyexp file.
