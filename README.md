@@ -1,6 +1,7 @@
 Fulll_PT.psyexp é o ficheiro que corre no Psychopy.
 
-!!!VER PULL REQUEST : Ainda estou a tentar incluir as duas pastas Scene_dataset e Object_dataset que contêm os estimulos visuais, cujo nome aparece nos excel.!!
+Pasta Scenes_Dataset : contem todas as cenas utilizadas no protocolo, chamadas pelo excel
+Pasta Objects_Dataset: contem todos os objectos utilizados no protocolo, chamados pelos excels
 
 Os seguintes ficheiros excel organizam o material selecionado da base de dados ObScene em diferentes condições:
 
