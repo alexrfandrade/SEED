@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on fevereiro 11, 2026, at 14:52
+    on fevereiro 11, 2026, at 15:48
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -835,22 +835,19 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from code_GoNo
     # Importa a função
     import sys
-    sys.path.append('caminho/para/pasta')   # <-- SUBSTITUA pelo caminho real
+    sys.path.append('caminho/para/pasta')  
     from Go_NoGo import run_gonogo_task
     
-    # ------------------------------------------------------------
     # 1. Roda a tarefa – TODOS os 100 trials numa única chamada
-    # ------------------------------------------------------------
     resultados = run_gonogo_task(win)
     
-    # ------------------------------------------------------------
+    
     # 2. Se a tarefa correu bem, calcula estatísticas e adiciona ao ficheiro do Builder
-    # ------------------------------------------------------------
     if resultados is not None and len(resultados) > 0:
         import pandas as pd
         df = pd.DataFrame(resultados)
         
-        # --- Estatísticas globais ---
+        #Estatísticas globais
         total_go    = df[df['trial_type'] == 'go'].shape[0]
         total_nogo  = df[df['trial_type'] == 'nogo'].shape[0]
         
@@ -863,7 +860,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         rt_go_correct = df[(df['trial_type'] == 'go') & (df['correct'] == 1)]['rt']
         mean_rt = rt_go_correct.mean() if len(rt_go_correct) > 0 else 0
         
-        # --- Adiciona ao ficheiro do Builder (UMA linha) ---
+        #Adiciona ao ficheiro do Builder 
         thisExp.addData('n_trials_total', len(df))
         thisExp.addData('n_go', total_go)
         thisExp.addData('n_nogo', total_nogo)
@@ -875,8 +872,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         thisExp.addData('nogo_accuracy_percent', corr_reject/total_nogo*100 if total_nogo>0 else 0)
         thisExp.addData('mean_rt_go_correct', mean_rt)
         
-        print(f"✅ Tarefa concluída. {len(resultados)} ensaios registados.")
-        print("📊 Estatísticas adicionadas ao ficheiro do Builder.")
+        print(f" Tarefa concluída. {len(resultados)} ensaios registados.")
+        print(" Estatísticas adicionadas ao ficheiro do Builder.")
         
     else:
         print("⚠️ Tarefa cancelada pelo utilizador ou erro – nada adicionado ao Builder.")

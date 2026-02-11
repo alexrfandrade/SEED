@@ -190,6 +190,7 @@ def run_gonogo_task(win=None):
         {'type': 'go', 'stim_index': 3}  
     ]
 
+    event.clearEvents()
     for i, trial in enumerate(practice_trials):
         if trial['type'] == 'go':
             stim_data = go_stimuli[trial['stim_index']]
@@ -237,7 +238,7 @@ def run_gonogo_task(win=None):
                 feedback.color = 'red'
         else:  # NOGO
             if response is None:
-                feedback.text = "✓ Correcto!"
+                feedback.text = "✓ Correto!"
                 feedback.color = 'green'
             else:
                 feedback.text = "✗ Erro: Não devia primir"
@@ -303,6 +304,7 @@ def run_gonogo_task(win=None):
     all_trials = all_trials[:10] + remaining_trials
 
     # Loop principal
+    event.clearEvents()
     for trial_num, trial in enumerate(all_trials, 1):
         print(f"  Trial {trial_num}/{N_TRIALS}: {trial['type']} - {trial['description']}")
         
@@ -377,7 +379,7 @@ def run_gonogo_task(win=None):
         
         # Estatísticas por tipo de Go
         go_stats = {}
-        for go_type in ['go_circle', 'go_square', 'go_triangle']:
+        for go_type in ['Go_stim_1', 'Go_stim_2', 'Go_stim_3', 'Go_stim_4']:
             go_trials = df[df['stimulus_type'] == go_type]
             if len(go_trials) > 0:
                 go_stats[go_type] = {
