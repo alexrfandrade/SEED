@@ -27,7 +27,7 @@ def run_gonogo_task(win=None):
     
     welcome_text = visual.TextStim(win, 
         text="BEM-VINDO À TAREFA GO/NO GO\n\nPrima ESPAÇO para continuar",
-        color='white', height=0.1, wrapWidth=1.75)
+        color='white', height=0.05, wrapWidth=1.75)
     
     fixation = visual.TextStim(win, text="+", color='white', height=0.25) 
     feedback = visual.TextStim(win, text="", color='white', height=0.07)
@@ -83,7 +83,7 @@ def run_gonogo_task(win=None):
     for go_img in GO_IMAGES:
         image_path = os.path.join(IMAGE_FOLDER, go_img['filename'])
         if os.path.exists(image_path):
-            stim = visual.ImageStim(win, image=image_path, size=(1.25, 1.25))
+            stim = visual.ImageStim(win, image=image_path, size=(0.7, 0.7))
             go_stimuli.append({
                 'name': go_img['name'],
                 'stim': stim,
@@ -107,7 +107,7 @@ def run_gonogo_task(win=None):
     for nogo_img in NOGO_IMAGES:
         image_path = os.path.join(IMAGE_FOLDER, nogo_img['filename'])
         if os.path.exists(image_path):
-            stim = visual.ImageStim(win, image=image_path, size=(1.25, 1.25))
+            stim = visual.ImageStim(win, image=image_path, size=(0.7, 0.7))
             nogo_stimuli.append({
                 'name': nogo_img['name'],
                 'stim': stim,
