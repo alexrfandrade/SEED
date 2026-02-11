@@ -29,7 +29,7 @@ def run_gonogo_task(win=None):
         text="BEM-VINDO À TAREFA GO/NO GO\n\nPrima ESPAÇO para continuar",
         color='white', height=0.1, wrapWidth=1.75)
     
-    fixation = visual.TextStim(win, text="+", color='white', height=0.25) #CHANGE?
+    fixation = visual.TextStim(win, text="+", color='white', height=0.25) 
     feedback = visual.TextStim(win, text="", color='white', height=0.07)
     
     GO_IMAGES = [
@@ -133,7 +133,7 @@ def run_gonogo_task(win=None):
         
        # Título
         title = visual.TextStim(win, text="INSTRUÇÕES", 
-                               color='black', height=0.06, pos=(0, 0.4))
+                               color='white', height=0.06, pos=(0, 0.4))
         title.draw()
         
         # Instrução para GO
@@ -167,7 +167,7 @@ def run_gonogo_task(win=None):
         # Instrução final
         final_text = visual.TextStim(win,
             text="Terá 1 segundo para responder\n\nPrima ESPAÇO para começar", 
-            color='white', height=0.045, pos=(0, -0.35))
+            color='white', height=0.045, pos=(0, -0.40))
         final_text.draw()
         
         win.flip()
@@ -254,7 +254,7 @@ def run_gonogo_task(win=None):
     # TELA DE TRANSIÇÃO
     transition = visual.TextStim(win,
         text="Agora vai começar a experiência real.\n\nPrima ESPAÇO para começar",
-        color='black', height=0.05)
+        color='white', height=0.05)
     show_screen(transition)
 
     # EXPERIÊNCIA REAL

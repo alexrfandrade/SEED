@@ -2033,7 +2033,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="import {run_gonogo_task} from 'Go_NoGo';&amp;#10;sys.path.push(&quot;caminho/para/pasta&quot;);&amp;#10;resultados = run_gonogo_task({&quot;win&quot;: psychoJS.window});&amp;#10;for (var r, _pj_c = 0, _pj_a = resultados, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    r = _pj_a[_pj_c];&amp;#10;    psychoJS.experiment.addData(&quot;trial_type&quot;, r[&quot;type&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, r[&quot;response&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;rt&quot;, r[&quot;rt&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;correct&quot;, r[&quot;correct&quot;]);&amp;#10;    psychoJS.experiment.nextEntry();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# Importa a função&amp;#10;import sys&amp;#10;sys.path.append('caminho/para/pasta')&amp;#10;from Go_NoGo import run_gonogo_task&amp;#10;&amp;#10;# Roda a tarefa na janela existente&amp;#10;resultados = run_gonogo_task(win)&amp;#10;&amp;#10;# (Opcional) Verificar se correu bem&amp;#10;if resultados is None:&amp;#10;    print(&quot;⚠️ Tarefa cancelada pelo utilizador ou erro.&quot;)&amp;#10;else:&amp;#10;    print(f&quot;✅ Tarefa concluída. {len(resultados)} ensaios registados.&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="# Importa a função&amp;#10;import sys&amp;#10;sys.path.append('caminho/para/pasta')  &amp;#10;from Go_NoGo import run_gonogo_task&amp;#10;&amp;#10;# 1. Roda a tarefa – TODOS os 100 trials numa única chamada&amp;#10;resultados = run_gonogo_task(win)&amp;#10;&amp;#10;&amp;#10;# 2. Se a tarefa correu bem, calcula estatísticas e adiciona ao ficheiro do Builder&amp;#10;if resultados is not None and len(resultados) &gt; 0:&amp;#10;    import pandas as pd&amp;#10;    df = pd.DataFrame(resultados)&amp;#10;    &amp;#10;    #Estatísticas globais&amp;#10;    total_go    = df[df['trial_type'] == 'go'].shape[0]&amp;#10;    total_nogo  = df[df['trial_type'] == 'nogo'].shape[0]&amp;#10;    &amp;#10;    hits        = df[(df['trial_type'] == 'go') &amp; (df['correct'] == 1)].shape[0]&amp;#10;    misses      = df[(df['trial_type'] == 'go') &amp; (df['correct'] == 0)].shape[0]&amp;#10;    corr_reject = df[(df['trial_type'] == 'nogo') &amp; (df['correct'] == 1)].shape[0]&amp;#10;    false_alarms= df[(df['trial_type'] == 'nogo') &amp; (df['correct'] == 0)].shape[0]&amp;#10;    &amp;#10;    # Tempo médio de reação (apenas respostas corretas GO)&amp;#10;    rt_go_correct = df[(df['trial_type'] == 'go') &amp; (df['correct'] == 1)]['rt']&amp;#10;    mean_rt = rt_go_correct.mean() if len(rt_go_correct) &gt; 0 else 0&amp;#10;    &amp;#10;    #Adiciona ao ficheiro do Builder &amp;#10;    thisExp.addData('n_trials_total', len(df))&amp;#10;    thisExp.addData('n_go', total_go)&amp;#10;    thisExp.addData('n_nogo', total_nogo)&amp;#10;    thisExp.addData('hits', hits)&amp;#10;    thisExp.addData('misses', misses)&amp;#10;    thisExp.addData('correct_rejections', corr_reject)&amp;#10;    thisExp.addData('false_alarms', false_alarms)&amp;#10;    thisExp.addData('go_accuracy_percent', hits/total_go*100 if total_go&gt;0 else 0)&amp;#10;    thisExp.addData('nogo_accuracy_percent', corr_reject/total_nogo*100 if total_nogo&gt;0 else 0)&amp;#10;    thisExp.addData('mean_rt_go_correct', mean_rt)&amp;#10;    &amp;#10;    print(f&quot; Tarefa concluída. {len(resultados)} ensaios registados.&quot;)&amp;#10;    print(&quot; Estatísticas adicionadas ao ficheiro do Builder.&quot;)&amp;#10;    &amp;#10;else:&amp;#10;    print(&quot;⚠️ Tarefa cancelada pelo utilizador ou erro – nada adicionado ao Builder.&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2047,6 +2047,7 @@
     </Routine>
   </Routines>
   <Flow>
+    <Routine name="Go_Nogo_task"/>
     <Routine name="Welcome"/>
     <Routine name="Explanation_PAL"/>
     <Routine name="Explain_Rating"/>
@@ -2081,7 +2082,6 @@
     <LoopTerminator name="trial_encode"/>
     <Routine name="Pause_1"/>
     <Routine name="Explanation_GoNo"/>
-    <Routine name="Go_Nogo_task"/>
     <Routine name="Cog_Oral"/>
     <Routine name="Retomar"/>
     <Routine name="Explanation_Recall"/>
