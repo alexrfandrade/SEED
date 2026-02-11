@@ -1,0 +1,1660 @@
+14.0445 	INFO 	Loaded monitor calibration from ['2025_11_14 19:36']
+14.2619 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576eb0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576970>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe126482850>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.2620 	EXP 	window1: backgroundImage = ''
+14.2620 	EXP 	window1: backgroundFit = 'none'
+14.2623 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.2625 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.2654 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.2663 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.3081 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.3094 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.3105 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.3114 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fe126576f40>
+14.3266 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.3266 	EXP 	window1: recordFrameIntervals = False
+14.5522 	EXP 	window1: recordFrameIntervals = True
+14.7358 	EXP 	Screen (0) actual frame rate measured at 60.01Hz
+14.7359 	EXP 	window1: recordFrameIntervals = False
+14.7361 	EXP 	window1: mouseVisible = True
+16.1855 	INFO 	keyboard.Keyboard is using ptb backend.
+16.4092 	INFO 	keyboard.Keyboard is using ptb backend.
+16.6283 	INFO 	keyboard.Keyboard is using ptb backend.
+16.8485 	INFO 	keyboard.Keyboard is using ptb backend.
+17.0701 	INFO 	keyboard.Keyboard is using ptb backend.
+17.2904 	INFO 	keyboard.Keyboard is using ptb backend.
+17.5150 	INFO 	keyboard.Keyboard is using ptb backend.
+17.7406 	INFO 	keyboard.Keyboard is using ptb backend.
+17.9753 	INFO 	keyboard.Keyboard is using ptb backend.
+18.2049 	INFO 	keyboard.Keyboard is using ptb backend.
+18.4316 	INFO 	keyboard.Keyboard is using ptb backend.
+18.6554 	INFO 	keyboard.Keyboard is using ptb backend.
+18.8775 	INFO 	keyboard.Keyboard is using ptb backend.
+19.0948 	INFO 	keyboard.Keyboard is using ptb backend.
+19.3142 	INFO 	keyboard.Keyboard is using ptb backend.
+19.5286 	INFO 	keyboard.Keyboard is using ptb backend.
+19.7462 	INFO 	keyboard.Keyboard is using ptb backend.
+19.9674 	INFO 	keyboard.Keyboard is using ptb backend.
+20.1851 	INFO 	keyboard.Keyboard is using ptb backend.
+20.1852 	EXP 	Full_PT: status = STARTED
+20.1858 	EXP 	window1: mouseVisible = True
+20.2390 	EXP 	Created text_hi = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_hi', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.2392 	EXP 	window1: mouseVisible = True
+20.2630 	EXP 	Created text_Explain_PAL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_Explain_PAL', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.4)
+20.2632 	EXP 	window1: mouseVisible = True
+20.2738 	EXP 	Created text_explain_rate = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_explain_rate', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.2740 	EXP 	window1: mouseVisible = True
+20.2779 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.2781 	EXP 	window1: mouseVisible = True
+20.2798 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+20.2799 	EXP 	window1: mouseVisible = True
+20.2899 	EXP 	Created image_ex_scene = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_ex_scene', opacity=1, ori=0.0, pos=array([-200.,    0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+20.2901 	EXP 	window1: mouseVisible = True
+20.2952 	EXP 	Created image_ex_object = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_ex_object', opacity=1, ori=0.0, pos=array([300.,   0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+20.3128 	EXP 	window1: mouseVisible = True
+20.3158 	EXP 	window1: mouseVisible = True
+20.3160 	EXP 	window1: mouseVisible = True
+20.3168 	EXP 	window1: mouseVisible = True
+20.3177 	EXP 	window1: mouseVisible = True
+20.3401 	EXP 	window1: mouseVisible = True
+20.3402 	EXP 	window1: mouseVisible = True
+20.3411 	EXP 	window1: mouseVisible = True
+20.3419 	EXP 	window1: mouseVisible = True
+20.3557 	EXP 	window1: mouseVisible = True
+20.3558 	EXP 	window1: mouseVisible = True
+20.3568 	EXP 	window1: mouseVisible = True
+20.3577 	EXP 	window1: mouseVisible = True
+20.3717 	EXP 	window1: mouseVisible = True
+20.3718 	EXP 	window1: mouseVisible = True
+20.3727 	EXP 	window1: mouseVisible = True
+20.3736 	EXP 	window1: mouseVisible = True
+20.3795 	EXP 	window1: mouseVisible = True
+20.3796 	EXP 	window1: mouseVisible = True
+20.3805 	EXP 	window1: mouseVisible = True
+20.3814 	EXP 	window1: mouseVisible = True
+20.3916 	EXP 	window1: mouseVisible = True
+20.3918 	EXP 	window1: mouseVisible = True
+20.3927 	EXP 	window1: mouseVisible = True
+20.3936 	EXP 	window1: mouseVisible = True
+20.3996 	EXP 	window1: mouseVisible = True
+20.4015 	EXP 	window1: mouseVisible = True
+20.4222 	EXP 	Created slider_example = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider_example', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.8 , 0.04]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3]), units='height', win=Window(...))
+20.4223 	EXP 	window1: mouseVisible = True
+20.4298 	EXP 	Created text_example = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_example', opacity=1, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4300 	EXP 	window1: mouseVisible = True
+20.4335 	EXP 	Created text_end_ex = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_end_ex', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Exemplo concluído.\n\n', units='height', win=Window(...), wrapWidth=1)
+20.4337 	EXP 	window1: mouseVisible = True
+20.4428 	EXP 	Created text_start_PAL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_start_PAL', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4429 	EXP 	window1: mouseVisible = True
+20.4453 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.4455 	EXP 	window1: mouseVisible = True
+20.4470 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+20.4471 	EXP 	window1: mouseVisible = True
+20.4522 	EXP 	Created image_scene_encode = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_scene_encode', opacity=1, ori=0.0, pos=array([-200.,    0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+20.4523 	EXP 	window1: mouseVisible = True
+20.4571 	EXP 	Created image_object_encode = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_object_encode', opacity=1, ori=0.0, pos=array([300.,   0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+20.4573 	EXP 	window1: mouseVisible = True
+20.4618 	EXP 	Created text_rating = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_rating', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4651 	EXP 	window1: mouseVisible = True
+20.4678 	EXP 	window1: mouseVisible = True
+20.4679 	EXP 	window1: mouseVisible = True
+20.4688 	EXP 	window1: mouseVisible = True
+20.4696 	EXP 	window1: mouseVisible = True
+20.7979 	WARNING 	Font b'Ariel' was requested. No similar font found.
+20.8229 	EXP 	window1: mouseVisible = True
+20.8230 	EXP 	window1: mouseVisible = True
+20.8239 	EXP 	window1: mouseVisible = True
+20.8247 	EXP 	window1: mouseVisible = True
+21.0293 	WARNING 	Font b'Ariel' was requested. No similar font found.
+21.0444 	EXP 	window1: mouseVisible = True
+21.0446 	EXP 	window1: mouseVisible = True
+21.0455 	EXP 	window1: mouseVisible = True
+21.0463 	EXP 	window1: mouseVisible = True
+21.2731 	WARNING 	Font b'Ariel' was requested. No similar font found.
+21.2891 	EXP 	window1: mouseVisible = True
+21.2892 	EXP 	window1: mouseVisible = True
+21.2901 	EXP 	window1: mouseVisible = True
+21.2909 	EXP 	window1: mouseVisible = True
+21.4939 	WARNING 	Font b'Ariel' was requested. No similar font found.
+21.5005 	EXP 	window1: mouseVisible = True
+21.5007 	EXP 	window1: mouseVisible = True
+21.5017 	EXP 	window1: mouseVisible = True
+21.5026 	EXP 	window1: mouseVisible = True
+21.9449 	WARNING 	Font b'Ariel' was requested. No similar font found.
+21.9568 	EXP 	window1: mouseVisible = True
+21.9570 	EXP 	window1: mouseVisible = True
+21.9578 	EXP 	window1: mouseVisible = True
+21.9586 	EXP 	window1: mouseVisible = True
+22.1724 	WARNING 	Font b'Ariel' was requested. No similar font found.
+22.1793 	EXP 	window1: mouseVisible = True
+22.1815 	EXP 	window1: mouseVisible = True
+22.2023 	EXP 	Created slider_cong = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-4, fillColor=None, flip=False, font='Ariel', granularity=1.0, labelColor=None, labelHeight=0.04, labelWrapWidth=None, labels=list(...), lineColor=None, markerColor=None, name='slider_cong', opacity=None, ori=0.0, pos=array([ 0. , -0.3]), readOnly=False, self=UNKNOWN, size=array([0.8 , 0.04]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3]), units='height', win=Window(...))
+22.2025 	EXP 	window1: mouseVisible = True
+22.2126 	EXP 	Created text_pausa1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_pausa1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2128 	EXP 	window1: mouseVisible = True
+22.2196 	EXP 	Created text_explanation_GoNo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_explanation_GoNo', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='INSERT EXPLANATION GO/NO-GO', units='height', win=Window(...), wrapWidth=1)
+22.2197 	EXP 	window1: mouseVisible = True
+22.2231 	EXP 	Created text_endGo = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_endGo', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Tarefa concluída.', units='height', win=Window(...), wrapWidth=1)
+22.2232 	EXP 	window1: mouseVisible = True
+22.2277 	EXP 	Created text_call = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_call', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2279 	EXP 	window1: mouseVisible = True
+22.2325 	EXP 	Created text_retomar = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_retomar', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2326 	EXP 	window1: mouseVisible = True
+22.2392 	EXP 	Created text_explain_recall = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_explain_recall', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2394 	EXP 	window1: mouseVisible = True
+22.2615 	EXP 	Created text_explain_old_new = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_explain_old_new', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2617 	EXP 	window1: mouseVisible = True
+22.2640 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2642 	EXP 	window1: mouseVisible = True
+22.2657 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.2659 	EXP 	window1: mouseVisible = True
+22.2711 	EXP 	Created image_exemplo_old_new = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=True, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_exemplo_old_new', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.2713 	EXP 	window1: mouseVisible = True
+22.2768 	EXP 	Created text_ex_old = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_ex_old', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2769 	EXP 	window1: mouseVisible = True
+22.2826 	EXP 	Created text_start_recall = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_start_recall', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2827 	EXP 	window1: mouseVisible = True
+22.2850 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2851 	EXP 	window1: mouseVisible = True
+22.2866 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.2868 	EXP 	window1: mouseVisible = True
+22.2919 	EXP 	Created image_old_new = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_old_new', opacity=1, ori=0.0, pos=array([ 0.  , -0.12]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.2920 	EXP 	window1: mouseVisible = True
+22.2971 	EXP 	Created text_item = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_item', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.2972 	EXP 	window1: mouseVisible = True
+22.3042 	EXP 	Created text_end_item = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_end_item', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3043 	EXP 	window1: mouseVisible = True
+22.3235 	EXP 	Created text_explain_2afc = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_explain_2afc', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3237 	EXP 	window1: mouseVisible = True
+22.3260 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.3261 	EXP 	window1: mouseVisible = True
+22.3277 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.3278 	EXP 	window1: mouseVisible = True
+22.3328 	EXP 	Created image_ex_2AFC = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_ex_2AFC', opacity=1, ori=0.0, pos=array([-200.,    0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3329 	EXP 	window1: mouseVisible = True
+22.3376 	EXP 	Created image_ex_target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_ex_target', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3378 	EXP 	window1: mouseVisible = True
+22.3425 	EXP 	Created image_ex_lure = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_ex_lure', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3427 	EXP 	window1: mouseVisible = True
+22.3482 	EXP 	Created text_start_recall = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_start_recall', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.3485 	EXP 	window1: mouseVisible = True
+22.3508 	EXP 	Created cross_25 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='cross_25', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.3509 	EXP 	window1: mouseVisible = True
+22.3525 	EXP 	Created image_blank = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_blank', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.3526 	EXP 	window1: mouseVisible = True
+22.3574 	EXP 	Created image_scene_2AFC = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_scene_2AFC', opacity=1, ori=0.0, pos=array([-250.,    0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3576 	EXP 	window1: mouseVisible = True
+22.3623 	EXP 	Created image_target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=True, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_target', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3625 	EXP 	window1: mouseVisible = True
+22.3676 	EXP 	Created image_lure = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_lure', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+22.3678 	EXP 	window1: mouseVisible = True
+22.3721 	EXP 	Created text_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_end', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0286 	EXP 	slider_example: autoLog = True
+0.0286 	EXP 	slider_example: styleTweaks = []
+0.0286 	EXP 	slider_example: styleTweaks = []
+0.0286 	EXP 	slider_example: styleTweaks = []
+0.0286 	EXP 	slider_example: styleTweaks = []
+0.0286 	EXP 	slider_example: contrast = 1.0
+0.0286 	EXP 	slider_example: markerPos = None
+0.0286 	EXP 	slider_example: autoLog = True
+0.0286 	EXP 	slider_cong: autoLog = True
+0.0286 	EXP 	slider_cong: styleTweaks = []
+0.0286 	EXP 	slider_cong: styleTweaks = []
+0.0286 	EXP 	slider_cong: styleTweaks = []
+0.0286 	EXP 	slider_cong: styleTweaks = []
+0.0286 	EXP 	slider_cong: contrast = 1.0
+0.0286 	EXP 	slider_cong: markerPos = None
+0.0286 	EXP 	slider_cong: autoLog = True
+0.0441 	INFO 	Keyboard events cleared
+0.0440 	EXP 	text_hi: autoDraw = True
+9.7299 	DATA 	Keypress: space
+9.7366 	EXP 	text_hi: autoDraw = False
+9.7366 	EXP 	text_Explain_PAL: autoDraw = True
+11.7186 	DATA 	Keypress: space
+11.7329 	INFO 	Keyboard events cleared
+14.0205 	DATA 	Keypress: space
+14.0334 	EXP 	text_Explain_PAL: autoDraw = False
+14.0334 	EXP 	text_explain_rate: autoDraw = True
+16.0170 	INFO 	Keyboard events cleared
+36.5624 	EXP 	Imported Exemplo_encode.xlsx as conditions, 2 conditions, 13 params
+36.5629 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'Index': 2, 'scene_encode': 'Scenes_Dataset/museum_A.jpg', 'scene_size': (600, 337), 'object_encode': 'Objects_Dataset/picnic_towel.jpg', 'object_size': (300, 300), 'target_pos': (250, 200), 'condition_encode': 'incongruent', 'lure': 'Objects_Dataset/fluorescent_bracelets.jpg', 'lure_size': (300, 300), 'lure_pos': (250, -200), 'ex_new': 'Scenes_Dataset/boat_interior_A.jpg', 'new_scene_size': (600, 400), 'jitter_ITI': 2.5, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+36.5645 	DATA 	Keypress: space
+36.5712 	EXP 	text_explain_rate: autoDraw = False
+36.5712 	EXP 	image_blank: autoDraw = True
+38.8075 	EXP 	cross_25: autoDraw = True
+39.0700 	EXP 	cross_25: autoDraw = False
+39.0972 	EXP 	image_blank: autoDraw = False
+39.0972 	EXP 	cross_25: autoDraw = False
+39.0972 	EXP 	image_blank: autoDraw = False
+39.0972 	EXP 	image_ex_scene: image = 'Scenes_Dataset/museum_A.jpg'
+39.0972 	EXP 	image_ex_object: image = 'Objects_Dataset/picnic_towel.jpg'
+39.0972 	EXP 	slider_example: markerPos = None
+39.0972 	EXP 	slider_example: markerPos = None
+39.0972 	EXP 	image_ex_scene: autoDraw = True
+39.0972 	EXP 	image_ex_object: autoDraw = True
+41.5578 	DATA 	Keypress: z
+41.5915 	INFO 	Keyboard events cleared
+41.5913 	EXP 	slider_example: autoDraw = True
+41.5913 	EXP 	text_example: autoDraw = True
+41.9839 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'Index': 1, 'scene_encode': 'Scenes_Dataset/movie_theater_A.jpg', 'scene_size': (600, 364), 'object_encode': 'Objects_Dataset/movie_reels.jpg', 'object_size': (350, 268), 'target_pos': (250, -200), 'condition_encode': 'congruent', 'lure': 'Objects_Dataset/3d_glasses.jpg', 'lure_size': (300, 300), 'lure_pos': (250, 200), 'ex_new': 'Scenes_Dataset/building_entrance_A.jpg', 'new_scene_size': (600, 400), 'jitter_ITI': 2, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+41.9856 	DATA 	Keypress: z
+41.9918 	EXP 	image_ex_scene: autoDraw = False
+41.9918 	EXP 	image_ex_object: autoDraw = False
+41.9918 	EXP 	slider_example: autoDraw = False
+41.9918 	EXP 	text_example: autoDraw = False
+41.9918 	EXP 	image_blank: autoDraw = True
+44.0041 	EXP 	image_blank: autoDraw = False
+44.2375 	EXP 	cross_25: autoDraw = True
+44.4940 	EXP 	cross_25: autoDraw = False
+44.4940 	EXP 	cross_25: autoDraw = False
+44.4940 	EXP 	image_blank: autoDraw = False
+44.4940 	EXP 	image_ex_scene: image = 'Scenes_Dataset/movie_theater_A.jpg'
+44.4940 	EXP 	image_ex_object: image = 'Objects_Dataset/movie_reels.jpg'
+44.4940 	EXP 	slider_example: markerPos = None
+44.4940 	EXP 	slider_example: markerPos = None
+44.4940 	EXP 	image_ex_scene: autoDraw = True
+44.4940 	EXP 	image_ex_object: autoDraw = True
+46.9742 	INFO 	Keyboard events cleared
+46.9741 	EXP 	slider_example: autoDraw = True
+46.9741 	EXP 	text_example: autoDraw = True
+47.2898 	DATA 	Keypress: c
+47.2961 	EXP 	image_ex_scene: autoDraw = False
+47.2961 	EXP 	image_ex_object: autoDraw = False
+47.2961 	EXP 	slider_example: autoDraw = False
+47.2961 	EXP 	text_example: autoDraw = False
+47.2961 	EXP 	text_end_ex: autoDraw = True
+48.7884 	INFO 	Keyboard events cleared
+48.7883 	EXP 	text_start_PAL: autoDraw = True
+48.8049 	EXP 	text_end_ex: autoDraw = False
+49.1893 	EXP 	Imported encode_pairs.xlsx as conditions, 60 conditions, 14 params
+49.1903 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'order_pairs': 6, 'scene': 'Scenes_Dataset/castle_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/shield.jpg', 'object_size': (199, 300), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/armor.jpg', 'lure_size': (270, 270), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.25, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+49.1918 	DATA 	Keypress: space
+49.1980 	EXP 	text_end_ex: autoDraw = False
+49.1980 	EXP 	text_start_PAL: autoDraw = False
+49.1980 	EXP 	image_blank: autoDraw = True
+51.3886 	EXP 	cross_25: autoDraw = True
+51.4553 	EXP 	image_blank: autoDraw = False
+51.6464 	INFO 	Keyboard events cleared
+51.6462 	EXP 	cross_25: autoDraw = False
+51.6462 	EXP 	cross_25: autoDraw = False
+51.6462 	EXP 	image_blank: autoDraw = False
+51.6462 	EXP 	image_scene_encode: image = 'Scenes_Dataset/castle_A.jpg'
+51.6462 	EXP 	image_object_encode: image = 'Objects_Dataset/shield.jpg'
+51.6462 	EXP 	slider_cong: markerPos = None
+51.6462 	EXP 	slider_cong: markerPos = None
+51.6462 	EXP 	image_scene_encode: autoDraw = True
+51.6462 	EXP 	image_object_encode: autoDraw = True
+51.8903 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'order_pairs': 49, 'scene': 'Scenes_Dataset/athletics_track_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/stopwatch.jpg', 'object_size': (184, 250), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/athletics_barrier.jpg', 'lure_size': (350, 280), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3.1, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+51.8918 	DATA 	Keypress: c
+51.9053 	EXP 	image_scene_encode: autoDraw = False
+51.9053 	EXP 	image_object_encode: autoDraw = False
+51.9053 	EXP 	text_rating: autoDraw = False
+51.9053 	EXP 	slider_cong: autoDraw = False
+51.9053 	EXP 	image_blank: autoDraw = True
+54.1558 	EXP 	cross_25: autoDraw = True
+54.4058 	EXP 	cross_25: autoDraw = False
+54.4253 	DATA 	Keypress: x
+55.0102 	INFO 	Keyboard events cleared
+55.0100 	EXP 	image_blank: autoDraw = False
+55.0100 	EXP 	cross_25: autoDraw = False
+55.0100 	EXP 	image_blank: autoDraw = False
+55.0100 	EXP 	image_scene_encode: image = 'Scenes_Dataset/athletics_track_A.jpg'
+55.0100 	EXP 	image_object_encode: image = 'Objects_Dataset/stopwatch.jpg'
+55.0100 	EXP 	slider_cong: markerPos = None
+55.0100 	EXP 	slider_cong: markerPos = None
+55.0100 	EXP 	image_scene_encode: autoDraw = True
+55.0100 	EXP 	image_object_encode: autoDraw = True
+55.8414 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'order_pairs': 17, 'scene': 'Scenes_Dataset/stable_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/horseshoe.jpg', 'object_size': (300, 296), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/saddle.jpg', 'lure_size': (300, 199), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.8, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+55.8431 	DATA 	Keypress: z
+55.8559 	EXP 	image_scene_encode: autoDraw = False
+55.8559 	EXP 	image_object_encode: autoDraw = False
+55.8559 	EXP 	text_rating: autoDraw = False
+55.8559 	EXP 	slider_cong: autoDraw = False
+55.8559 	EXP 	image_blank: autoDraw = True
+58.1062 	EXP 	cross_25: autoDraw = True
+58.3562 	EXP 	cross_25: autoDraw = False
+58.6609 	INFO 	Keyboard events cleared
+58.6607 	EXP 	image_blank: autoDraw = False
+58.6607 	EXP 	cross_25: autoDraw = False
+58.6607 	EXP 	image_blank: autoDraw = False
+58.6607 	EXP 	image_scene_encode: image = 'Scenes_Dataset/stable_A.jpg'
+58.6607 	EXP 	image_object_encode: image = 'Objects_Dataset/horseshoe.jpg'
+58.6607 	EXP 	slider_cong: markerPos = None
+58.6607 	EXP 	slider_cong: markerPos = None
+58.6607 	EXP 	image_scene_encode: autoDraw = True
+58.6607 	EXP 	image_object_encode: autoDraw = True
+59.0914 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'order_pairs': 20, 'scene': 'Scenes_Dataset/road_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/locker.jpg', 'object_size': (264, 400), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/domino_piece.jpg', 'lure_size': (200, 174), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.95, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+59.0931 	DATA 	Keypress: z
+59.1064 	EXP 	image_scene_encode: autoDraw = False
+59.1064 	EXP 	image_object_encode: autoDraw = False
+59.1064 	EXP 	text_rating: autoDraw = False
+59.1064 	EXP 	slider_cong: autoDraw = False
+59.1064 	EXP 	image_blank: autoDraw = True
+61.3566 	EXP 	cross_25: autoDraw = True
+61.6066 	EXP 	cross_25: autoDraw = False
+61.6251 	DATA 	Keypress: z
+62.0610 	INFO 	Keyboard events cleared
+62.0609 	EXP 	image_blank: autoDraw = False
+62.0609 	EXP 	cross_25: autoDraw = False
+62.0609 	EXP 	image_blank: autoDraw = False
+62.0609 	EXP 	image_scene_encode: image = 'Scenes_Dataset/road_A.jpg'
+62.0609 	EXP 	image_object_encode: image = 'Objects_Dataset/locker.jpg'
+62.0609 	EXP 	slider_cong: markerPos = None
+62.0609 	EXP 	slider_cong: markerPos = None
+62.0609 	EXP 	image_scene_encode: autoDraw = True
+62.0609 	EXP 	image_object_encode: autoDraw = True
+62.3589 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'order_pairs': 21, 'scene': 'Scenes_Dataset/pharmacy_A.jpg', 'scene_size': (600, 461), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/pills.jpg', 'object_size': (216, 250), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/thermometer.jpg', 'lure_size': (300, 199), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+62.3608 	DATA 	Keypress: z
+62.3735 	EXP 	image_scene_encode: autoDraw = False
+62.3735 	EXP 	image_object_encode: autoDraw = False
+62.3735 	EXP 	text_rating: autoDraw = False
+62.3735 	EXP 	slider_cong: autoDraw = False
+62.3735 	EXP 	image_blank: autoDraw = True
+64.6237 	EXP 	cross_25: autoDraw = True
+64.8739 	EXP 	cross_25: autoDraw = False
+65.3812 	INFO 	Keyboard events cleared
+65.3810 	EXP 	image_blank: autoDraw = False
+65.3810 	EXP 	cross_25: autoDraw = False
+65.3810 	EXP 	image_blank: autoDraw = False
+65.3810 	EXP 	image_scene_encode: image = 'Scenes_Dataset/pharmacy_A.jpg'
+65.3810 	EXP 	image_object_encode: image = 'Objects_Dataset/pills.jpg'
+65.3810 	EXP 	slider_cong: markerPos = None
+65.3810 	EXP 	slider_cong: markerPos = None
+65.3810 	EXP 	image_scene_encode: autoDraw = True
+65.3810 	EXP 	image_object_encode: autoDraw = True
+67.8732 	EXP 	text_rating: autoDraw = True
+67.8732 	EXP 	slider_cong: autoDraw = True
+71.4405 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'order_pairs': 28, 'scene': 'Scenes_Dataset/airplane_interior_A.jpg', 'scene_size': (600, 480), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/chalice.jpg', 'object_size': (192, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/paint_roller.jpg', 'lure_size': (262, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.05, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+71.4421 	DATA 	Keypress: z
+71.4483 	EXP 	image_scene_encode: autoDraw = False
+71.4483 	EXP 	image_object_encode: autoDraw = False
+71.4483 	EXP 	text_rating: autoDraw = False
+71.4483 	EXP 	slider_cong: autoDraw = False
+71.4483 	EXP 	image_blank: autoDraw = True
+73.5082 	EXP 	image_blank: autoDraw = False
+73.6916 	EXP 	cross_25: autoDraw = True
+73.9504 	INFO 	Keyboard events cleared
+73.9502 	EXP 	cross_25: autoDraw = False
+73.9502 	EXP 	cross_25: autoDraw = False
+73.9502 	EXP 	image_blank: autoDraw = False
+73.9502 	EXP 	image_scene_encode: image = 'Scenes_Dataset/airplane_interior_A.jpg'
+73.9502 	EXP 	image_object_encode: image = 'Objects_Dataset/chalice.jpg'
+73.9502 	EXP 	slider_cong: markerPos = None
+73.9502 	EXP 	slider_cong: markerPos = None
+73.9502 	EXP 	image_scene_encode: autoDraw = True
+73.9502 	EXP 	image_object_encode: autoDraw = True
+76.4282 	EXP 	text_rating: autoDraw = True
+76.4282 	EXP 	slider_cong: autoDraw = True
+79.5899 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'order_pairs': 11, 'scene': 'Scenes_Dataset/kitchen_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/desk_microphone.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/tennis_ball.jpg', 'lure_size': (200, 200), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.5, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+79.5916 	DATA 	Keypress: z
+79.5979 	EXP 	image_scene_encode: autoDraw = False
+79.5979 	EXP 	image_object_encode: autoDraw = False
+79.5979 	EXP 	text_rating: autoDraw = False
+79.5979 	EXP 	slider_cong: autoDraw = False
+79.5979 	EXP 	image_blank: autoDraw = True
+81.8429 	EXP 	cross_25: autoDraw = True
+82.0930 	EXP 	cross_25: autoDraw = False
+82.1169 	INFO 	Keyboard events cleared
+82.1167 	EXP 	image_blank: autoDraw = False
+82.1167 	EXP 	cross_25: autoDraw = False
+82.1167 	EXP 	image_blank: autoDraw = False
+82.1167 	EXP 	image_scene_encode: image = 'Scenes_Dataset/kitchen_A.jpg'
+82.1167 	EXP 	image_object_encode: image = 'Objects_Dataset/desk_microphone.jpg'
+82.1167 	EXP 	slider_cong: markerPos = None
+82.1167 	EXP 	slider_cong: markerPos = None
+82.1167 	EXP 	image_scene_encode: autoDraw = True
+82.1167 	EXP 	image_object_encode: autoDraw = True
+84.5964 	EXP 	text_rating: autoDraw = True
+84.5964 	EXP 	slider_cong: autoDraw = True
+89.7525 	DATA 	Keypress: z
+89.7623 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'order_pairs': 51, 'scene': 'Scenes_Dataset/hair_salon_A.jpg', 'scene_size': (600, 451), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/megaphone.jpg', 'object_size': (300, 257), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/water_bottle.jpg', 'lure_size': (350, 222), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3.2, 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+89.7689 	EXP 	image_scene_encode: autoDraw = False
+89.7689 	EXP 	image_object_encode: autoDraw = False
+89.7689 	EXP 	text_rating: autoDraw = False
+89.7689 	EXP 	slider_cong: autoDraw = False
+89.7689 	EXP 	image_blank: autoDraw = True
+92.0277 	EXP 	cross_25: autoDraw = True
+92.2777 	EXP 	cross_25: autoDraw = False
+92.9854 	INFO 	Keyboard events cleared
+92.9853 	EXP 	image_blank: autoDraw = False
+92.9853 	EXP 	cross_25: autoDraw = False
+92.9853 	EXP 	image_blank: autoDraw = False
+92.9853 	EXP 	image_scene_encode: image = 'Scenes_Dataset/hair_salon_A.jpg'
+92.9853 	EXP 	image_object_encode: image = 'Objects_Dataset/megaphone.jpg'
+92.9853 	EXP 	slider_cong: markerPos = None
+92.9853 	EXP 	slider_cong: markerPos = None
+92.9853 	EXP 	image_scene_encode: autoDraw = True
+92.9853 	EXP 	image_object_encode: autoDraw = True
+95.4644 	EXP 	text_rating: autoDraw = True
+95.4644 	EXP 	slider_cong: autoDraw = True
+98.1716 	DATA 	Keypress: z
+98.1805 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'order_pairs': 35, 'scene': 'Scenes_Dataset/trash_A.jpg', 'scene_size': (600, 424), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/mortar.jpg', 'object_size': (273, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/light_switch.jpg', 'lure_size': (250, 250), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.4, 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+98.1873 	EXP 	image_scene_encode: autoDraw = False
+98.1873 	EXP 	image_object_encode: autoDraw = False
+98.1873 	EXP 	text_rating: autoDraw = False
+98.1873 	EXP 	slider_cong: autoDraw = False
+98.1873 	EXP 	image_blank: autoDraw = True
+100.4457 	EXP 	cross_25: autoDraw = True
+100.5957 	EXP 	image_blank: autoDraw = False
+100.7021 	INFO 	Keyboard events cleared
+100.7019 	EXP 	cross_25: autoDraw = False
+100.7019 	EXP 	cross_25: autoDraw = False
+100.7019 	EXP 	image_blank: autoDraw = False
+100.7019 	EXP 	image_scene_encode: image = 'Scenes_Dataset/trash_A.jpg'
+100.7019 	EXP 	image_object_encode: image = 'Objects_Dataset/mortar.jpg'
+100.7019 	EXP 	slider_cong: markerPos = None
+100.7019 	EXP 	slider_cong: markerPos = None
+100.7019 	EXP 	image_scene_encode: autoDraw = True
+100.7019 	EXP 	image_object_encode: autoDraw = True
+103.1823 	EXP 	text_rating: autoDraw = True
+103.1823 	EXP 	slider_cong: autoDraw = True
+105.5361 	DATA 	Keypress: z
+105.5451 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'order_pairs': 3, 'scene': 'Scenes_Dataset/nursery_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/feeding_bottle.jpg', 'object_size': (300, 295), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/mobile_baby.jpg', 'lure_size': (350, 263), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.1, 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+105.5518 	EXP 	image_scene_encode: autoDraw = False
+105.5518 	EXP 	image_object_encode: autoDraw = False
+105.5518 	EXP 	text_rating: autoDraw = False
+105.5518 	EXP 	slider_cong: autoDraw = False
+105.5518 	EXP 	image_blank: autoDraw = True
+107.6634 	EXP 	image_blank: autoDraw = False
+107.7965 	EXP 	cross_25: autoDraw = True
+108.0545 	INFO 	Keyboard events cleared
+108.0544 	EXP 	cross_25: autoDraw = False
+108.0544 	EXP 	cross_25: autoDraw = False
+108.0544 	EXP 	image_blank: autoDraw = False
+108.0544 	EXP 	image_scene_encode: image = 'Scenes_Dataset/nursery_A.jpg'
+108.0544 	EXP 	image_object_encode: image = 'Objects_Dataset/feeding_bottle.jpg'
+108.0544 	EXP 	slider_cong: markerPos = None
+108.0544 	EXP 	slider_cong: markerPos = None
+108.0544 	EXP 	image_scene_encode: autoDraw = True
+108.0544 	EXP 	image_object_encode: autoDraw = True
+110.5331 	EXP 	text_rating: autoDraw = True
+110.5331 	EXP 	slider_cong: autoDraw = True
+112.9678 	DATA 	Keypress: z
+112.9774 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'order_pairs': 33, 'scene': 'Scenes_Dataset/laboratory_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/pipette.jpg', 'object_size': (300, 221), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/microscope.jpg', 'lure_size': (250, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.3, 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+112.9840 	EXP 	image_scene_encode: autoDraw = False
+112.9840 	EXP 	image_object_encode: autoDraw = False
+112.9840 	EXP 	text_rating: autoDraw = False
+112.9840 	EXP 	slider_cong: autoDraw = False
+112.9840 	EXP 	image_blank: autoDraw = True
+115.2310 	EXP 	cross_25: autoDraw = True
+115.2978 	EXP 	image_blank: autoDraw = False
+115.4867 	INFO 	Keyboard events cleared
+115.4865 	EXP 	cross_25: autoDraw = False
+115.4865 	EXP 	cross_25: autoDraw = False
+115.4865 	EXP 	image_blank: autoDraw = False
+115.4865 	EXP 	image_scene_encode: image = 'Scenes_Dataset/laboratory_A.jpg'
+115.4865 	EXP 	image_object_encode: image = 'Objects_Dataset/pipette.jpg'
+115.4865 	EXP 	slider_cong: markerPos = None
+115.4865 	EXP 	slider_cong: markerPos = None
+115.4865 	EXP 	image_scene_encode: autoDraw = True
+115.4865 	EXP 	image_object_encode: autoDraw = True
+117.9679 	EXP 	text_rating: autoDraw = True
+117.9679 	EXP 	slider_cong: autoDraw = True
+118.6882 	DATA 	Keypress: c
+118.6970 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'order_pairs': 34, 'scene': 'Scenes_Dataset/laundry_A.jpg', 'scene_size': (600, 408), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/laundry_basket.jpg', 'object_size': (300, 225), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/laundry_detergent.jpg', 'lure_size': (186, 264), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.35, 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+118.7037 	EXP 	image_scene_encode: autoDraw = False
+118.7037 	EXP 	image_object_encode: autoDraw = False
+118.7037 	EXP 	text_rating: autoDraw = False
+118.7037 	EXP 	slider_cong: autoDraw = False
+118.7037 	EXP 	image_blank: autoDraw = True
+120.9486 	EXP 	cross_25: autoDraw = True
+121.0652 	EXP 	image_blank: autoDraw = False
+121.2038 	INFO 	Keyboard events cleared
+121.2036 	EXP 	cross_25: autoDraw = False
+121.2036 	EXP 	cross_25: autoDraw = False
+121.2036 	EXP 	image_blank: autoDraw = False
+121.2036 	EXP 	image_scene_encode: image = 'Scenes_Dataset/laundry_A.jpg'
+121.2036 	EXP 	image_object_encode: image = 'Objects_Dataset/laundry_basket.jpg'
+121.2036 	EXP 	slider_cong: markerPos = None
+121.2036 	EXP 	slider_cong: markerPos = None
+121.2036 	EXP 	image_scene_encode: autoDraw = True
+121.2036 	EXP 	image_object_encode: autoDraw = True
+123.6854 	EXP 	text_rating: autoDraw = True
+123.6854 	EXP 	slider_cong: autoDraw = True
+124.8919 	DATA 	Keypress: c
+124.9015 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'order_pairs': 32, 'scene': 'Scenes_Dataset/kindergarten_A.jpg', 'scene_size': (600, 338), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/watercolors.jpg', 'object_size': (300, 231), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/plasticine.jpg', 'lure_size': (250, 167), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.25, 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+124.9082 	EXP 	image_scene_encode: autoDraw = False
+124.9082 	EXP 	image_object_encode: autoDraw = False
+124.9082 	EXP 	text_rating: autoDraw = False
+124.9082 	EXP 	slider_cong: autoDraw = False
+124.9082 	EXP 	image_blank: autoDraw = True
+127.1663 	EXP 	cross_25: autoDraw = True
+127.1663 	EXP 	image_blank: autoDraw = False
+127.4206 	INFO 	Keyboard events cleared
+127.4204 	EXP 	cross_25: autoDraw = False
+127.4204 	EXP 	cross_25: autoDraw = False
+127.4204 	EXP 	image_blank: autoDraw = False
+127.4204 	EXP 	image_scene_encode: image = 'Scenes_Dataset/kindergarten_A.jpg'
+127.4204 	EXP 	image_object_encode: image = 'Objects_Dataset/watercolors.jpg'
+127.4204 	EXP 	slider_cong: markerPos = None
+127.4204 	EXP 	slider_cong: markerPos = None
+127.4204 	EXP 	image_scene_encode: autoDraw = True
+127.4204 	EXP 	image_object_encode: autoDraw = True
+129.9012 	EXP 	text_rating: autoDraw = True
+129.9012 	EXP 	slider_cong: autoDraw = True
+131.6555 	DATA 	Keypress: c
+131.6641 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'order_pairs': 46, 'scene': 'Scenes_Dataset/parking_lot_A.jpg', 'scene_size': (600, 397), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/disabled_signal.jpg', 'object_size': (350, 350), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/barrier.jpg', 'lure_size': (300, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.95, 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+131.6706 	EXP 	image_scene_encode: autoDraw = False
+131.6706 	EXP 	image_object_encode: autoDraw = False
+131.6706 	EXP 	text_rating: autoDraw = False
+131.6706 	EXP 	slider_cong: autoDraw = False
+131.6706 	EXP 	image_blank: autoDraw = True
+133.9171 	EXP 	cross_25: autoDraw = True
+134.1673 	EXP 	cross_25: autoDraw = False
+134.6409 	INFO 	Keyboard events cleared
+134.6407 	EXP 	image_blank: autoDraw = False
+134.6407 	EXP 	cross_25: autoDraw = False
+134.6407 	EXP 	image_blank: autoDraw = False
+134.6407 	EXP 	image_scene_encode: image = 'Scenes_Dataset/parking_lot_A.jpg'
+134.6407 	EXP 	image_object_encode: image = 'Objects_Dataset/disabled_signal.jpg'
+134.6407 	EXP 	slider_cong: markerPos = None
+134.6407 	EXP 	slider_cong: markerPos = None
+134.6407 	EXP 	image_scene_encode: autoDraw = True
+134.6407 	EXP 	image_object_encode: autoDraw = True
+137.1203 	EXP 	text_rating: autoDraw = True
+137.1203 	EXP 	slider_cong: autoDraw = True
+137.9746 	DATA 	Keypress: c
+137.9846 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'order_pairs': 41, 'scene': 'Scenes_Dataset/jewelery_A.jpg', 'scene_size': (600, 398), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/ring.jpg', 'object_size': (128, 150), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/jewelry_box.jpg', 'lure_size': (267, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.7, 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+137.9912 	EXP 	image_scene_encode: autoDraw = False
+137.9912 	EXP 	image_object_encode: autoDraw = False
+137.9912 	EXP 	text_rating: autoDraw = False
+137.9912 	EXP 	slider_cong: autoDraw = False
+137.9912 	EXP 	image_blank: autoDraw = True
+140.2347 	EXP 	cross_25: autoDraw = True
+140.4848 	EXP 	cross_25: autoDraw = False
+140.7057 	INFO 	Keyboard events cleared
+140.7056 	EXP 	image_blank: autoDraw = False
+140.7056 	EXP 	cross_25: autoDraw = False
+140.7056 	EXP 	image_blank: autoDraw = False
+140.7056 	EXP 	image_scene_encode: image = 'Scenes_Dataset/jewelery_A.jpg'
+140.7056 	EXP 	image_object_encode: image = 'Objects_Dataset/ring.jpg'
+140.7056 	EXP 	slider_cong: markerPos = None
+140.7056 	EXP 	slider_cong: markerPos = None
+140.7056 	EXP 	image_scene_encode: autoDraw = True
+140.7056 	EXP 	image_object_encode: autoDraw = True
+143.1880 	EXP 	text_rating: autoDraw = True
+143.1880 	EXP 	slider_cong: autoDraw = True
+143.6578 	DATA 	Keypress: c
+143.6665 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'order_pairs': 27, 'scene': 'Scenes_Dataset/island_A.jpg', 'scene_size': (600, 420), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/cork_showcase.jpg', 'object_size': (300, 255), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/suit_vest.jpg', 'lure_size': (194, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2, 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+143.6730 	EXP 	image_scene_encode: autoDraw = False
+143.6730 	EXP 	image_object_encode: autoDraw = False
+143.6730 	EXP 	text_rating: autoDraw = False
+143.6730 	EXP 	slider_cong: autoDraw = False
+143.6730 	EXP 	image_blank: autoDraw = True
+145.6856 	EXP 	image_blank: autoDraw = False
+145.9189 	EXP 	cross_25: autoDraw = True
+146.1766 	INFO 	Keyboard events cleared
+146.1764 	EXP 	cross_25: autoDraw = False
+146.1764 	EXP 	cross_25: autoDraw = False
+146.1764 	EXP 	image_blank: autoDraw = False
+146.1764 	EXP 	image_scene_encode: image = 'Scenes_Dataset/island_A.jpg'
+146.1764 	EXP 	image_object_encode: image = 'Objects_Dataset/cork_showcase.jpg'
+146.1764 	EXP 	slider_cong: markerPos = None
+146.1764 	EXP 	slider_cong: markerPos = None
+146.1764 	EXP 	image_scene_encode: autoDraw = True
+146.1764 	EXP 	image_object_encode: autoDraw = True
+148.6553 	EXP 	text_rating: autoDraw = True
+148.6553 	EXP 	slider_cong: autoDraw = True
+149.4278 	DATA 	Keypress: c
+149.4374 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'order_pairs': 45, 'scene': 'Scenes_Dataset/skate_park_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/fan.jpg', 'object_size': (350, 350), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/ladder.jpg', 'lure_size': (241, 400), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.9, 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+149.4441 	EXP 	image_scene_encode: autoDraw = False
+149.4441 	EXP 	image_object_encode: autoDraw = False
+149.4441 	EXP 	text_rating: autoDraw = False
+149.4441 	EXP 	slider_cong: autoDraw = False
+149.4441 	EXP 	image_blank: autoDraw = True
+151.6866 	EXP 	cross_25: autoDraw = True
+151.9365 	EXP 	cross_25: autoDraw = False
+152.3610 	INFO 	Keyboard events cleared
+152.3608 	EXP 	image_blank: autoDraw = False
+152.3608 	EXP 	cross_25: autoDraw = False
+152.3608 	EXP 	image_blank: autoDraw = False
+152.3608 	EXP 	image_scene_encode: image = 'Scenes_Dataset/skate_park_A.jpg'
+152.3608 	EXP 	image_object_encode: image = 'Objects_Dataset/fan.jpg'
+152.3608 	EXP 	slider_cong: markerPos = None
+152.3608 	EXP 	slider_cong: markerPos = None
+152.3608 	EXP 	image_scene_encode: autoDraw = True
+152.3608 	EXP 	image_object_encode: autoDraw = True
+154.8402 	EXP 	text_rating: autoDraw = True
+154.8402 	EXP 	slider_cong: autoDraw = True
+171.0622 	DATA 	Keypress: c
+171.0715 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'order_pairs': 37, 'scene': 'Scenes_Dataset/mountain_A.jpg', 'scene_size': (600, 379), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/swimming_arm_bands.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/thimble.jpg', 'lure_size': (124, 150), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.5, 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+171.0780 	EXP 	image_scene_encode: autoDraw = False
+171.0780 	EXP 	image_object_encode: autoDraw = False
+171.0780 	EXP 	text_rating: autoDraw = False
+171.0780 	EXP 	slider_cong: autoDraw = False
+171.0780 	EXP 	image_blank: autoDraw = True
+173.3228 	EXP 	cross_25: autoDraw = True
+173.5729 	EXP 	cross_25: autoDraw = False
+173.5961 	INFO 	Keyboard events cleared
+173.5960 	EXP 	image_blank: autoDraw = False
+173.5960 	EXP 	cross_25: autoDraw = False
+173.5960 	EXP 	image_blank: autoDraw = False
+173.5960 	EXP 	image_scene_encode: image = 'Scenes_Dataset/mountain_A.jpg'
+173.5960 	EXP 	image_object_encode: image = 'Objects_Dataset/swimming_arm_bands.jpg'
+173.5960 	EXP 	slider_cong: markerPos = None
+173.5960 	EXP 	slider_cong: markerPos = None
+173.5960 	EXP 	image_scene_encode: autoDraw = True
+173.5960 	EXP 	image_object_encode: autoDraw = True
+176.0761 	EXP 	text_rating: autoDraw = True
+176.0761 	EXP 	slider_cong: autoDraw = True
+176.3136 	DATA 	Keypress: c
+176.3226 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'order_pairs': 30, 'scene': 'Scenes_Dataset/palace_interior_A.jpg', 'scene_size': (600, 447), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/crown.jpg', 'object_size': (300, 249), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/throne.jpg', 'lure_size': (234, 350), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.15, 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+176.3292 	EXP 	image_scene_encode: autoDraw = False
+176.3292 	EXP 	image_object_encode: autoDraw = False
+176.3292 	EXP 	text_rating: autoDraw = False
+176.3292 	EXP 	slider_cong: autoDraw = False
+176.3292 	EXP 	image_blank: autoDraw = True
+178.4904 	EXP 	image_blank: autoDraw = False
+178.5737 	EXP 	cross_25: autoDraw = True
+178.8315 	INFO 	Keyboard events cleared
+178.8313 	EXP 	cross_25: autoDraw = False
+178.8313 	EXP 	cross_25: autoDraw = False
+178.8313 	EXP 	image_blank: autoDraw = False
+178.8313 	EXP 	image_scene_encode: image = 'Scenes_Dataset/palace_interior_A.jpg'
+178.8313 	EXP 	image_object_encode: image = 'Objects_Dataset/crown.jpg'
+178.8313 	EXP 	slider_cong: markerPos = None
+178.8313 	EXP 	slider_cong: markerPos = None
+178.8313 	EXP 	image_scene_encode: autoDraw = True
+178.8313 	EXP 	image_object_encode: autoDraw = True
+181.3105 	EXP 	text_rating: autoDraw = True
+181.3105 	EXP 	slider_cong: autoDraw = True
+182.1494 	DATA 	Keypress: c
+182.1590 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'order_pairs': 48, 'scene': 'Scenes_Dataset/pool_A.jpg', 'scene_size': (600, 494), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/bikini.jpg', 'object_size': (350, 350), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/swim_shorts.jpg', 'lure_size': (300, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3.05, 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+182.1659 	EXP 	image_scene_encode: autoDraw = False
+182.1659 	EXP 	image_object_encode: autoDraw = False
+182.1659 	EXP 	text_rating: autoDraw = False
+182.1659 	EXP 	slider_cong: autoDraw = False
+182.1659 	EXP 	image_blank: autoDraw = True
+184.4079 	EXP 	cross_25: autoDraw = True
+184.6579 	EXP 	cross_25: autoDraw = False
+185.2344 	INFO 	Keyboard events cleared
+185.2342 	EXP 	image_blank: autoDraw = False
+185.2342 	EXP 	cross_25: autoDraw = False
+185.2342 	EXP 	image_blank: autoDraw = False
+185.2342 	EXP 	image_scene_encode: image = 'Scenes_Dataset/pool_A.jpg'
+185.2342 	EXP 	image_object_encode: image = 'Objects_Dataset/bikini.jpg'
+185.2342 	EXP 	slider_cong: markerPos = None
+185.2342 	EXP 	slider_cong: markerPos = None
+185.2342 	EXP 	image_scene_encode: autoDraw = True
+185.2342 	EXP 	image_object_encode: autoDraw = True
+187.7110 	EXP 	text_rating: autoDraw = True
+187.7110 	EXP 	slider_cong: autoDraw = True
+189.1494 	DATA 	Keypress: c
+189.1586 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'order_pairs': 9, 'scene': 'Scenes_Dataset/vault_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/banknotes.jpg', 'object_size': (300, 154), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/gold_bar.jpg', 'lure_size': (300, 219), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.4, 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+189.1652 	EXP 	image_scene_encode: autoDraw = False
+189.1652 	EXP 	image_object_encode: autoDraw = False
+189.1652 	EXP 	text_rating: autoDraw = False
+189.1652 	EXP 	slider_cong: autoDraw = False
+189.1652 	EXP 	image_blank: autoDraw = True
+191.4091 	EXP 	cross_25: autoDraw = True
+191.5754 	EXP 	image_blank: autoDraw = False
+191.6642 	INFO 	Keyboard events cleared
+191.6640 	EXP 	cross_25: autoDraw = False
+191.6640 	EXP 	cross_25: autoDraw = False
+191.6640 	EXP 	image_blank: autoDraw = False
+191.6640 	EXP 	image_scene_encode: image = 'Scenes_Dataset/vault_A.jpg'
+191.6640 	EXP 	image_object_encode: image = 'Objects_Dataset/banknotes.jpg'
+191.6640 	EXP 	slider_cong: markerPos = None
+191.6640 	EXP 	slider_cong: markerPos = None
+191.6640 	EXP 	image_scene_encode: autoDraw = True
+191.6640 	EXP 	image_object_encode: autoDraw = True
+192.9941 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'order_pairs': 24, 'scene': 'Scenes_Dataset/vegetable_garden_A.jpg', 'scene_size': (600, 399), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/mannequin.jpg', 'object_size': (340, 400), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/ballet_shoe.jpg', 'lure_size': (300, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3.15, 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+192.9958 	DATA 	Keypress: c
+193.0092 	EXP 	image_scene_encode: autoDraw = False
+193.0092 	EXP 	image_object_encode: autoDraw = False
+193.0092 	EXP 	text_rating: autoDraw = False
+193.0092 	EXP 	slider_cong: autoDraw = False
+193.0092 	EXP 	image_blank: autoDraw = True
+195.2596 	EXP 	cross_25: autoDraw = True
+195.4957 	DATA 	Keypress: x
+195.5096 	EXP 	cross_25: autoDraw = False
+195.7784 	DATA 	Keypress: x
+196.1665 	INFO 	Keyboard events cleared
+196.1663 	EXP 	image_blank: autoDraw = False
+196.1663 	EXP 	cross_25: autoDraw = False
+196.1663 	EXP 	image_blank: autoDraw = False
+196.1663 	EXP 	image_scene_encode: image = 'Scenes_Dataset/vegetable_garden_A.jpg'
+196.1663 	EXP 	image_object_encode: image = 'Objects_Dataset/mannequin.jpg'
+196.1663 	EXP 	slider_cong: markerPos = None
+196.1663 	EXP 	slider_cong: markerPos = None
+196.1663 	EXP 	image_scene_encode: autoDraw = True
+196.1663 	EXP 	image_object_encode: autoDraw = True
+196.1945 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'order_pairs': 22, 'scene': 'Scenes_Dataset/forest_A.jpg', 'scene_size': (600, 375), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/poker_chips.jpg', 'object_size': (350, 119), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/bathrobe.jpg', 'lure_size': (350, 350), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3.05, 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+196.1961 	DATA 	Keypress: x
+196.2096 	EXP 	image_scene_encode: autoDraw = False
+196.2096 	EXP 	image_object_encode: autoDraw = False
+196.2096 	EXP 	text_rating: autoDraw = False
+196.2096 	EXP 	slider_cong: autoDraw = False
+196.2096 	EXP 	image_blank: autoDraw = True
+198.4599 	EXP 	cross_25: autoDraw = True
+198.7098 	EXP 	cross_25: autoDraw = False
+199.2669 	INFO 	Keyboard events cleared
+199.2667 	EXP 	image_blank: autoDraw = False
+199.2667 	EXP 	cross_25: autoDraw = False
+199.2667 	EXP 	image_blank: autoDraw = False
+199.2667 	EXP 	image_scene_encode: image = 'Scenes_Dataset/forest_A.jpg'
+199.2667 	EXP 	image_object_encode: image = 'Objects_Dataset/poker_chips.jpg'
+199.2667 	EXP 	slider_cong: markerPos = None
+199.2667 	EXP 	slider_cong: markerPos = None
+199.2667 	EXP 	image_scene_encode: autoDraw = True
+199.2667 	EXP 	image_object_encode: autoDraw = True
+199.5796 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'order_pairs': 8, 'scene': 'Scenes_Dataset/circus_A.jpg', 'scene_size': (600, 421), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/clown_nose.jpg', 'object_size': (300, 142), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/unicycle.jpg', 'lure_size': (159, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.35, 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+199.5814 	DATA 	Keypress: z
+199.5935 	EXP 	image_scene_encode: autoDraw = False
+199.5935 	EXP 	image_object_encode: autoDraw = False
+199.5935 	EXP 	text_rating: autoDraw = False
+199.5935 	EXP 	slider_cong: autoDraw = False
+199.5935 	EXP 	image_blank: autoDraw = True
+201.8438 	EXP 	cross_25: autoDraw = True
+201.9438 	EXP 	image_blank: autoDraw = False
+202.1003 	INFO 	Keyboard events cleared
+202.1002 	EXP 	cross_25: autoDraw = False
+202.1002 	EXP 	cross_25: autoDraw = False
+202.1002 	EXP 	image_blank: autoDraw = False
+202.1002 	EXP 	image_scene_encode: image = 'Scenes_Dataset/circus_A.jpg'
+202.1002 	EXP 	image_object_encode: image = 'Objects_Dataset/clown_nose.jpg'
+202.1002 	EXP 	slider_cong: markerPos = None
+202.1002 	EXP 	slider_cong: markerPos = None
+202.1002 	EXP 	image_scene_encode: autoDraw = True
+202.1002 	EXP 	image_object_encode: autoDraw = True
+202.3789 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'order_pairs': 44, 'scene': 'Scenes_Dataset/campsite_A.jpg', 'scene_size': (600, 402), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/hotel_bell.jpg', 'object_size': (171, 200), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/door_mat.jpg', 'lure_size': (300, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.85, 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+202.3807 	DATA 	Keypress: z
+202.3939 	EXP 	image_scene_encode: autoDraw = False
+202.3939 	EXP 	image_object_encode: autoDraw = False
+202.3939 	EXP 	text_rating: autoDraw = False
+202.3939 	EXP 	slider_cong: autoDraw = False
+202.3939 	EXP 	image_blank: autoDraw = True
+204.6443 	EXP 	cross_25: autoDraw = True
+204.8807 	DATA 	Keypress: x
+204.8944 	EXP 	cross_25: autoDraw = False
+205.2490 	INFO 	Keyboard events cleared
+205.2488 	EXP 	image_blank: autoDraw = False
+205.2488 	EXP 	cross_25: autoDraw = False
+205.2488 	EXP 	image_blank: autoDraw = False
+205.2488 	EXP 	image_scene_encode: image = 'Scenes_Dataset/campsite_A.jpg'
+205.2488 	EXP 	image_object_encode: image = 'Objects_Dataset/hotel_bell.jpg'
+205.2488 	EXP 	slider_cong: markerPos = None
+205.2488 	EXP 	slider_cong: markerPos = None
+205.2488 	EXP 	image_scene_encode: autoDraw = True
+205.2488 	EXP 	image_object_encode: autoDraw = True
+205.5299 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'order_pairs': 15, 'scene': 'Scenes_Dataset/balcony.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/handcuffs.jpg', 'object_size': (300, 183), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/staple_puller.jpg', 'lure_size': (200, 200), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.7, 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+205.5318 	DATA 	Keypress: x
+205.5443 	EXP 	image_scene_encode: autoDraw = False
+205.5443 	EXP 	image_object_encode: autoDraw = False
+205.5443 	EXP 	text_rating: autoDraw = False
+205.5443 	EXP 	slider_cong: autoDraw = False
+205.5443 	EXP 	image_blank: autoDraw = True
+207.7946 	EXP 	cross_25: autoDraw = True
+208.0448 	EXP 	cross_25: autoDraw = False
+208.2530 	INFO 	Keyboard events cleared
+208.2528 	EXP 	image_blank: autoDraw = False
+208.2528 	EXP 	cross_25: autoDraw = False
+208.2528 	EXP 	image_blank: autoDraw = False
+208.2528 	EXP 	image_scene_encode: image = 'Scenes_Dataset/balcony.jpg'
+208.2528 	EXP 	image_object_encode: image = 'Objects_Dataset/handcuffs.jpg'
+208.2528 	EXP 	slider_cong: markerPos = None
+208.2528 	EXP 	slider_cong: markerPos = None
+208.2528 	EXP 	image_scene_encode: autoDraw = True
+208.2528 	EXP 	image_object_encode: autoDraw = True
+208.5824 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'order_pairs': 2, 'scene': 'Scenes_Dataset/storage_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/torch.jpg', 'object_size': (210, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/semaphore.jpg', 'lure_size': (199, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.05, 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+208.5846 	DATA 	Keypress: c
+208.5948 	EXP 	image_scene_encode: autoDraw = False
+208.5948 	EXP 	image_object_encode: autoDraw = False
+208.5948 	EXP 	text_rating: autoDraw = False
+208.5948 	EXP 	slider_cong: autoDraw = False
+208.5948 	EXP 	image_blank: autoDraw = True
+210.6451 	EXP 	image_blank: autoDraw = False
+210.8451 	EXP 	cross_25: autoDraw = True
+211.0996 	INFO 	Keyboard events cleared
+211.0994 	EXP 	cross_25: autoDraw = False
+211.0994 	EXP 	cross_25: autoDraw = False
+211.0994 	EXP 	image_blank: autoDraw = False
+211.0994 	EXP 	image_scene_encode: image = 'Scenes_Dataset/storage_A.jpg'
+211.0994 	EXP 	image_object_encode: image = 'Objects_Dataset/torch.jpg'
+211.0994 	EXP 	slider_cong: markerPos = None
+211.0994 	EXP 	slider_cong: markerPos = None
+211.0994 	EXP 	image_scene_encode: autoDraw = True
+211.0994 	EXP 	image_object_encode: autoDraw = True
+211.3640 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'order_pairs': 38, 'scene': 'Scenes_Dataset/snow_A.jpg', 'scene_size': (600, 375), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/rolling_pin.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/tie.jpg', 'lure_size': (259, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.55, 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+211.3659 	DATA 	Keypress: x
+211.3785 	EXP 	image_scene_encode: autoDraw = False
+211.3785 	EXP 	image_object_encode: autoDraw = False
+211.3785 	EXP 	text_rating: autoDraw = False
+211.3785 	EXP 	slider_cong: autoDraw = False
+211.3785 	EXP 	image_blank: autoDraw = True
+213.6288 	EXP 	cross_25: autoDraw = True
+213.8790 	EXP 	cross_25: autoDraw = False
+213.9293 	DATA 	Keypress: c
+213.9373 	INFO 	Keyboard events cleared
+213.9371 	EXP 	image_blank: autoDraw = False
+213.9371 	EXP 	cross_25: autoDraw = False
+213.9371 	EXP 	image_blank: autoDraw = False
+213.9371 	EXP 	image_scene_encode: image = 'Scenes_Dataset/snow_A.jpg'
+213.9371 	EXP 	image_object_encode: image = 'Objects_Dataset/rolling_pin.jpg'
+213.9371 	EXP 	slider_cong: markerPos = None
+213.9371 	EXP 	slider_cong: markerPos = None
+213.9371 	EXP 	image_scene_encode: autoDraw = True
+213.9371 	EXP 	image_object_encode: autoDraw = True
+214.2979 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'order_pairs': 5, 'scene': 'Scenes_Dataset/tree_house.jpg', 'scene_size': (600, 375), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/defibrillator_paddles.jpg', 'object_size': (350, 223), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/pedestal_column.jpg', 'lure_size': (155, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.2, 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+214.2998 	DATA 	Keypress: c
+214.3122 	EXP 	image_scene_encode: autoDraw = False
+214.3122 	EXP 	image_object_encode: autoDraw = False
+214.3122 	EXP 	text_rating: autoDraw = False
+214.3122 	EXP 	slider_cong: autoDraw = False
+214.3122 	EXP 	image_blank: autoDraw = True
+216.5121 	EXP 	image_blank: autoDraw = False
+216.5624 	EXP 	cross_25: autoDraw = True
+216.8167 	INFO 	Keyboard events cleared
+216.8165 	EXP 	cross_25: autoDraw = False
+216.8165 	EXP 	cross_25: autoDraw = False
+216.8165 	EXP 	image_blank: autoDraw = False
+216.8165 	EXP 	image_scene_encode: image = 'Scenes_Dataset/tree_house.jpg'
+216.8165 	EXP 	image_object_encode: image = 'Objects_Dataset/defibrillator_paddles.jpg'
+216.8165 	EXP 	slider_cong: markerPos = None
+216.8165 	EXP 	slider_cong: markerPos = None
+216.8165 	EXP 	image_scene_encode: autoDraw = True
+216.8165 	EXP 	image_object_encode: autoDraw = True
+217.7816 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'order_pairs': 31, 'scene': 'Scenes_Dataset/garden_A.jpg', 'scene_size': (600, 446), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/saline.jpg', 'object_size': (300, 225), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/soap_dispenser.jpg', 'lure_size': (300, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.2, 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+217.7838 	DATA 	Keypress: z
+217.7959 	EXP 	image_scene_encode: autoDraw = False
+217.7959 	EXP 	image_object_encode: autoDraw = False
+217.7959 	EXP 	text_rating: autoDraw = False
+217.7959 	EXP 	slider_cong: autoDraw = False
+217.7959 	EXP 	image_blank: autoDraw = True
+219.9962 	EXP 	image_blank: autoDraw = False
+220.0464 	EXP 	cross_25: autoDraw = True
+220.3040 	INFO 	Keyboard events cleared
+220.3039 	EXP 	cross_25: autoDraw = False
+220.3039 	EXP 	cross_25: autoDraw = False
+220.3039 	EXP 	image_blank: autoDraw = False
+220.3039 	EXP 	image_scene_encode: image = 'Scenes_Dataset/garden_A.jpg'
+220.3039 	EXP 	image_object_encode: image = 'Objects_Dataset/saline.jpg'
+220.3039 	EXP 	slider_cong: markerPos = None
+220.3039 	EXP 	slider_cong: markerPos = None
+220.3039 	EXP 	image_scene_encode: autoDraw = True
+220.3039 	EXP 	image_object_encode: autoDraw = True
+220.5822 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'order_pairs': 10, 'scene': 'Scenes_Dataset/clinic_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/miners_cap.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/juggling_balls.jpg', 'lure_size': (350, 197), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.45, 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+220.5843 	DATA 	Keypress: x
+220.5963 	EXP 	image_scene_encode: autoDraw = False
+220.5963 	EXP 	image_object_encode: autoDraw = False
+220.5963 	EXP 	text_rating: autoDraw = False
+220.5963 	EXP 	slider_cong: autoDraw = False
+220.5963 	EXP 	image_blank: autoDraw = True
+222.8468 	EXP 	cross_25: autoDraw = True
+223.0470 	EXP 	image_blank: autoDraw = False
+223.1037 	INFO 	Keyboard events cleared
+223.1035 	EXP 	cross_25: autoDraw = False
+223.1035 	EXP 	cross_25: autoDraw = False
+223.1035 	EXP 	image_blank: autoDraw = False
+223.1035 	EXP 	image_scene_encode: image = 'Scenes_Dataset/clinic_A.jpg'
+223.1035 	EXP 	image_object_encode: image = 'Objects_Dataset/miners_cap.jpg'
+223.1035 	EXP 	slider_cong: markerPos = None
+223.1035 	EXP 	slider_cong: markerPos = None
+223.1035 	EXP 	image_scene_encode: autoDraw = True
+223.1035 	EXP 	image_object_encode: autoDraw = True
+223.1154 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'order_pairs': 47, 'scene': 'Scenes_Dataset/playground_A.jpg', 'scene_size': (600, 337), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/wine_cork.jpg', 'object_size': (250, 163), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/bible.jpg', 'lure_size': (300, 248), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3, 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+223.1171 	DATA 	Keypress: c
+223.1304 	EXP 	image_scene_encode: autoDraw = False
+223.1304 	EXP 	image_object_encode: autoDraw = False
+223.1304 	EXP 	text_rating: autoDraw = False
+223.1304 	EXP 	slider_cong: autoDraw = False
+223.1304 	EXP 	image_blank: autoDraw = True
+225.3806 	EXP 	cross_25: autoDraw = True
+225.6305 	EXP 	cross_25: autoDraw = False
+226.1353 	INFO 	Keyboard events cleared
+226.1351 	EXP 	image_blank: autoDraw = False
+226.1351 	EXP 	cross_25: autoDraw = False
+226.1351 	EXP 	image_blank: autoDraw = False
+226.1351 	EXP 	image_scene_encode: image = 'Scenes_Dataset/playground_A.jpg'
+226.1351 	EXP 	image_object_encode: image = 'Objects_Dataset/wine_cork.jpg'
+226.1351 	EXP 	slider_cong: markerPos = None
+226.1351 	EXP 	slider_cong: markerPos = None
+226.1351 	EXP 	image_scene_encode: autoDraw = True
+226.1351 	EXP 	image_object_encode: autoDraw = True
+226.3324 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'order_pairs': 25, 'scene': 'Scenes_Dataset/igloo_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/sandal.jpg', 'object_size': (300, 225), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/parking_meter.jpg', 'lure_size': (200, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3.2, 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+226.3342 	DATA 	Keypress: c
+226.3475 	EXP 	image_scene_encode: autoDraw = False
+226.3475 	EXP 	image_object_encode: autoDraw = False
+226.3475 	EXP 	text_rating: autoDraw = False
+226.3475 	EXP 	slider_cong: autoDraw = False
+226.3475 	EXP 	image_blank: autoDraw = True
+228.5977 	EXP 	cross_25: autoDraw = True
+228.8477 	EXP 	cross_25: autoDraw = False
+229.1843 	DATA 	Keypress: x
+229.5485 	DATA 	Keypress: x
+229.5565 	INFO 	Keyboard events cleared
+229.5564 	EXP 	image_blank: autoDraw = False
+229.5564 	EXP 	cross_25: autoDraw = False
+229.5564 	EXP 	image_blank: autoDraw = False
+229.5564 	EXP 	image_scene_encode: image = 'Scenes_Dataset/igloo_A.jpg'
+229.5564 	EXP 	image_object_encode: image = 'Objects_Dataset/sandal.jpg'
+229.5564 	EXP 	slider_cong: markerPos = None
+229.5564 	EXP 	slider_cong: markerPos = None
+229.5564 	EXP 	image_scene_encode: autoDraw = True
+229.5564 	EXP 	image_object_encode: autoDraw = True
+230.0335 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'order_pairs': 29, 'scene': 'Scenes_Dataset/car_interior_A.jpg', 'scene_size': (600, 389), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/car_key.jpg', 'object_size': (300, 125), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/car_freshener.jpg', 'lure_size': (277, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.1, 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+230.0354 	DATA 	Keypress: x
+230.0479 	EXP 	image_scene_encode: autoDraw = False
+230.0479 	EXP 	image_object_encode: autoDraw = False
+230.0479 	EXP 	text_rating: autoDraw = False
+230.0479 	EXP 	slider_cong: autoDraw = False
+230.0479 	EXP 	image_blank: autoDraw = True
+232.1479 	EXP 	image_blank: autoDraw = False
+232.2981 	EXP 	cross_25: autoDraw = True
+232.5552 	INFO 	Keyboard events cleared
+232.5551 	EXP 	cross_25: autoDraw = False
+232.5551 	EXP 	cross_25: autoDraw = False
+232.5551 	EXP 	image_blank: autoDraw = False
+232.5551 	EXP 	image_scene_encode: image = 'Scenes_Dataset/car_interior_A.jpg'
+232.5551 	EXP 	image_object_encode: image = 'Objects_Dataset/car_key.jpg'
+232.5551 	EXP 	slider_cong: markerPos = None
+232.5551 	EXP 	slider_cong: markerPos = None
+232.5551 	EXP 	image_scene_encode: autoDraw = True
+232.5551 	EXP 	image_object_encode: autoDraw = True
+232.9007 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'order_pairs': 7, 'scene': 'Scenes_Dataset/sky_A.jpg', 'scene_size': (600, 398), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/battery.jpg', 'object_size': (300, 188), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/luggage_carrier_cart.jpg', 'lure_size': (214, 350), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.3, 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+232.9028 	DATA 	Keypress: z
+232.9149 	EXP 	image_scene_encode: autoDraw = False
+232.9149 	EXP 	image_object_encode: autoDraw = False
+232.9149 	EXP 	text_rating: autoDraw = False
+232.9149 	EXP 	slider_cong: autoDraw = False
+232.9149 	EXP 	image_blank: autoDraw = True
+235.1652 	EXP 	cross_25: autoDraw = True
+235.2153 	EXP 	image_blank: autoDraw = False
+235.4199 	INFO 	Keyboard events cleared
+235.4197 	EXP 	cross_25: autoDraw = False
+235.4197 	EXP 	cross_25: autoDraw = False
+235.4197 	EXP 	image_blank: autoDraw = False
+235.4197 	EXP 	image_scene_encode: image = 'Scenes_Dataset/sky_A.jpg'
+235.4197 	EXP 	image_object_encode: image = 'Objects_Dataset/battery.jpg'
+235.4197 	EXP 	slider_cong: markerPos = None
+235.4197 	EXP 	slider_cong: markerPos = None
+235.4197 	EXP 	image_scene_encode: autoDraw = True
+235.4197 	EXP 	image_object_encode: autoDraw = True
+235.7011 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'order_pairs': 39, 'scene': 'Scenes_Dataset/construction_A.jpg', 'scene_size': (600, 440), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/nail.jpg', 'object_size': (300, 272), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/brick.jpg', 'lure_size': (300, 224), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.6, 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+235.7032 	DATA 	Keypress: z
+235.7152 	EXP 	image_scene_encode: autoDraw = False
+235.7152 	EXP 	image_object_encode: autoDraw = False
+235.7152 	EXP 	text_rating: autoDraw = False
+235.7152 	EXP 	slider_cong: autoDraw = False
+235.7152 	EXP 	image_blank: autoDraw = True
+237.9655 	EXP 	cross_25: autoDraw = True
+238.2157 	EXP 	cross_25: autoDraw = False
+238.3220 	INFO 	Keyboard events cleared
+238.3218 	EXP 	image_blank: autoDraw = False
+238.3218 	EXP 	cross_25: autoDraw = False
+238.3218 	EXP 	image_blank: autoDraw = False
+238.3218 	EXP 	image_scene_encode: image = 'Scenes_Dataset/construction_A.jpg'
+238.3218 	EXP 	image_object_encode: image = 'Objects_Dataset/nail.jpg'
+238.3218 	EXP 	slider_cong: markerPos = None
+238.3218 	EXP 	slider_cong: markerPos = None
+238.3218 	EXP 	image_scene_encode: autoDraw = True
+238.3218 	EXP 	image_object_encode: autoDraw = True
+238.6673 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'order_pairs': 42, 'scene': 'Scenes_Dataset/bakery_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/train_seats.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/beach_bucket.jpg', 'lure_size': (300, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.75, 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+238.6690 	DATA 	Keypress: x
+238.6823 	EXP 	image_scene_encode: autoDraw = False
+238.6823 	EXP 	image_object_encode: autoDraw = False
+238.6823 	EXP 	text_rating: autoDraw = False
+238.6823 	EXP 	slider_cong: autoDraw = False
+238.6823 	EXP 	image_blank: autoDraw = True
+240.9327 	EXP 	cross_25: autoDraw = True
+241.1828 	EXP 	cross_25: autoDraw = False
+241.4397 	INFO 	Keyboard events cleared
+241.4395 	EXP 	image_blank: autoDraw = False
+241.4395 	EXP 	cross_25: autoDraw = False
+241.4395 	EXP 	image_blank: autoDraw = False
+241.4395 	EXP 	image_scene_encode: image = 'Scenes_Dataset/bakery_A.jpg'
+241.4395 	EXP 	image_object_encode: image = 'Objects_Dataset/train_seats.jpg'
+241.4395 	EXP 	slider_cong: markerPos = None
+241.4395 	EXP 	slider_cong: markerPos = None
+241.4395 	EXP 	image_scene_encode: autoDraw = True
+241.4395 	EXP 	image_object_encode: autoDraw = True
+241.6511 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'order_pairs': 57, 'scene': 'Scenes_Dataset/waiting_room_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/swiss_army_knife.jpg', 'object_size': (300, 214), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/padlock.jpg', 'lure_size': (300, 153), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.2, 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+241.6529 	DATA 	Keypress: c
+241.6662 	EXP 	image_scene_encode: autoDraw = False
+241.6662 	EXP 	image_object_encode: autoDraw = False
+241.6662 	EXP 	text_rating: autoDraw = False
+241.6662 	EXP 	slider_cong: autoDraw = False
+241.6662 	EXP 	image_blank: autoDraw = True
+243.8666 	EXP 	image_blank: autoDraw = False
+243.9166 	EXP 	cross_25: autoDraw = True
+244.1733 	INFO 	Keyboard events cleared
+244.1731 	EXP 	cross_25: autoDraw = False
+244.1731 	EXP 	cross_25: autoDraw = False
+244.1731 	EXP 	image_blank: autoDraw = False
+244.1731 	EXP 	image_scene_encode: image = 'Scenes_Dataset/waiting_room_A.jpg'
+244.1731 	EXP 	image_object_encode: image = 'Objects_Dataset/swiss_army_knife.jpg'
+244.1731 	EXP 	slider_cong: markerPos = None
+244.1731 	EXP 	slider_cong: markerPos = None
+244.1731 	EXP 	image_scene_encode: autoDraw = True
+244.1731 	EXP 	image_object_encode: autoDraw = True
+244.5191 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'order_pairs': 58, 'scene': 'Scenes_Dataset/games_room_A.jpg', 'scene_size': (600, 371), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/latex_gloves.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/gauze_pad.jpg', 'lure_size': (300, 206), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.25, 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+244.5213 	DATA 	Keypress: c
+244.5334 	EXP 	image_scene_encode: autoDraw = False
+244.5334 	EXP 	image_object_encode: autoDraw = False
+244.5334 	EXP 	text_rating: autoDraw = False
+244.5334 	EXP 	slider_cong: autoDraw = False
+244.5334 	EXP 	image_blank: autoDraw = True
+246.7837 	EXP 	cross_25: autoDraw = True
+246.7837 	EXP 	image_blank: autoDraw = False
+247.0405 	INFO 	Keyboard events cleared
+247.0403 	EXP 	cross_25: autoDraw = False
+247.0403 	EXP 	cross_25: autoDraw = False
+247.0403 	EXP 	image_blank: autoDraw = False
+247.0403 	EXP 	image_scene_encode: image = 'Scenes_Dataset/games_room_A.jpg'
+247.0403 	EXP 	image_object_encode: image = 'Objects_Dataset/latex_gloves.jpg'
+247.0403 	EXP 	slider_cong: markerPos = None
+247.0403 	EXP 	slider_cong: markerPos = None
+247.0403 	EXP 	image_scene_encode: autoDraw = True
+247.0403 	EXP 	image_object_encode: autoDraw = True
+247.3191 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'order_pairs': 16, 'scene': 'Scenes_Dataset/elevator_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/elevator_buttons_panel.jpg', 'object_size': (257, 300), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/surveillance_camera.jpg', 'lure_size': (300, 204), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.75, 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+247.3211 	DATA 	Keypress: x
+247.3338 	EXP 	image_scene_encode: autoDraw = False
+247.3338 	EXP 	image_object_encode: autoDraw = False
+247.3338 	EXP 	text_rating: autoDraw = False
+247.3338 	EXP 	slider_cong: autoDraw = False
+247.3338 	EXP 	image_blank: autoDraw = True
+249.5842 	EXP 	cross_25: autoDraw = True
+249.8341 	EXP 	cross_25: autoDraw = False
+250.0908 	INFO 	Keyboard events cleared
+250.0906 	EXP 	image_blank: autoDraw = False
+250.0906 	EXP 	cross_25: autoDraw = False
+250.0906 	EXP 	image_blank: autoDraw = False
+250.0906 	EXP 	image_scene_encode: image = 'Scenes_Dataset/elevator_A.jpg'
+250.0906 	EXP 	image_object_encode: image = 'Objects_Dataset/elevator_buttons_panel.jpg'
+250.0906 	EXP 	slider_cong: markerPos = None
+250.0906 	EXP 	slider_cong: markerPos = None
+250.0906 	EXP 	image_scene_encode: autoDraw = True
+250.0906 	EXP 	image_object_encode: autoDraw = True
+250.3525 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'order_pairs': 14, 'scene': 'Scenes_Dataset/desert_A.jpg', 'scene_size': (600, 375), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/cactus.jpg', 'object_size': (300, 248), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/turban.jpg', 'lure_size': (300, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.65, 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+250.3543 	DATA 	Keypress: z
+250.3677 	EXP 	image_scene_encode: autoDraw = False
+250.3677 	EXP 	image_object_encode: autoDraw = False
+250.3677 	EXP 	text_rating: autoDraw = False
+250.3677 	EXP 	slider_cong: autoDraw = False
+250.3677 	EXP 	image_blank: autoDraw = True
+252.6179 	EXP 	cross_25: autoDraw = True
+252.8679 	EXP 	cross_25: autoDraw = False
+252.9867 	DATA 	Keypress: c
+253.0231 	INFO 	Keyboard events cleared
+253.0229 	EXP 	image_blank: autoDraw = False
+253.0229 	EXP 	cross_25: autoDraw = False
+253.0229 	EXP 	image_blank: autoDraw = False
+253.0229 	EXP 	image_scene_encode: image = 'Scenes_Dataset/desert_A.jpg'
+253.0229 	EXP 	image_object_encode: image = 'Objects_Dataset/cactus.jpg'
+253.0229 	EXP 	slider_cong: markerPos = None
+253.0229 	EXP 	slider_cong: markerPos = None
+253.0229 	EXP 	image_scene_encode: autoDraw = True
+253.0229 	EXP 	image_object_encode: autoDraw = True
+253.4205 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'order_pairs': 1, 'scene': 'Scenes_Dataset/airport_A.jpg', 'scene_size': (600, 338), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/suitcase.jpg', 'object_size': (226, 350), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/luggage_cart.jpg', 'lure_size': (232, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2, 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+253.4225 	DATA 	Keypress: c
+253.4346 	EXP 	image_scene_encode: autoDraw = False
+253.4346 	EXP 	image_object_encode: autoDraw = False
+253.4346 	EXP 	text_rating: autoDraw = False
+253.4346 	EXP 	slider_cong: autoDraw = False
+253.4346 	EXP 	image_blank: autoDraw = True
+255.4349 	EXP 	image_blank: autoDraw = False
+255.6850 	EXP 	cross_25: autoDraw = True
+255.9398 	INFO 	Keyboard events cleared
+255.9397 	EXP 	cross_25: autoDraw = False
+255.9397 	EXP 	cross_25: autoDraw = False
+255.9397 	EXP 	image_blank: autoDraw = False
+255.9397 	EXP 	image_scene_encode: image = 'Scenes_Dataset/airport_A.jpg'
+255.9397 	EXP 	image_object_encode: image = 'Objects_Dataset/suitcase.jpg'
+255.9397 	EXP 	slider_cong: markerPos = None
+255.9397 	EXP 	slider_cong: markerPos = None
+255.9397 	EXP 	image_scene_encode: autoDraw = True
+255.9397 	EXP 	image_object_encode: autoDraw = True
+256.2705 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'order_pairs': 23, 'scene': 'Scenes_Dataset/art_gallery_A.jpg', 'scene_size': (600, 434), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/watering_can.jpg', 'object_size': (300, 272), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/racket.jpg', 'lure_size': (300, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3.1, 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+256.2724 	DATA 	Keypress: x
+256.2851 	EXP 	image_scene_encode: autoDraw = False
+256.2851 	EXP 	image_object_encode: autoDraw = False
+256.2851 	EXP 	text_rating: autoDraw = False
+256.2851 	EXP 	slider_cong: autoDraw = False
+256.2851 	EXP 	image_blank: autoDraw = True
+258.5351 	EXP 	cross_25: autoDraw = True
+258.7854 	EXP 	cross_25: autoDraw = False
+259.3932 	INFO 	Keyboard events cleared
+259.3930 	EXP 	image_blank: autoDraw = False
+259.3930 	EXP 	cross_25: autoDraw = False
+259.3930 	EXP 	image_blank: autoDraw = False
+259.3930 	EXP 	image_scene_encode: image = 'Scenes_Dataset/art_gallery_A.jpg'
+259.3930 	EXP 	image_object_encode: image = 'Objects_Dataset/watering_can.jpg'
+259.3930 	EXP 	slider_cong: markerPos = None
+259.3930 	EXP 	slider_cong: markerPos = None
+259.3930 	EXP 	image_scene_encode: autoDraw = True
+259.3930 	EXP 	image_object_encode: autoDraw = True
+259.6040 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'order_pairs': 56, 'scene': 'Scenes_Dataset/classroom_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/set_square.jpg', 'object_size': (300, 182), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/drawing_compass.jpg', 'lure_size': (111, 300), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.15, 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+259.6058 	DATA 	Keypress: c
+259.6189 	EXP 	image_scene_encode: autoDraw = False
+259.6189 	EXP 	image_object_encode: autoDraw = False
+259.6189 	EXP 	text_rating: autoDraw = False
+259.6189 	EXP 	slider_cong: autoDraw = False
+259.6189 	EXP 	image_blank: autoDraw = True
+261.7689 	EXP 	image_blank: autoDraw = False
+261.8691 	EXP 	cross_25: autoDraw = True
+262.1257 	INFO 	Keyboard events cleared
+262.1256 	EXP 	cross_25: autoDraw = False
+262.1256 	EXP 	cross_25: autoDraw = False
+262.1256 	EXP 	image_blank: autoDraw = False
+262.1256 	EXP 	image_scene_encode: image = 'Scenes_Dataset/classroom_A.jpg'
+262.1256 	EXP 	image_object_encode: image = 'Objects_Dataset/set_square.jpg'
+262.1256 	EXP 	slider_cong: markerPos = None
+262.1256 	EXP 	slider_cong: markerPos = None
+262.1256 	EXP 	image_scene_encode: autoDraw = True
+262.1256 	EXP 	image_object_encode: autoDraw = True
+262.4382 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'order_pairs': 53, 'scene': 'Scenes_Dataset/restaurant_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/plate.jpg', 'object_size': (300, 117), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/fork.jpg', 'lure_size': (300, 180), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2, 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+262.4403 	DATA 	Keypress: x
+262.4525 	EXP 	image_scene_encode: autoDraw = False
+262.4525 	EXP 	image_object_encode: autoDraw = False
+262.4525 	EXP 	text_rating: autoDraw = False
+262.4525 	EXP 	slider_cong: autoDraw = False
+262.4525 	EXP 	image_blank: autoDraw = True
+264.4528 	EXP 	image_blank: autoDraw = False
+264.7030 	EXP 	cross_25: autoDraw = True
+264.9577 	INFO 	Keyboard events cleared
+264.9575 	EXP 	cross_25: autoDraw = False
+264.9575 	EXP 	cross_25: autoDraw = False
+264.9575 	EXP 	image_blank: autoDraw = False
+264.9575 	EXP 	image_scene_encode: image = 'Scenes_Dataset/restaurant_A.jpg'
+264.9575 	EXP 	image_object_encode: image = 'Objects_Dataset/plate.jpg'
+264.9575 	EXP 	slider_cong: markerPos = None
+264.9575 	EXP 	slider_cong: markerPos = None
+264.9575 	EXP 	image_scene_encode: autoDraw = True
+264.9575 	EXP 	image_object_encode: autoDraw = True
+265.2220 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'order_pairs': 40, 'scene': 'Scenes_Dataset/waves.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/surf_board.jpg', 'object_size': (114, 350), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/surf_suit.jpg', 'lure_size': (256, 350), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.65, 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+265.2242 	DATA 	Keypress: z
+265.2363 	EXP 	image_scene_encode: autoDraw = False
+265.2363 	EXP 	image_object_encode: autoDraw = False
+265.2363 	EXP 	text_rating: autoDraw = False
+265.2363 	EXP 	slider_cong: autoDraw = False
+265.2363 	EXP 	image_blank: autoDraw = True
+267.4868 	EXP 	cross_25: autoDraw = True
+267.7368 	EXP 	cross_25: autoDraw = False
+267.8918 	INFO 	Keyboard events cleared
+267.8917 	EXP 	image_blank: autoDraw = False
+267.8917 	EXP 	cross_25: autoDraw = False
+267.8917 	EXP 	image_blank: autoDraw = False
+267.8917 	EXP 	image_scene_encode: image = 'Scenes_Dataset/waves.jpg'
+267.8917 	EXP 	image_object_encode: image = 'Objects_Dataset/surf_board.jpg'
+267.8917 	EXP 	slider_cong: markerPos = None
+267.8917 	EXP 	slider_cong: markerPos = None
+267.8917 	EXP 	image_scene_encode: autoDraw = True
+267.8917 	EXP 	image_object_encode: autoDraw = True
+268.1058 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'order_pairs': 54, 'scene': 'Scenes_Dataset/closet_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/trash_can.jpg', 'object_size': (225, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/plastic_bag.jpg', 'lure_size': (350, 197), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.05, 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+268.1075 	DATA 	Keypress: x
+268.1202 	EXP 	image_scene_encode: autoDraw = False
+268.1202 	EXP 	image_object_encode: autoDraw = False
+268.1202 	EXP 	text_rating: autoDraw = False
+268.1202 	EXP 	slider_cong: autoDraw = False
+268.1202 	EXP 	image_blank: autoDraw = True
+270.1704 	EXP 	image_blank: autoDraw = False
+270.3705 	EXP 	cross_25: autoDraw = True
+270.6270 	INFO 	Keyboard events cleared
+270.6269 	EXP 	cross_25: autoDraw = False
+270.6269 	EXP 	cross_25: autoDraw = False
+270.6269 	EXP 	image_blank: autoDraw = False
+270.6269 	EXP 	image_scene_encode: image = 'Scenes_Dataset/closet_A.jpg'
+270.6269 	EXP 	image_object_encode: image = 'Objects_Dataset/trash_can.jpg'
+270.6269 	EXP 	slider_cong: markerPos = None
+270.6269 	EXP 	slider_cong: markerPos = None
+270.6269 	EXP 	image_scene_encode: autoDraw = True
+270.6269 	EXP 	image_object_encode: autoDraw = True
+270.8888 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'order_pairs': 13, 'scene': 'Scenes_Dataset/dentist_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/dentist_mirror.jpg', 'object_size': (300, 300), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/surgical_mask.jpg', 'lure_size': (300, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.6, 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+270.8906 	DATA 	Keypress: c
+270.9039 	EXP 	image_scene_encode: autoDraw = False
+270.9039 	EXP 	image_object_encode: autoDraw = False
+270.9039 	EXP 	text_rating: autoDraw = False
+270.9039 	EXP 	slider_cong: autoDraw = False
+270.9039 	EXP 	image_blank: autoDraw = True
+273.1542 	EXP 	cross_25: autoDraw = True
+273.4042 	EXP 	cross_25: autoDraw = False
+273.5080 	INFO 	Keyboard events cleared
+273.5078 	EXP 	image_blank: autoDraw = False
+273.5078 	EXP 	cross_25: autoDraw = False
+273.5078 	EXP 	image_blank: autoDraw = False
+273.5078 	EXP 	image_scene_encode: image = 'Scenes_Dataset/dentist_A.jpg'
+273.5078 	EXP 	image_object_encode: image = 'Objects_Dataset/dentist_mirror.jpg'
+273.5078 	EXP 	slider_cong: markerPos = None
+273.5078 	EXP 	slider_cong: markerPos = None
+273.5078 	EXP 	image_scene_encode: autoDraw = True
+273.5078 	EXP 	image_object_encode: autoDraw = True
+273.7726 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'order_pairs': 4, 'scene': 'Scenes_Dataset/basketball_field_A.jpg', 'scene_size': (600, 399), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/basketball.jpg', 'object_size': (282, 300), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/whistle.jpg', 'lure_size': (200, 151), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.15, 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+273.7742 	DATA 	Keypress: x
+273.7876 	EXP 	image_scene_encode: autoDraw = False
+273.7876 	EXP 	image_object_encode: autoDraw = False
+273.7876 	EXP 	text_rating: autoDraw = False
+273.7876 	EXP 	slider_cong: autoDraw = False
+273.7876 	EXP 	image_blank: autoDraw = True
+275.9379 	EXP 	image_blank: autoDraw = False
+276.0377 	EXP 	cross_25: autoDraw = True
+276.2958 	INFO 	Keyboard events cleared
+276.2956 	EXP 	cross_25: autoDraw = False
+276.2956 	EXP 	cross_25: autoDraw = False
+276.2956 	EXP 	image_blank: autoDraw = False
+276.2956 	EXP 	image_scene_encode: image = 'Scenes_Dataset/basketball_field_A.jpg'
+276.2956 	EXP 	image_object_encode: image = 'Objects_Dataset/basketball.jpg'
+276.2956 	EXP 	slider_cong: markerPos = None
+276.2956 	EXP 	slider_cong: markerPos = None
+276.2956 	EXP 	image_scene_encode: autoDraw = True
+276.2956 	EXP 	image_object_encode: autoDraw = True
+276.6562 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'order_pairs': 12, 'scene': 'Scenes_Dataset/underwater_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/diving_mask.jpg', 'object_size': (300, 197), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/snorkeling_tube.jpg', 'lure_size': (251, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.55, 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+276.6578 	DATA 	Keypress: z
+276.6713 	EXP 	image_scene_encode: autoDraw = False
+276.6713 	EXP 	image_object_encode: autoDraw = False
+276.6713 	EXP 	text_rating: autoDraw = False
+276.6713 	EXP 	slider_cong: autoDraw = False
+276.6713 	EXP 	image_blank: autoDraw = True
+278.9217 	EXP 	cross_25: autoDraw = True
+279.1718 	EXP 	cross_25: autoDraw = False
+279.2233 	DATA 	Keypress: x
+279.2312 	INFO 	Keyboard events cleared
+279.2310 	EXP 	image_blank: autoDraw = False
+279.2310 	EXP 	cross_25: autoDraw = False
+279.2310 	EXP 	image_blank: autoDraw = False
+279.2310 	EXP 	image_scene_encode: image = 'Scenes_Dataset/underwater_A.jpg'
+279.2310 	EXP 	image_object_encode: image = 'Objects_Dataset/diving_mask.jpg'
+279.2310 	EXP 	slider_cong: markerPos = None
+279.2310 	EXP 	slider_cong: markerPos = None
+279.2310 	EXP 	image_scene_encode: autoDraw = True
+279.2310 	EXP 	image_object_encode: autoDraw = True
+279.6071 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'order_pairs': 59, 'scene': 'Scenes_Dataset/savannah_A.jpg', 'scene_size': (600, 402), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/eskimo_coat.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/brown_adhesive_tape.jpg', 'lure_size': (250, 190), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.3, 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+279.6089 	DATA 	Keypress: x
+279.6219 	EXP 	image_scene_encode: autoDraw = False
+279.6219 	EXP 	image_object_encode: autoDraw = False
+279.6219 	EXP 	text_rating: autoDraw = False
+279.6219 	EXP 	slider_cong: autoDraw = False
+279.6219 	EXP 	image_blank: autoDraw = True
+281.8719 	EXP 	cross_25: autoDraw = True
+281.9220 	EXP 	image_blank: autoDraw = False
+282.1284 	INFO 	Keyboard events cleared
+282.1283 	EXP 	cross_25: autoDraw = False
+282.1283 	EXP 	cross_25: autoDraw = False
+282.1283 	EXP 	image_blank: autoDraw = False
+282.1283 	EXP 	image_scene_encode: image = 'Scenes_Dataset/savannah_A.jpg'
+282.1283 	EXP 	image_object_encode: image = 'Objects_Dataset/eskimo_coat.jpg'
+282.1283 	EXP 	slider_cong: markerPos = None
+282.1283 	EXP 	slider_cong: markerPos = None
+282.1283 	EXP 	image_scene_encode: autoDraw = True
+282.1283 	EXP 	image_object_encode: autoDraw = True
+282.3902 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'order_pairs': 18, 'scene': 'Scenes_Dataset/train_station_A.jpg', 'scene_size': (600, 415), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/hairdryer.jpg', 'object_size': (250, 241), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/hang_glider.jpg', 'lure_size': (450, 275), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.85, 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+282.3920 	DATA 	Keypress: c
+282.4053 	EXP 	image_scene_encode: autoDraw = False
+282.4053 	EXP 	image_object_encode: autoDraw = False
+282.4053 	EXP 	text_rating: autoDraw = False
+282.4053 	EXP 	slider_cong: autoDraw = False
+282.4053 	EXP 	image_blank: autoDraw = True
+284.6390 	EXP 	cross_25: autoDraw = True
+284.8890 	EXP 	cross_25: autoDraw = False
+285.2610 	INFO 	Keyboard events cleared
+285.2608 	EXP 	image_blank: autoDraw = False
+285.2608 	EXP 	cross_25: autoDraw = False
+285.2608 	EXP 	image_blank: autoDraw = False
+285.2608 	EXP 	image_scene_encode: image = 'Scenes_Dataset/train_station_A.jpg'
+285.2608 	EXP 	image_object_encode: image = 'Objects_Dataset/hairdryer.jpg'
+285.2608 	EXP 	slider_cong: markerPos = None
+285.2608 	EXP 	slider_cong: markerPos = None
+285.2608 	EXP 	image_scene_encode: autoDraw = True
+285.2608 	EXP 	image_object_encode: autoDraw = True
+285.4906 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'order_pairs': 36, 'scene': 'Scenes_Dataset/toy_store_A.jpg', 'scene_size': (600, 399), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/belt.jpg', 'object_size': (200, 162), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/watch.jpg', 'lure_size': (300, 273), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.45, 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+285.4922 	DATA 	Keypress: x
+285.5058 	EXP 	image_scene_encode: autoDraw = False
+285.5058 	EXP 	image_object_encode: autoDraw = False
+285.5058 	EXP 	text_rating: autoDraw = False
+285.5058 	EXP 	slider_cong: autoDraw = False
+285.5058 	EXP 	image_blank: autoDraw = True
+287.7397 	EXP 	cross_25: autoDraw = True
+287.9563 	EXP 	image_blank: autoDraw = False
+287.9967 	INFO 	Keyboard events cleared
+287.9965 	EXP 	cross_25: autoDraw = False
+287.9965 	EXP 	cross_25: autoDraw = False
+287.9965 	EXP 	image_blank: autoDraw = False
+287.9965 	EXP 	image_scene_encode: image = 'Scenes_Dataset/toy_store_A.jpg'
+287.9965 	EXP 	image_object_encode: image = 'Objects_Dataset/belt.jpg'
+287.9965 	EXP 	slider_cong: markerPos = None
+287.9965 	EXP 	slider_cong: markerPos = None
+287.9965 	EXP 	image_scene_encode: autoDraw = True
+287.9965 	EXP 	image_object_encode: autoDraw = True
+288.9088 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'order_pairs': 50, 'scene': 'Scenes_Dataset/beach_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/beach_umbrella.jpg', 'object_size': (266, 300), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/whelk.jpg', 'lure_size': (250, 143), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3.15, 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+288.9107 	DATA 	Keypress: z
+288.9232 	EXP 	image_scene_encode: autoDraw = False
+288.9232 	EXP 	image_object_encode: autoDraw = False
+288.9232 	EXP 	text_rating: autoDraw = False
+288.9232 	EXP 	slider_cong: autoDraw = False
+288.9232 	EXP 	image_blank: autoDraw = True
+291.1734 	EXP 	cross_25: autoDraw = True
+291.4235 	EXP 	cross_25: autoDraw = False
+292.0798 	INFO 	Keyboard events cleared
+292.0796 	EXP 	image_blank: autoDraw = False
+292.0796 	EXP 	cross_25: autoDraw = False
+292.0796 	EXP 	image_blank: autoDraw = False
+292.0796 	EXP 	image_scene_encode: image = 'Scenes_Dataset/beach_A.jpg'
+292.0796 	EXP 	image_object_encode: image = 'Objects_Dataset/beach_umbrella.jpg'
+292.0796 	EXP 	slider_cong: markerPos = None
+292.0796 	EXP 	slider_cong: markerPos = None
+292.0796 	EXP 	image_scene_encode: autoDraw = True
+292.0796 	EXP 	image_object_encode: autoDraw = True
+292.6084 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'order_pairs': 52, 'scene': 'Scenes_Dataset/childrens_room_A.jpg', 'scene_size': (600, 524), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/tin.jpg', 'object_size': (233, 350), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/lighter.jpg', 'lure_size': (300, 197), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 3.25, 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+292.6102 	DATA 	Keypress: c
+292.6238 	EXP 	image_scene_encode: autoDraw = False
+292.6238 	EXP 	image_object_encode: autoDraw = False
+292.6238 	EXP 	text_rating: autoDraw = False
+292.6238 	EXP 	slider_cong: autoDraw = False
+292.6238 	EXP 	image_blank: autoDraw = True
+294.8573 	EXP 	cross_25: autoDraw = True
+295.1074 	EXP 	cross_25: autoDraw = False
+295.8841 	INFO 	Keyboard events cleared
+295.8839 	EXP 	image_blank: autoDraw = False
+295.8839 	EXP 	cross_25: autoDraw = False
+295.8839 	EXP 	image_blank: autoDraw = False
+295.8839 	EXP 	image_scene_encode: image = 'Scenes_Dataset/childrens_room_A.jpg'
+295.8839 	EXP 	image_object_encode: image = 'Objects_Dataset/tin.jpg'
+295.8839 	EXP 	slider_cong: markerPos = None
+295.8839 	EXP 	slider_cong: markerPos = None
+295.8839 	EXP 	image_scene_encode: autoDraw = True
+295.8839 	EXP 	image_object_encode: autoDraw = True
+296.1759 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'order_pairs': 26, 'scene': 'Scenes_Dataset/church_A.jpg', 'scene_size': (600, 403), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/magic_cube.jpg', 'object_size': (300, 300), 'condition_encode': 'Incongruent', 'lure': 'Objects_Dataset/colander.jpg', 'lure_size': (191, 250), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 3.25, 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+296.1775 	DATA 	Keypress: x
+296.1909 	EXP 	image_scene_encode: autoDraw = False
+296.1909 	EXP 	image_object_encode: autoDraw = False
+296.1909 	EXP 	text_rating: autoDraw = False
+296.1909 	EXP 	slider_cong: autoDraw = False
+296.1909 	EXP 	image_blank: autoDraw = True
+298.4412 	EXP 	cross_25: autoDraw = True
+298.6913 	EXP 	cross_25: autoDraw = False
+299.4476 	INFO 	Keyboard events cleared
+299.4474 	EXP 	image_blank: autoDraw = False
+299.4474 	EXP 	cross_25: autoDraw = False
+299.4474 	EXP 	image_blank: autoDraw = False
+299.4474 	EXP 	image_scene_encode: image = 'Scenes_Dataset/church_A.jpg'
+299.4474 	EXP 	image_object_encode: image = 'Objects_Dataset/magic_cube.jpg'
+299.4474 	EXP 	slider_cong: markerPos = None
+299.4474 	EXP 	slider_cong: markerPos = None
+299.4474 	EXP 	image_scene_encode: autoDraw = True
+299.4474 	EXP 	image_object_encode: autoDraw = True
+299.7271 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'order_pairs': 55, 'scene': 'Scenes_Dataset/living_room_A.jpg', 'scene_size': (600, 436), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/remote_control.jpg', 'object_size': (300, 293), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/dvd_player.jpg', 'lure_size': (350, 144), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.1, 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+299.7292 	DATA 	Keypress: z
+299.7413 	EXP 	image_scene_encode: autoDraw = False
+299.7413 	EXP 	image_object_encode: autoDraw = False
+299.7413 	EXP 	text_rating: autoDraw = False
+299.7413 	EXP 	slider_cong: autoDraw = False
+299.7413 	EXP 	image_blank: autoDraw = True
+301.8416 	EXP 	image_blank: autoDraw = False
+301.9919 	EXP 	cross_25: autoDraw = True
+302.2483 	INFO 	Keyboard events cleared
+302.2482 	EXP 	cross_25: autoDraw = False
+302.2482 	EXP 	cross_25: autoDraw = False
+302.2482 	EXP 	image_blank: autoDraw = False
+302.2482 	EXP 	image_scene_encode: image = 'Scenes_Dataset/living_room_A.jpg'
+302.2482 	EXP 	image_object_encode: image = 'Objects_Dataset/remote_control.jpg'
+302.2482 	EXP 	slider_cong: markerPos = None
+302.2482 	EXP 	slider_cong: markerPos = None
+302.2482 	EXP 	image_scene_encode: autoDraw = True
+302.2482 	EXP 	image_object_encode: autoDraw = True
+302.6776 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'order_pairs': 60, 'scene': 'Scenes_Dataset/toilet_A.jpg', 'scene_size': (600, 450), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/soap.jpg', 'object_size': (300, 191), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/toothbrush.jpg', 'lure_size': (300, 215), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.35, 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+302.6799 	DATA 	Keypress: x
+302.6919 	EXP 	image_scene_encode: autoDraw = False
+302.6919 	EXP 	image_object_encode: autoDraw = False
+302.6919 	EXP 	text_rating: autoDraw = False
+302.6919 	EXP 	slider_cong: autoDraw = False
+302.6919 	EXP 	image_blank: autoDraw = True
+304.9423 	EXP 	cross_25: autoDraw = True
+305.0422 	EXP 	image_blank: autoDraw = False
+305.1989 	INFO 	Keyboard events cleared
+305.1987 	EXP 	cross_25: autoDraw = False
+305.1987 	EXP 	cross_25: autoDraw = False
+305.1987 	EXP 	image_blank: autoDraw = False
+305.1987 	EXP 	image_scene_encode: image = 'Scenes_Dataset/toilet_A.jpg'
+305.1987 	EXP 	image_object_encode: image = 'Objects_Dataset/soap.jpg'
+305.1987 	EXP 	slider_cong: markerPos = None
+305.1987 	EXP 	slider_cong: markerPos = None
+305.1987 	EXP 	image_scene_encode: autoDraw = True
+305.1987 	EXP 	image_object_encode: autoDraw = True
+305.4773 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'order_pairs': 19, 'scene': 'Scenes_Dataset/soccer_stadium_A.jpg', 'scene_size': (600, 400), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/soccer_ball.jpg', 'object_size': (200, 194), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/football_boots.jpg', 'lure_size': (300, 300), 'target_pos': (300, -200), 'lure_pos': (300, 200), 'correct_key_AFC': 'down', 'jitter_ITI': 2.9, 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+305.4791 	DATA 	Keypress: c
+305.4923 	EXP 	image_scene_encode: autoDraw = False
+305.4923 	EXP 	image_object_encode: autoDraw = False
+305.4923 	EXP 	text_rating: autoDraw = False
+305.4923 	EXP 	slider_cong: autoDraw = False
+305.4923 	EXP 	image_blank: autoDraw = True
+307.7423 	EXP 	cross_25: autoDraw = True
+307.9926 	EXP 	cross_25: autoDraw = False
+308.3977 	INFO 	Keyboard events cleared
+308.3975 	EXP 	image_blank: autoDraw = False
+308.3975 	EXP 	cross_25: autoDraw = False
+308.3975 	EXP 	image_blank: autoDraw = False
+308.3975 	EXP 	image_scene_encode: image = 'Scenes_Dataset/soccer_stadium_A.jpg'
+308.3975 	EXP 	image_object_encode: image = 'Objects_Dataset/soccer_ball.jpg'
+308.3975 	EXP 	slider_cong: markerPos = None
+308.3975 	EXP 	slider_cong: markerPos = None
+308.3975 	EXP 	image_scene_encode: autoDraw = True
+308.3975 	EXP 	image_object_encode: autoDraw = True
+308.8278 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'order_pairs': 43, 'scene': 'Scenes_Dataset/stationary_store_A.jpg', 'scene_size': (600, 370), 'condition_old': 'old', 'correct_key_old': 'left', 'object_encode': 'Objects_Dataset/scissors.jpg', 'object_size': (300, 145), 'condition_encode': 'Congruent', 'lure': 'Objects_Dataset/stapler.jpg', 'lure_size': (250, 178), 'target_pos': (300, 200), 'lure_pos': (300, -200), 'correct_key_AFC': 'up', 'jitter_ITI': 2.8, 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+308.8295 	DATA 	Keypress: c
+308.8427 	EXP 	image_scene_encode: autoDraw = False
+308.8427 	EXP 	image_object_encode: autoDraw = False
+308.8427 	EXP 	text_rating: autoDraw = False
+308.8427 	EXP 	slider_cong: autoDraw = False
+308.8427 	EXP 	image_blank: autoDraw = True
+311.0929 	EXP 	cross_25: autoDraw = True
+311.3431 	EXP 	cross_25: autoDraw = False
+311.6476 	INFO 	Keyboard events cleared
+311.6474 	EXP 	image_blank: autoDraw = False
+311.6474 	EXP 	cross_25: autoDraw = False
+311.6474 	EXP 	image_blank: autoDraw = False
+311.6474 	EXP 	image_scene_encode: image = 'Scenes_Dataset/stationary_store_A.jpg'
+311.6474 	EXP 	image_object_encode: image = 'Objects_Dataset/scissors.jpg'
+311.6474 	EXP 	slider_cong: markerPos = None
+311.6474 	EXP 	slider_cong: markerPos = None
+311.6474 	EXP 	image_scene_encode: autoDraw = True
+311.6474 	EXP 	image_object_encode: autoDraw = True
+311.8824 	DATA 	Keypress: x
+311.8933 	INFO 	Keyboard events cleared
+311.8931 	EXP 	image_scene_encode: autoDraw = False
+311.8931 	EXP 	image_object_encode: autoDraw = False
+311.8931 	EXP 	text_rating: autoDraw = False
+311.8931 	EXP 	slider_cong: autoDraw = False
+311.8931 	EXP 	text_pausa1: autoDraw = True
+314.3638 	DATA 	Keypress: space
+314.3770 	EXP 	text_pausa1: autoDraw = False
+314.3770 	EXP 	text_explanation_GoNo: autoDraw = True
+315.3669 	EXP 	window1: mouseVisible = True
+315.3841 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.5)
+315.3843 	EXP 	window1: mouseVisible = True
+315.3887 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+315.3889 	EXP 	window1: mouseVisible = True
+315.3901 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+315.3903 	EXP 	window1: mouseVisible = True
+315.4158 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_1.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.75, 1.75]), texRes=128, units='height', win=Window(...))
+315.4161 	EXP 	window1: mouseVisible = True
+315.4403 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_2.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.75, 1.75]), texRes=128, units='height', win=Window(...))
+315.4406 	EXP 	window1: mouseVisible = True
+315.4630 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_3.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.75, 1.75]), texRes=128, units='height', win=Window(...))
+315.4632 	EXP 	window1: mouseVisible = True
+315.4801 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_4.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.75, 1.75]), texRes=128, units='height', win=Window(...))
+315.4804 	EXP 	window1: mouseVisible = True
+315.5024 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/NoGo_stim.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.5, 1.5]), texRes=128, units='height', win=Window(...))
+315.5102 	EXP 	text_explanation_GoNo: autoDraw = False
+315.5102 	EXP 	text_explanation_GoNo: autoDraw = False
+335.2241 	DATA 	Keypress: space
+335.2463 	EXP 	window1: mouseVisible = True
+335.2586 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='INSTRUÇÕES', units='height', win=Window(...), wrapWidth=1)
+335.2599 	EXP 	window1: mouseVisible = True
+335.2763 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='PRIMA ESPAÇO quando vir:', units='height', win=Window(...), wrapWidth=1)
+335.2776 	EXP 	window1: mouseVisible = True
+335.2961 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_1.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([-0.4 ,  0.15]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+335.2967 	EXP 	window1: mouseVisible = True
+335.3196 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_2.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([-0.13,  0.15]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+335.3202 	EXP 	window1: mouseVisible = True
+335.3424 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_3.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0.13, 0.15]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+335.3430 	EXP 	window1: mouseVisible = True
+335.3601 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/Go_stim_4.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0.4 , 0.15]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+335.3607 	EXP 	window1: mouseVisible = True
+335.3665 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.05]), rgb=UNKNOWN, text='NÃO PRIMA quando vir:', units='height', win=Window(...), wrapWidth=1)
+335.3677 	EXP 	window1: mouseVisible = True
+335.3907 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image='go_nogo_stim/NoGo_stim.png', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), size=array([0.15, 0.15]), texRes=128, units='height', win=Window(...))
+335.3913 	EXP 	window1: mouseVisible = True
+335.4038 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 0.  , -0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+369.6641 	DATA 	Keypress: space
+371.5169 	DATA 	No keypress (maxWait exceeded)
+371.5603 	EXP 	unnamed TextStim: height = 0.07
+371.5603 	EXP 	unnamed TextStim: height = 0.07
+371.5603 	EXP 	unnamed TextStim: height = 0.07
+371.5603 	EXP 	unnamed TextStim: text = '✗ Demasiado lento'
+371.5603 	EXP 	unnamed TextStim: foreColor = 'red'
+374.7225 	DATA 	No keypress (maxWait exceeded)
+374.7557 	EXP 	unnamed TextStim: height = 0.07
+374.7557 	EXP 	unnamed TextStim: height = 0.07
+374.7557 	EXP 	unnamed TextStim: height = 0.07
+374.7557 	EXP 	unnamed TextStim: text = '✓ Correcto!'
+374.7557 	EXP 	unnamed TextStim: foreColor = 'green'
+377.9328 	DATA 	No keypress (maxWait exceeded)
+377.9583 	EXP 	unnamed TextStim: height = 0.07
+377.9583 	EXP 	unnamed TextStim: height = 0.07
+377.9583 	EXP 	unnamed TextStim: height = 0.07
+377.9583 	EXP 	unnamed TextStim: text = '✗ Demasiado lento'
+377.9583 	EXP 	unnamed TextStim: foreColor = 'red'
+381.1349 	DATA 	No keypress (maxWait exceeded)
+381.1575 	EXP 	unnamed TextStim: text = '✗ Demasiado lento'
+381.1575 	EXP 	unnamed TextStim: foreColor = 'red'
+384.3319 	DATA 	No keypress (maxWait exceeded)
+384.3567 	EXP 	unnamed TextStim: height = 0.07
+384.3567 	EXP 	unnamed TextStim: height = 0.07
+384.3567 	EXP 	unnamed TextStim: height = 0.07
+384.3567 	EXP 	unnamed TextStim: text = '✓ Correcto!'
+384.3567 	EXP 	unnamed TextStim: foreColor = 'green'
+387.5331 	DATA 	No keypress (maxWait exceeded)
+387.5583 	EXP 	unnamed TextStim: height = 0.07
+387.5583 	EXP 	unnamed TextStim: height = 0.07
+387.5583 	EXP 	unnamed TextStim: height = 0.07
+387.5583 	EXP 	unnamed TextStim: text = '✗ Demasiado lento'
+387.5583 	EXP 	unnamed TextStim: foreColor = 'red'
+388.8801 	EXP 	window1: mouseVisible = True
+388.8941 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+401.4480 	DATA 	Keypress: space
+402.9225 	DATA 	No keypress (maxWait exceeded)
+405.0860 	DATA 	No keypress (maxWait exceeded)
+407.2049 	DATA 	No keypress (maxWait exceeded)
+408.9119 	DATA 	Keypress: space
+411.1908 	DATA 	No keypress (maxWait exceeded)
+411.2840 	DATA 	Keypress: space
+412.7360 	DATA 	Keypress: space
+414.4160 	DATA 	Keypress: space
+416.2480 	DATA 	Keypress: space
+417.9599 	DATA 	Keypress: space
+419.2640 	DATA 	Keypress: space
+420.7040 	DATA 	Keypress: space
+421.9600 	DATA 	Keypress: space
+423.1920 	DATA 	Keypress: space
+425.5227 	DATA 	No keypress (maxWait exceeded)
+427.1520 	DATA 	Keypress: space
+428.7198 	DATA 	Keypress: space
+430.4479 	DATA 	Keypress: space
+432.5360 	DATA 	Keypress: space
+434.4479 	DATA 	Keypress: space
+436.6061 	DATA 	No keypress (maxWait exceeded)
+438.6588 	DATA 	No keypress (maxWait exceeded)
+440.7981 	DATA 	No keypress (maxWait exceeded)
+442.9049 	DATA 	No keypress (maxWait exceeded)
+445.2274 	DATA 	No keypress (maxWait exceeded)
+446.4160 	DATA 	Keypress: space
+448.2479 	DATA 	Keypress: space
+449.7920 	DATA 	Keypress: space
+451.3360 	DATA 	Keypress: space
+453.3199 	DATA 	Keypress: space
+454.8320 	DATA 	Keypress: space
+456.4320 	DATA 	Keypress: space
+457.8479 	DATA 	Keypress: space
+460.0608 	DATA 	No keypress (maxWait exceeded)
+460.1880 	DATA 	Keypress: space
+461.6800 	DATA 	Keypress: space
+463.0560 	DATA 	Keypress: space
+464.4000 	DATA 	Keypress: space
+465.9840 	DATA 	Keypress: space
+467.5919 	DATA 	Keypress: space
+469.5822 	DATA 	No keypress (maxWait exceeded)
+471.0879 	DATA 	Keypress: space
+473.0718 	DATA 	Keypress: space
+474.4961 	DATA 	Keypress: space
+475.8879 	DATA 	Keypress: space
+477.5280 	DATA 	Keypress: space
+479.5979 	DATA 	No keypress (maxWait exceeded)
+481.9476 	DATA 	No keypress (maxWait exceeded)
+483.8857 	DATA 	No keypress (maxWait exceeded)
+486.1439 	DATA 	Keypress: space
+488.0319 	DATA 	Keypress: space
+489.5359 	DATA 	Keypress: space
+491.2639 	DATA 	Keypress: space
+492.8800 	DATA 	Keypress: space
+495.1317 	DATA 	No keypress (maxWait exceeded)
+496.5679 	DATA 	Keypress: space
+497.8480 	DATA 	Keypress: space
+500.1322 	DATA 	No keypress (maxWait exceeded)
+501.4560 	DATA 	Keypress: space
+503.0080 	DATA 	Keypress: space
+504.6480 	DATA 	Keypress: space
+506.0560 	DATA 	Keypress: space
+508.2812 	DATA 	No keypress (maxWait exceeded)
+510.5236 	DATA 	No keypress (maxWait exceeded)
+512.1760 	DATA 	Keypress: space
+514.4207 	DATA 	No keypress (maxWait exceeded)
+514.5208 	DATA 	Keypress: space
+515.8799 	DATA 	Keypress: space
+517.4640 	DATA 	Keypress: space
+519.7662 	DATA 	No keypress (maxWait exceeded)
+521.3840 	DATA 	Keypress: space
+523.0239 	DATA 	Keypress: space
+524.5679 	DATA 	Keypress: space
+526.1039 	DATA 	Keypress: space
+527.9119 	DATA 	Keypress: space
+529.5680 	DATA 	Keypress: space
+531.4880 	DATA 	Keypress: space
+533.2079 	DATA 	Keypress: space
+534.7760 	DATA 	Keypress: space
+536.5280 	DATA 	Keypress: space
+538.0718 	DATA 	Keypress: space
+539.4480 	DATA 	Keypress: space
+540.9440 	DATA 	Keypress: space
+542.3039 	DATA 	Keypress: space
+543.9039 	DATA 	Keypress: space
+545.8078 	DATA 	Keypress: space
+547.2240 	DATA 	Keypress: space
+548.8719 	DATA 	Keypress: space
+550.9911 	DATA 	No keypress (maxWait exceeded)
+552.5678 	DATA 	Keypress: space
+554.0799 	DATA 	Keypress: space
+555.7359 	DATA 	Keypress: space
+557.3919 	DATA 	Keypress: space
+559.3359 	DATA 	Keypress: space
+561.0159 	DATA 	Keypress: space
+562.5680 	DATA 	Keypress: space
+563.9918 	DATA 	Keypress: space
+565.4959 	DATA 	Keypress: space
+567.3120 	DATA 	Keypress: space
+568.6240 	DATA 	Keypress: space
+570.5359 	DATA 	Keypress: space
+572.1439 	DATA 	Keypress: space
+574.3309 	DATA 	No keypress (maxWait exceeded)
+574.8912 	EXP 	window1: mouseVisible = True
+574.9458 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.8)
+614.9120 	DATA 	Keypress: space
+614.9209 	EXP 	window1: mouseVisible = True
+614.9404 	INFO 	saved data to /Users/vera/Documents/GitHub/SEED/data/test_1102_1_Full_PT_2026-02-11_11h09.26.345.psydat
+614.9516 	INFO 	saved data to '/Users/vera/Documents/GitHub/SEED/data/test_1102_1_Full_PT_2026-02-11_11h09.26.345.csv'
+614.9524 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9525 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9526 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+614.9527 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

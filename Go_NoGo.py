@@ -29,7 +29,7 @@ def run_gonogo_task(win=None):
         text="BEM-VINDO À TAREFA GO/NO GO\n\nPrima ESPAÇO para continuar",
         color='black', height=0.06, wrapWidth=1.5)
     
-    fixation = visual.TextStim(win, text="+", color='black', height=0.1)
+    fixation = visual.TextStim(win, text="+", color='black', height=0.1) #CHANGE?
     feedback = visual.TextStim(win, text="", color='black', height=0.07)
     
     GO_IMAGES = [
