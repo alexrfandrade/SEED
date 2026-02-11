@@ -409,11 +409,6 @@ def run_gonogo_task(win=None):
         • Falsos alarmes: {false_alarms}
         • Tempo médio reação (Go): {correct_go_rt:.3f}s
         
-        Resultados por Tipo de Go:
-        • Círculo Verde: {go_stats.get('go_circle', {}).get('hits', 0)}/{go_stats.get('go_circle', {}).get('total', 0)} acertos
-        • Quadrado Azul: {go_stats.get('go_square', {}).get('hits', 0)}/{go_stats.get('go_square', {}).get('total', 0)} acertos
-        • Triângulo Amarelo: {go_stats.get('go_triangle', {}).get('hits', 0)}/{go_stats.get('go_triangle', {}).get('total', 0)} acertos
-        
         Obrigada por participar.
         
         Prima ESPAÇO para sair
