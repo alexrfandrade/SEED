@@ -9,7 +9,7 @@ import sys
 
 def run_gonogo_task(win=None):
     if win is None:
-        win = visual.Window([800, 600], color='gray', fullscr=False)
+        win = visual.Window([900, 800], color='gray', fullscr=False)
 
     # Parameters
     N_TRIALS = 100
@@ -27,10 +27,10 @@ def run_gonogo_task(win=None):
     
     welcome_text = visual.TextStim(win, 
         text="BEM-VINDO À TAREFA GO/NO GO\n\nPrima ESPAÇO para continuar",
-        color='black', height=0.06, wrapWidth=1.5)
+        color='white', height=0.1, wrapWidth=1.75)
     
-    fixation = visual.TextStim(win, text="+", color='black', height=0.1) #CHANGE?
-    feedback = visual.TextStim(win, text="", color='black', height=0.07)
+    fixation = visual.TextStim(win, text="+", color='white', height=0.25) #CHANGE?
+    feedback = visual.TextStim(win, text="", color='white', height=0.07)
     
     GO_IMAGES = [
         {
@@ -83,7 +83,7 @@ def run_gonogo_task(win=None):
     for go_img in GO_IMAGES:
         image_path = os.path.join(IMAGE_FOLDER, go_img['filename'])
         if os.path.exists(image_path):
-            stim = visual.ImageStim(win, image=image_path, size=(1.75, 1.75))
+            stim = visual.ImageStim(win, image=image_path, size=(1.25, 1.25))
             go_stimuli.append({
                 'name': go_img['name'],
                 'stim': stim,
@@ -107,7 +107,7 @@ def run_gonogo_task(win=None):
     for nogo_img in NOGO_IMAGES:
         image_path = os.path.join(IMAGE_FOLDER, nogo_img['filename'])
         if os.path.exists(image_path):
-            stim = visual.ImageStim(win, image=image_path, size=(1.5, 1.5))
+            stim = visual.ImageStim(win, image=image_path, size=(1.25, 1.25))
             nogo_stimuli.append({
                 'name': nogo_img['name'],
                 'stim': stim,
@@ -139,7 +139,7 @@ def run_gonogo_task(win=None):
         # Instrução para GO
         go_text = visual.TextStim(win, 
             text="PRIMA ESPAÇO quando vir:", 
-            color='black', height=0.045, pos=(0, 0.3))
+            color='white', height=0.05, pos=(0, 0.3))
         go_text.draw()
         
         # Mostrar as 4 imagens GO em linha
@@ -148,26 +148,26 @@ def run_gonogo_task(win=None):
             img_path = os.path.join(IMAGE_FOLDER, go_stim['filename'])
             if os.path.exists(img_path):
                 img = visual.ImageStim(win, image=img_path, 
-                                       size=(0.15, 0.15), pos=go_positions[i])
+                                       size=(0.25, 0.25), pos=go_positions[i])
                 img.draw()
         
         # Instrução para NOGO
         nogo_text = visual.TextStim(win, 
             text="NÃO PRIMA quando vir:", 
-            color='black', height=0.045, pos=(0, -0.05))
+            color='white', height=0.05, pos=(0, -0.05))
         nogo_text.draw()
         
         # Mostrar a imagem NOGO sozinha
         if nogo_stimuli and os.path.exists(os.path.join(IMAGE_FOLDER, nogo_stimuli[0]['filename'])):
             nogo_img = visual.ImageStim(win, 
                 image=os.path.join(IMAGE_FOLDER, nogo_stimuli[0]['filename']), 
-                size=(0.15, 0.15), pos=(0, -0.2))
+                size=(0.25, 0.25), pos=(0, -0.2))
             nogo_img.draw()
         
         # Instrução final
         final_text = visual.TextStim(win,
             text="Terá 1 segundo para responder\n\nPrima ESPAÇO para começar", 
-            color='black', height=0.045, pos=(0, -0.35))
+            color='white', height=0.045, pos=(0, -0.35))
         final_text.draw()
         
         win.flip()
@@ -224,8 +224,7 @@ def run_gonogo_task(win=None):
             key, rt = keys[0]
             if key == 'escape':
                 print(" Experiência cancelada")
-                win.close()
-                core.quit()
+                return None
             response = key
         
         # Feedback
@@ -425,7 +424,3 @@ def run_gonogo_task(win=None):
     # Fechar
     print("\n Experiência finalizada")
     return results
-
-# Para executar diretamente
-if __name__ == "__main__":
-    run_gonogo_task()

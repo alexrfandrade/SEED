@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2024.2.1">
+<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
   <Settings>
-    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
     <Param val="" valType="str" updates="None" name="Completed URL"/>
     <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
@@ -47,6 +46,7 @@
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
     <Param val="Full_PT" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
     <Param val="" valType="code" updates="None" name="frameRate"/>
@@ -61,9 +61,7 @@
     <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
     <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
     <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
-    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
     <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
-    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
     <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
     <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
     <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
@@ -127,7 +125,6 @@
       <KeyboardComponent name="key_welcome" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -192,7 +189,6 @@
       <KeyboardComponent name="key_explain_PAL" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -284,7 +280,6 @@
       <KeyboardComponent name="key_start_PAL" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -461,7 +456,6 @@
       <KeyboardComponent name="key_rate" plugin="None">
         <Param val="'z','x','c','num_1','num_2','num_3'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -602,7 +596,6 @@
       <KeyboardComponent name="key_Start_Cog" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -815,7 +808,6 @@
       <KeyboardComponent name="key_end_cog" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -880,7 +872,6 @@
       <KeyboardComponent name="key_resp" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -945,7 +936,6 @@
       <KeyboardComponent name="key_continue" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1010,7 +1000,6 @@
       <KeyboardComponent name="key_resp_2" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1077,7 +1066,6 @@
       <KeyboardComponent name="key_2AFC" plugin="None">
         <Param val="'up','down'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="$correct_key_AFC" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1312,7 +1300,6 @@
       <KeyboardComponent name="key_ex_rate" plugin="None">
         <Param val="'z','x','c','num_1','num_2','num_3'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1377,7 +1364,6 @@
       <KeyboardComponent name="key_explain_rate" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1442,7 +1428,6 @@
       <KeyboardComponent name="key_explain_old" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1509,7 +1494,6 @@
       <KeyboardComponent name="key_ex_old" plugin="None">
         <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1601,7 +1585,6 @@
       <KeyboardComponent name="key_start_recall" plugin="None">
         <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1666,7 +1649,6 @@
       <KeyboardComponent name="key_end_explain_2afc" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1791,7 +1773,6 @@
       <KeyboardComponent name="key_ex_2AFC" plugin="None">
         <Param val="'up','down'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -1985,7 +1966,6 @@
       <KeyboardComponent name="key_item" plugin="None">
         <Param val="'left','right'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="$correct_key_old" valType="str" updates="constant" name="correctAns"/>
-        <Param val="" valType="str" updates="None" name="deviceLabel"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
@@ -2053,7 +2033,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="import {run_gonogo_task} from 'Go_NoGo';&amp;#10;sys.path.push(&quot;caminho/para/pasta&quot;);&amp;#10;resultados = run_gonogo_task({&quot;win&quot;: psychoJS.window});&amp;#10;for (var r, _pj_c = 0, _pj_a = resultados, _pj_b = _pj_a.length; (_pj_c &lt; _pj_b); _pj_c += 1) {&amp;#10;    r = _pj_a[_pj_c];&amp;#10;    psychoJS.experiment.addData(&quot;trial_type&quot;, r[&quot;type&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;response&quot;, r[&quot;response&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;rt&quot;, r[&quot;rt&quot;]);&amp;#10;    psychoJS.experiment.addData(&quot;correct&quot;, r[&quot;correct&quot;]);&amp;#10;    psychoJS.experiment.nextEntry();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# Importa a função&amp;#10;sys.path.append('caminho/para/pasta')  &amp;#10;from Go_NoGo import run_gonogo_task&amp;#10;&amp;#10;# Roda a tarefa go nogo na janela do Builder&amp;#10;resultados = run_gonogo_task(win=win)&amp;#10;&amp;#10;# Guarda os dados na experiência&amp;#10;for r in resultados:&amp;#10;    thisExp.addData('trial_type', r['type'])&amp;#10;    thisExp.addData('response', r['response'])&amp;#10;    thisExp.addData('rt', r['rt'])&amp;#10;    thisExp.addData('correct', r['correct'])&amp;#10;    thisExp.nextEntry()" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="# Importa a função&amp;#10;import sys&amp;#10;sys.path.append('caminho/para/pasta')&amp;#10;from Go_NoGo import run_gonogo_task&amp;#10;&amp;#10;# Roda a tarefa na janela existente&amp;#10;resultados = run_gonogo_task(win)&amp;#10;&amp;#10;# (Opcional) Verificar se correu bem&amp;#10;if resultados is None:&amp;#10;    print(&quot;⚠️ Tarefa cancelada pelo utilizador ou erro.&quot;)&amp;#10;else:&amp;#10;    print(f&quot;✅ Tarefa concluída. {len(resultados)} ensaios registados.&quot;)" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
