@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2024.2.1),
-    on Sat Feb 21 13:27:36 2026
+This experiment was created using PsychoPy3 Experiment Builder (v2024.2.5),
+    on março 06, 2026, at 15:43
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -38,7 +38,7 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2024.2.1'
+psychopyVersion = '2024.2.5'
 expName = 'Full_PT'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
@@ -125,7 +125,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/vera/Documents/GitHub/SEED/SEED_EEG_lastrun.py',
+        originPath='C:\\Users\\IBEB\\Documents\\GitHub\\SEED\\SEED_EEG_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -193,11 +193,11 @@ def setupWindow(expInfo=None, win=None):
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowStencil=False,
+            winType='pyglet', allowGUI=False, allowStencil=False,
             monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
-            units='height', 
+            units='height',
             checkTiming=False  # we're going to do this ourselves in a moment
         )
     else:
@@ -212,7 +212,6 @@ def setupWindow(expInfo=None, win=None):
         if win._monitorFrameRate is None:
             win._monitorFrameRate = win.getActualFrameRate(infoMsg='Attempting to measure frame rate of screen, please wait...')
         expInfo['frameRate'] = win._monitorFrameRate
-    win.mouseVisible = False
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
     if PILOTING and prefs.piloting['showPilotingIndicator']:
@@ -434,6 +433,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     """
     # mark experiment as started
     thisExp.status = STARTED
+    # make sure window is set to foreground to prevent losing focus
+    win.winHandle.activate()
     # make sure variables created by exec are available globally
     exec = environmenttools.setExecEnvironment(globals())
     # get device handles from dict of input devices
@@ -2502,8 +2503,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             
             # Run 'Each Frame' code from EEG_rating
             if key_rate.status == STARTED and key_rate.keys and not hasattr(key_rate, 'trigger_sent'):
-                rcs.sendAnnotation('Response', str(key_rate.keys))
-                rcs.sendAnnotation('RT', str(key_rate.rt))
+                
+                ## Send response marker
+                rcs.sendAnnotation('Rating', str(key_rate.keys))
+                ## Send RT marker - removed because unnecessary
+                #rt_ms= int (key_rate.rt * 1000)
+                #rcs.sendAnnotation(f"RT_{rt_ms}", "Response")
+                
                 key_rate.trigger_sent = True
             
             
@@ -4347,12 +4353,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     text_item.setAutoDraw(False)
             # Run 'Each Frame' code from code_EEG_old
             if image_old_new.status == STARTED and not hasattr(image_old_new, 'trigger_sent'):
-                rcs.sendAnnotation('Stim', image_old_new.image)
+                rcs.sendAnnotation('Item', image_old_new.image)
                 image_old_new.trigger_sent = True
             # Run 'Each Frame' code from EEG_key_old
             if key_item.status == STARTED and key_item.keys and not hasattr(key_item, 'item_trigger_sent'):
                 rcs.sendAnnotation('Resp_Item', str(key_item.keys))
-                rcs.sendAnnotation('RT_Item', str(key_item.rt))
+                #rcs.sendAnnotation('RT_Item', str(key_item.rt))
                 key_item.item_trigger_sent = True
             
             
@@ -5687,13 +5693,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     image_lure.setAutoDraw(False)
             # Run 'Each Frame' code from EEG_image_AFC
             if image_target.status == STARTED and not hasattr(image_target, 'trigger_sent'):
-                rcs.sendAnnotation('Stim', image_target.image)
+                rcs.sendAnnotation('AFC', image_target.image)
                 image_target.trigger_sent = True
             
             # Run 'Each Frame' code from EEG_Key_2AFC
             if key_2AFC.status == STARTED and key_2AFC.keys and not hasattr(key_2AFC, 'asso_trigger_sent'):
                 rcs.sendAnnotation('Resp_Asso', str(key_2AFC.keys))
-                rcs.sendAnnotation('RT_Asso', str(key_2AFC.rt))
+                #rcs.sendAnnotation('RT_Asso', str(key_2AFC.rt))
                 key_rate.asso_trigger_sent = True
             
             
