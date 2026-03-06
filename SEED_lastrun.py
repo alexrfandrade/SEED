@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.1),
-    on Sat Feb 21 17:22:36 2026
+    on Tue Feb 24 10:31:22 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -483,7 +483,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_explain_rate = visual.TextStim(win=win, name='text_explain_rate',
         text="Prime a tecla indicada como '1', '2', ou '3' no teclado numérico (ao lado das flechas) para selecionar o nível de associação do par. Tens 2,5 SEGUNDOS para responderes. Se não conseguires responder a tempo ou te enganares em alguma(s), não faz mal. Continua e faz o teu melhor!\n\nPrime ESPAÇO para um exemplo",
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.5, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.25, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
