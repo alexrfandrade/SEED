@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.1),
-    on Tue Feb 24 10:31:22 2026
+    on Thu Apr 23 21:16:16 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -461,7 +461,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Welcome" ---
     text_hi = visual.TextStim(win=win, name='text_hi',
-        text='Bem-vindo!\n\nObrigada por participar nesta experiência.\n\n\n\nPrime ESPAÇO para avançar',
+        text='Bem-vindo!\n\nObrigada por participar nesta experiência. \n\n\n\nPrime ESPAÇO para avançar',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -1494,10 +1494,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         Example_PAL.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        image_ex_scene.setSize(scene_size)
-        image_ex_scene.setImage(scene_encode)
-        image_ex_object.setSize(object_size)
-        image_ex_object.setImage(object_encode)
+        image_ex_scene.setSize(ex_scene_size)
+        image_ex_scene.setImage(ex_scene_encode)
+        image_ex_object.setSize(ex_object_size)
+        image_ex_object.setImage(ex_object_encode)
         slider_example.reset()
         # create starting attributes for key_ex_rate
         key_ex_rate.keys = []
@@ -1958,7 +1958,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         extraInfo=expInfo, 
         originPath=-1, 
         trialList=data.importConditions(
-        'encode_pairs.xlsx', 
+        'Encode_Pairs.xlsx', 
         selection='0:60'
     )
     , 
@@ -2146,13 +2146,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         Encode.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        image_scene_encode.setSize(scene_size)
-        image_scene_encode.setImage(scene)
-        image_object_encode.setSize(object_size)
-        image_object_encode.setImage(object_encode)
+        image_scene_encode.setSize(Scene_Size)
+        image_scene_encode.setImage(Scene)
+        image_object_encode.setSize(Object_Size)
+        image_object_encode.setImage(Object_Encode)
         # Run 'Begin Routine' code from code_debugPAL
-        print(f"trial {trial_encode.thisN}, image = {scene}")
-        print(f"trial {trial_encode.thisN}, image = {object_encode}")
+        print(f"trial {trial_encode.thisN}, image = {Scene}")
+        print(f"trial {trial_encode.thisN}, image = {Object_Encode}")
         
         slider_cong.reset()
         # create starting attributes for key_rate
@@ -3841,7 +3841,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         extraInfo=expInfo, 
         originPath=-1, 
         trialList=data.importConditions(
-        'encode_pairs.xlsx', 
+        'Encode_Pairs.xlsx', 
         selection='0:90'
     )
     , 
@@ -4029,8 +4029,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         Old_New_Task.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        image_old_new.setSize(scene_size)
-        image_old_new.setImage(scene)
+        image_old_new.setSize(Scene_Size)
+        image_old_new.setImage(Scene)
         # create starting attributes for key_item
         key_item.keys = []
         key_item.rt = []
@@ -4142,7 +4142,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     key_item.rt = _key_item_allKeys[0].rt
                     key_item.duration = _key_item_allKeys[0].duration
                     # was this correct?
-                    if (key_item.keys == str(correct_key_old)) or (key_item.keys == correct_key_old):
+                    if (key_item.keys == str(Correct_Key_Old)) or (key_item.keys == Correct_Key_Old):
                         key_item.corr = 1
                     else:
                         key_item.corr = 0
@@ -4224,7 +4224,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if key_item.keys in ['', [], None]:  # No response was made
             key_item.keys = None
             # was no response the correct answer?!
-            if str(correct_key_old).lower() == 'none':
+            if str(Correct_Key_Old).lower() == 'none':
                key_item.corr = 1;  # correct non-response
             else:
                key_item.corr = 0;  # failed to respond (incorrectly)
@@ -4538,11 +4538,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions(
-        'Exemplo_encode.xlsx', 
-        selection='0:60'
-    )
-    , 
+        trialList=data.importConditions('Exemplo_encode.xlsx'), 
         seed=None, 
     )
     thisExp.addLoop(trial_ex_2AFC)  # add the loop to the experiment
@@ -4727,14 +4723,14 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         Exemplo_2AFC.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        image_ex_2AFC.setSize(scene_size)
-        image_ex_2AFC.setImage(scene_encode)
-        image_ex_target.setPos(target_pos)
-        image_ex_target.setSize(object_size)
-        image_ex_target.setImage(object_encode)
-        image_ex_lure.setPos(lure_pos)
-        image_ex_lure.setSize(lure_size)
-        image_ex_lure.setImage(lure)
+        image_ex_2AFC.setSize(ex_scene_size)
+        image_ex_2AFC.setImage(ex_scene_encode)
+        image_ex_target.setPos(ex_target_pos)
+        image_ex_target.setSize(ex_object_size)
+        image_ex_target.setImage(ex_object_encode)
+        image_ex_lure.setPos(ex_lure_pos)
+        image_ex_lure.setSize(ex_lure_size)
+        image_ex_lure.setImage(ex_lure)
         # create starting attributes for key_ex_2AFC
         key_ex_2AFC.keys = []
         key_ex_2AFC.rt = []
@@ -5124,7 +5120,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         extraInfo=expInfo, 
         originPath=-1, 
         trialList=data.importConditions(
-        'encode_pairs.xlsx', 
+        'Encode_Pairs.xlsx', 
         selection='0:60'
     )
     , 
@@ -5312,18 +5308,18 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         trial_2AFC.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        image_scene_2AFC.setSize(scene_size)
-        image_scene_2AFC.setImage(scene)
+        image_scene_2AFC.setSize(Scene_Size)
+        image_scene_2AFC.setImage(Scene)
         # create starting attributes for key_2AFC
         key_2AFC.keys = []
         key_2AFC.rt = []
         _key_2AFC_allKeys = []
-        image_target.setPos(target_pos)
-        image_target.setSize(object_size)
-        image_target.setImage(object_encode)
-        image_lure.setPos(lure_pos)
-        image_lure.setSize(lure_size)
-        image_lure.setImage(lure)
+        image_target.setPos(Target_pos)
+        image_target.setSize(Object_Size)
+        image_target.setImage(Object_Encode)
+        image_lure.setPos(Lure_pos)
+        image_lure.setSize(Lure_size)
+        image_lure.setImage(Obj_Lure)
         # Run 'Begin Routine' code from code_debug_2AFC
         print(f"trial {trial_asso.thisN}, image = {image_scene_2AFC}")
         print(f"trial {trial_asso.thisN}, image = {image_target}")
@@ -5435,7 +5431,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     key_2AFC.rt = _key_2AFC_allKeys[0].rt
                     key_2AFC.duration = _key_2AFC_allKeys[0].duration
                     # was this correct?
-                    if (key_2AFC.keys == str(correct_key_AFC)) or (key_2AFC.keys == correct_key_AFC):
+                    if (key_2AFC.keys == str(Correct_key_AFC)) or (key_2AFC.keys == Correct_key_AFC):
                         key_2AFC.corr = 1
                     else:
                         key_2AFC.corr = 0
@@ -5551,7 +5547,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if key_2AFC.keys in ['', [], None]:  # No response was made
             key_2AFC.keys = None
             # was no response the correct answer?!
-            if str(correct_key_AFC).lower() == 'none':
+            if str(Correct_key_AFC).lower() == 'none':
                key_2AFC.corr = 1;  # correct non-response
             else:
                key_2AFC.corr = 0;  # failed to respond (incorrectly)
