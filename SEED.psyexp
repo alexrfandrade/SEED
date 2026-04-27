@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2024.2.5">
+<PsychoPy2experiment encoding="utf-8" version="2024.2.1">
   <Settings>
     <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
@@ -26,7 +26,7 @@
     <Param val="False" valType="bool" updates="None" name="Show mouse"/>
     <Param val="height" valType="str" updates="None" name="Units"/>
     <Param val="" valType="str" updates="None" name="Use version"/>
-    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
     <Param val="none" valType="str" updates="None" name="backgroundFit"/>
     <Param val="" valType="str" updates="None" name="backgroundImg"/>
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
@@ -46,7 +46,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="Full_PT" valType="str" updates="None" name="expName"/>
+    <Param val="SEED" valType="str" updates="None" name="expName"/>
     <Param val="" valType="str" updates="None" name="expVersion"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
@@ -367,7 +367,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(300, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="Object_Size" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1252,7 +1252,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(300, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="ex_object_size" valType="list" updates="set every repeat" name="size"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1455,7 +1455,7 @@
         <Param val="No primeiro teste de memória, vamos apresentar imagens de locais.&amp;#10;&amp;#10;Se reconheceres a imagem como sendo uma das que viste na primeira tarefa, prime a FLECHA ESQUERDA '&lt;-'&amp;#10;&amp;#10;Se a imagem for nova, que não faz parte das imagens que aprendeste, então prime a FLECHA DIREITA '-&gt;'&amp;#10;&amp;#10;Tens 3 SEGUNDOS para responder o mais acertadamente possível. Se não conseguires responder a tempo ou errares alguma(s), não faz mal, continua. Faz o teu melhor!&amp;#10;&amp;#10;Prime ESPAÇO para um exemplo" valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.6" valType="num" updates="constant" name="wrapWidth"/>
+        <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="key_explain_old" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
@@ -1511,7 +1511,7 @@
         <Param val="image_exemplo_old_new" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, -0.12)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="scene_size" valType="list" updates="set every repeat" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1679,7 +1679,7 @@
         <Param val="Vão aparecer três imagens: um local que viste anteriormente, e dois objetos. Um dos objetos viste antes associado ao local, durante a primeira tarefa. &amp;#10;&amp;#10;Se o objeto associado estiver em cima, prime a FLECHA de CIMA. &amp;#10;Se o objeto associado for o de baixo, prime a FLECHA de BAIXO.&amp;#10;&amp;#10;Tens 3 SEGUNDOS para responder o mais acertadamente possível. Se não conseguires responder a tempo ou errares alguma(s), não faz mal, continua. Faz o teu melhor!&amp;#10;&amp;#10;Prime ESPAÇO para um exemplo. " valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.6" valType="num" updates="constant" name="wrapWidth"/>
+        <Param val="1.3" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <KeyboardComponent name="key_end_explain_2afc" plugin="None">
         <Param val="'y','n','left','right','space'" valType="list" updates="constant" name="allowedKeys"/>
@@ -2090,7 +2090,7 @@
     <Routine name="Explain_Rating"/>
     <LoopInitiator loopType="TrialHandler" name="exemplo_PAL">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'Index': 1, 'scene_encode': 'Scenes_Dataset/movie_theater_A.jpg', 'scene_size': (600, 364), 'object_encode': 'Objects_Dataset/airplane_belt.png', 'object_size': (350, 268), 'target_pos': (300, -200), 'condition_encode': 'congruent', 'lure': 'Objects_Dataset/3d_glasses_retouched.png', 'lure_size': (300, 300), 'lure_pos': (300, 200), 'ex_new': 'Scenes_Dataset/building_entrance_A.jpg', 'new_scene_size': (600, 400), 'jitter_ITI': 2}, {'Index': 2, 'scene_encode': 'Scenes_Dataset/museum_A.jpg', 'scene_size': (600, 337), 'object_encode': 'Objects_Dataset/basketball.png', 'object_size': (300, 300), 'target_pos': (300, 200), 'condition_encode': 'incongruent', 'lure': 'Objects_Dataset/abacus.png', 'lure_size': (300, 300), 'lure_pos': (300, -200), 'ex_new': 'Scenes_Dataset/boat_interior_A.jpg', 'new_scene_size': (600, 400), 'jitter_ITI': 2.5}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Index': 'Ex1', 'ex_scene_encode': 'Scenes_Dataset/sky_A.jpg', 'ex_scene_size': (600, 398), 'ex_object_encode': 'Objects_Dataset/hang_glider.png', 'ex_object_size': (450, 275), 'ex_target_pos': (300, -200), 'ex_condition_encode': 'congruent', 'ex_lure': 'Objects_Dataset/drone.png', 'ex_lure_size': (300, 144), 'ex_lure_pos': (300, 200), 'ex_new': 'Scenes_Dataset/temple_A.jpg', 'ex_new_scene_size': (600, 358), 'jitter_ITI': 2}, {'Index': 'Ex2', 'ex_scene_encode': 'Scenes_Dataset/painting_workshop_A.jpg', 'ex_scene_size': (600, 450), 'ex_object_encode': 'Objects_Dataset/fish_hook.png', 'ex_object_size': (130, 200), 'ex_target_pos': (300, 200), 'ex_condition_encode': 'incongruent', 'ex_lure': 'Objects_Dataset/barrier.png', 'ex_lure_size': (300, 300), 'ex_lure_pos': (300, -200), 'ex_new': 'Scenes_Dataset/athletics_track_A', 'ex_new_scene_size': (600, 450), 'jitter_ITI': 2.5}, {'Index': 'Ex3', 'ex_scene_encode': 'Scenes_Dataset/cellars_A.jpg', 'ex_scene_size': (600, 399), 'ex_object_encode': 'Objects_Dataset/barrier.png', 'ex_object_size': (300, 300), 'ex_target_pos': (300, -200), 'ex_condition_encode': 'incongruent', 'ex_lure': 'Objects_Dataset/hang_glider.png', 'ex_lure_size': (450, 275), 'ex_lure_pos': (300, 200), 'ex_new': None, 'ex_new_scene_size': None, 'jitter_ITI': 3}, {'Index': 'Ex4', 'ex_scene_encode': 'Scenes_Dataset/river_B.jpg', 'ex_scene_size': (600, 450), 'ex_object_encode': 'Objects_Dataset/drone.png', 'ex_object_size': (300, 144), 'ex_target_pos': (300, 200), 'ex_condition_encode': 'congruent', 'ex_lure': 'Objects_Dataset/fish_hook.png', 'ex_lure_size': (130, 200), 'ex_lure_pos': (300, -200), 'ex_new': None, 'ex_new_scene_size': None, 'jitter_ITI': 2.5}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="Exemplo_encode.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -2125,7 +2125,7 @@
     <Routine name="Explain_Old_New"/>
     <LoopInitiator loopType="TrialHandler" name="trial_ex_old">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'Index': 1, 'ex_scene_old_new': 'Scenes_Dataset/movie_theater_A.jpg', 'scene_size': (600, 364), 'condition_encode': ' old', 'jitter_ITI': 2}, {'Index': 2, 'ex_scene_old_new': 'Scenes_Dataset/museum_A.jpg', 'scene_size': (600, 337), 'condition_encode': 'old', 'jitter_ITI': 3}, {'Index': 3, 'ex_scene_old_new': 'Scenes_Dataset/building_entrance_A.jpg', 'scene_size': (600, 400), 'condition_encode': 'new', 'jitter_ITI': 2.5}, {'Index': 4, 'ex_scene_old_new': 'Scenes_Dataset/boat_interior_A.jpg', 'scene_size': (600, 400), 'condition_encode': 'new', 'jitter_ITI': 3.25}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'Index': 1, 'ex_scene_old_new': 'Scenes_Dataset/sky_A.jpg', 'scene_size': (600, 398), 'condition_encode': ' old', 'jitter_ITI': 2}, {'Index': 2, 'ex_scene_old_new': 'Scenes_Dataset/painting_workshop_A.jpg', 'scene_size': (600, 450), 'condition_encode': 'old', 'jitter_ITI': 3}, {'Index': 3, 'ex_scene_old_new': 'Scenes_Dataset/temple_A.jpg', 'scene_size': (600, 358), 'condition_encode': 'new', 'jitter_ITI': 2.5}, {'Index': 4, 'ex_scene_old_new': 'Scenes_Dataset/athletics_track_A', 'scene_size': (600, 450), 'condition_encode': 'new', 'jitter_ITI': 3.25}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="Exemplo_old.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
