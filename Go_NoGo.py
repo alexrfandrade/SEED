@@ -402,13 +402,6 @@ def run_gonogo_task(win=None):
         final_text = f"""
         TAREFA COMPLETA
         
-        Resultados Gerais:
-        • Trials GO acertados: {hits}/{total_go} ({hits/total_go*100:.1f}%)
-        • Trials GO falhados: {misses}
-        • Trials NOGO corretos: {correct_rejections}/{total_nogo} ({correct_rejections/total_nogo*100:.1f}%)
-        • Falsos alarmes: {false_alarms}
-        • Tempo médio reação (Go): {correct_go_rt:.3f}s
-        
         Obrigada por participar.
         
         Prima ESPAÇO para sair
