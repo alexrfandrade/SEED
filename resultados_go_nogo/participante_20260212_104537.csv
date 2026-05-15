@@ -1,0 +1,81 @@
+﻿trial,trial_type,stimulus_type,stimulus_description,image_filename,go_type_index,response,rt,correct,timestamp
+1,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.44037329999991925,1,2026-02-12_10h43.35.746
+2,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.284187700000075,1,2026-02-12_10h43.37.282
+3,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.2512636999999813,1,2026-02-12_10h43.38.610
+4,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.29806090000010954,1,2026-02-12_10h43.40.034
+5,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.2507639999998901,1,2026-02-12_10h43.41.282
+6,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.2682361999995919,1,2026-02-12_10h43.42.650
+7,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3035519000000022,1,2026-02-12_10h43.44.186
+8,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.2975079000002552,1,2026-02-12_10h43.45.490
+9,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3064408000000185,1,2026-02-12_10h43.46.993
+10,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.31454200000007404,1,2026-02-12_10h43.48.386
+11,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.443481900000279,1,2026-02-12_10h43.49.786
+12,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.24659139999994295,1,2026-02-12_10h43.51.314
+13,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.2425954999998794,1,2026-02-12_10h43.52.746
+14,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.31249220000017885,1,2026-02-12_10h43.54.138
+15,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.6543586000002506,1,2026-02-12_10h43.55.890
+16,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,,,0,2026-02-12_10h43.57.929
+17,go,Go_stim_1,Cruz,Go_stim_1.png,0,,,0,2026-02-12_10h43.59.833
+18,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.23171069999989413,1,2026-02-12_10h44.01.402
+19,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.2895685999997113,1,2026-02-12_10h44.02.907
+20,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3658845999998448,1,2026-02-12_10h44.04.146
+21,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.307745800000248,1,2026-02-12_10h44.05.386
+22,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.30072229999996125,1,2026-02-12_10h44.06.842
+23,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.2537881000002926,1,2026-02-12_10h44.08.330
+24,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.32254680000005465,1,2026-02-12_10h44.09.754
+25,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.4542714000003798,1,2026-02-12_10h44.11.283
+26,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.30571759999975257,1,2026-02-12_10h44.12.842
+27,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.3186691000000792,1,2026-02-12_10h44.14.330
+28,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.36376919999975144,1,2026-02-12_10h44.15.722
+29,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.28915760000018054,1,2026-02-12_10h44.17.250
+30,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3615828999995756,1,2026-02-12_10h44.18.657
+31,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3013711000003241,1,2026-02-12_10h44.20.010
+32,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3184321000003365,1,2026-02-12_10h44.21.274
+33,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.41420019999986835,1,2026-02-12_10h44.22.818
+34,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.3447584000000461,1,2026-02-12_10h44.24.331
+35,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,,,0,2026-02-12_10h44.26.522
+36,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.9872104999999465,1,2026-02-12_10h44.28.714
+37,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.27581770000006145,1,2026-02-12_10h44.30.394
+38,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.499624699999913,1,2026-02-12_10h44.32.042
+39,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.132438799999818,1,2026-02-12_10h44.33.234
+40,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3695729000000938,1,2026-02-12_10h44.34.754
+41,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.42614320000029693,1,2026-02-12_10h44.36.194
+42,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.4503992999998445,1,2026-02-12_10h44.37.690
+43,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.42631589999973585,1,2026-02-12_10h44.39.266
+44,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.26548360000015236,1,2026-02-12_10h44.40.723
+45,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.3460362000000714,1,2026-02-12_10h44.42.329
+46,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.2643364999998994,1,2026-02-12_10h44.43.867
+47,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.49353100000007544,1,2026-02-12_10h44.45.586
+48,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.7864347999998245,1,2026-02-12_10h44.47.658
+49,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.42518450000034136,1,2026-02-12_10h44.49.203
+50,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.6833228000000418,1,2026-02-12_10h44.50.962
+51,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.6507857000001422,1,2026-02-12_10h44.52.682
+52,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.4202109000002565,1,2026-02-12_10h44.54.170
+53,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3645507000001089,1,2026-02-12_10h44.55.873
+54,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.5393634000001839,1,2026-02-12_10h44.57.522
+55,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,,,0,2026-02-12_10h44.59.567
+56,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.4062306000000717,1,2026-02-12_10h45.01.210
+57,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.7266849000002367,1,2026-02-12_10h45.02.937
+58,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.4879679999999098,1,2026-02-12_10h45.04.610
+59,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.7513192000001254,1,2026-02-12_10h45.06.618
+60,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.9657001999999011,1,2026-02-12_10h45.08.674
+61,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.32725239999990663,1,2026-02-12_10h45.10.082
+62,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.25340689999984534,1,2026-02-12_10h45.11.522
+63,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3558886999999231,1,2026-02-12_10h45.12.978
+64,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.28780879999976605,1,2026-02-12_10h45.14.210
+65,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.24933770000006916,1,2026-02-12_10h45.15.594
+66,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.4251430999997865,1,2026-02-12_10h45.17.138
+67,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.28589419999980237,1,2026-02-12_10h45.18.353
+68,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.31865479999987656,1,2026-02-12_10h45.20.002
+69,go,Go_stim_1,Cruz,Go_stim_1.png,0,space,0.2701084999998784,1,2026-02-12_10h45.21.274
+70,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3079308999999739,1,2026-02-12_10h45.22.482
+71,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.2878462999997282,1,2026-02-12_10h45.23.890
+72,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.36605539999982284,1,2026-02-12_10h45.25.322
+73,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.3288508999999067,1,2026-02-12_10h45.26.755
+74,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.4180031999999301,1,2026-02-12_10h45.28.226
+75,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.40432289999989734,1,2026-02-12_10h45.29.730
+76,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.23014759999978196,1,2026-02-12_10h45.31.210
+77,go,Go_stim_2,Barra lateral para a esquerda,Go_stim_2.png,1,space,0.3575206000000435,1,2026-02-12_10h45.32.802
+78,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.31344050000006973,1,2026-02-12_10h45.34.058
+79,go,Go_stim_3,Barra lateral para a direita,Go_stim_3.png,2,space,0.325347999999849,1,2026-02-12_10h45.35.322
+80,go,Go_stim_4,Barra vertical curta,Go_stim_4.png,3,space,0.28908810000029916,1,2026-02-12_10h45.36.650
