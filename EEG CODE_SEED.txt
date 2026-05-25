@@ -102,16 +102,27 @@ if image_target.status == STARTED and not hasattr(image_target, 'trigger_sent'):
 
 
 
-2************************EEG_Key_2AFC
+2************************EEG_Key_AFC
 ////Begin Routine:
-if hasattr(key_2AFC, 'asso_trigger_sent'):
-    del key_2AFC.asso_trigger_sent
+if hasattr(key_AFC, 'asso_trigger_sent'):
+    del key_AFC.asso_trigger_sent
 
 //////Each Frame:
-if key_2AFC.status == STARTED and key_2AFC.keys and not hasattr(key_2AFC, 'asso_trigger_sent'):
-    rcs.sendAnnotation('Resp_Asso', str(key_2AFC.keys))
-    #rcs.sendAnnotation('RT_Asso', str(key_2AFC.rt))
-    key_rate.asso_trigger_sent = True
+if key_AFC.status == STARTED and key_AFC.keys and not hasattr(key_AFC, 'asso_trigger_sent'):
+    rcs.sendAnnotation('Resp_Asso', str(key_AFC.keys))
+    #rcs.sendAnnotation('RT_Asso', str(key_AFC.rt))
+    key_AFC.asso_trigger_sent = True
+
+!!!!!!!! AAAAADDDD for 'NONE' response:
+# Send marker for missed response
+elif (
+    key_AFC.status == FINISHED
+    and not key_AFC.keys
+    and not hasattr(key_AFC, 'asso_trigger_sent')
+):
+
+    rcs.sendAnnotation('Resp_Asso', 'none')
+    key_AFC.asso_trigger_sent = True
 
 --------------------------------------------------------
 ********************EEEG_ CLOSE

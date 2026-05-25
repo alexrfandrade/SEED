@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2024.2.5">
+<PsychoPy2experiment encoding="utf-8" version="2024.2.1">
   <Settings>
     <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
@@ -1126,7 +1126,7 @@
         <Param val="pix" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
-      <KeyboardComponent name="key_2AFC" plugin="None">
+      <KeyboardComponent name="key_AFC" plugin="None">
         <Param val="'up','down'" valType="list" updates="constant" name="allowedKeys"/>
         <Param val="$Correct_key_AFC" valType="str" updates="constant" name="correctAns"/>
         <Param val="" valType="str" updates="None" name="deviceLabel"/>
@@ -1134,7 +1134,7 @@
         <Param val="True" valType="bool" updates="constant" name="discard previous"/>
         <Param val="" valType="code" updates="None" name="durationEstim"/>
         <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
-        <Param val="key_2AFC" valType="code" updates="None" name="name"/>
+        <Param val="key_AFC" valType="code" updates="None" name="name"/>
         <Param val="press" valType="str" updates="constant" name="registerOn"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
@@ -1243,11 +1243,11 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="if ((&quot;asso_trigger_sent&quot; in key_2AFC)) {&amp;#10;    delete key_2AFC.asso_trigger_sent;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="if hasattr(key_2AFC, 'asso_trigger_sent'):&amp;#10;    del key_2AFC.asso_trigger_sent&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
-        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
-        <Param val="if key_2AFC.status == STARTED and key_2AFC.keys and not hasattr(key_2AFC, 'asso_trigger_sent'):&amp;#10;    rcs.sendAnnotation('Resp_Asso', str(key_2AFC.keys))&amp;#10;    #rcs.sendAnnotation('RT_Asso', str(key_2AFC.rt))&amp;#10;    key_rate.asso_trigger_sent = True&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
-        <Param val="if ((((key_2AFC.status === PsychoJS.Status.STARTED) &amp;&amp; key_2AFC.keys) &amp;&amp; (! (&quot;asso_trigger_sent&quot; in key_2AFC)))) {&amp;#10;    rcs.sendAnnotation(&quot;Resp_Asso&quot;, key_2AFC.keys.toString());&amp;#10;    key_rate.asso_trigger_sent = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="if ((&quot;asso_trigger_sent&quot; in key_AFC)) {&amp;#10;    delete key_AFC.asso_trigger_sent;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if hasattr(key_AFC, 'asso_trigger_sent'):&amp;#10;    del key_AFC.asso_trigger_sent&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="if key_AFC.status == STARTED and key_AFC.keys and not hasattr(key_AFC, 'asso_trigger_sent'):&amp;#10;    rcs.sendAnnotation('Resp_Asso', str(key_AFC.keys))&amp;#10;    #rcs.sendAnnotation('RT_Asso', str(key_AFC.rt))&amp;#10;    key_AFC.asso_trigger_sent = True&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((((key_AFC.status === PsychoJS.Status.STARTED) &amp;&amp; key_AFC.keys) &amp;&amp; (! (&quot;asso_trigger_sent&quot; in key_AFC)))) {&amp;#10;    rcs.sendAnnotation(&quot;Resp_Asso&quot;, key_AFC.keys.toString());&amp;#10;    key_AFC.asso_trigger_sent = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
