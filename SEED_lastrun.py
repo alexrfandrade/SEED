@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2024.2.1),
-    on Thu Apr 23 21:16:16 2026
+This experiment was created using PsychoPy3 Experiment Builder (v2024.2.5),
+    on maio 25, 2026, at 16:57
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -38,8 +38,8 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2024.2.1'
-expName = 'Full_PT'  # from the Builder filename that created this script
+psychopyVersion = '2024.2.5'
+expName = 'SEED'  # from the Builder filename that created this script
 # information about this experiment
 expInfo = {
     'participant': f"{randint(0, 999999):06.0f}",
@@ -59,7 +59,7 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
 _fullScr = True
-_winSize = [1920, 1080]
+_winSize = [1440, 900]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -125,7 +125,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version='',
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/vera/Documents/GitHub/SEED/SEED_lastrun.py',
+        originPath='C:\\Users\\IBEB\\Documents\\GitHub\\SEED\\SEED_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -193,11 +193,11 @@ def setupWindow(expInfo=None, win=None):
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowStencil=False,
+            winType='pyglet', allowGUI=False, allowStencil=False,
             monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
-            units='height', 
+            units='height',
             checkTiming=False  # we're going to do this ourselves in a moment
         )
     else:
@@ -212,7 +212,6 @@ def setupWindow(expInfo=None, win=None):
         if win._monitorFrameRate is None:
             win._monitorFrameRate = win.getActualFrameRate(infoMsg='Attempting to measure frame rate of screen, please wait...')
         expInfo['frameRate'] = win._monitorFrameRate
-    win.mouseVisible = False
     win.hideMessage()
     # show a visual indicator if we're in piloting mode
     if PILOTING and prefs.piloting['showPilotingIndicator']:
@@ -263,6 +262,12 @@ def setupDevices(expInfo, thisExp, win):
         key_explain_PAL = deviceManager.addDevice(
             deviceClass='keyboard',
             deviceName='key_explain_PAL',
+        )
+    if deviceManager.getDevice('key_explain_') is None:
+        # initialise key_explain_
+        key_explain_ = deviceManager.addDevice(
+            deviceClass='keyboard',
+            deviceName='key_explain_',
         )
     if deviceManager.getDevice('key_explain_rate') is None:
         # initialise key_explain_rate
@@ -434,6 +439,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     """
     # mark experiment as started
     thisExp.status = STARTED
+    # make sure window is set to foreground to prevent losing focus
+    win.winHandle.activate()
     # make sure variables created by exec are available globally
     exec = environmenttools.setExecEnvironment(globals())
     # get device handles from dict of input devices
@@ -461,7 +468,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Welcome" ---
     text_hi = visual.TextStim(win=win, name='text_hi',
-        text='Bem-vindo!\n\nObrigada por participar nesta experiência. \n\n\n\nPrime ESPAÇO para avançar',
+        text='Bem-vind@!\n\nObrigada por participares nesta experiência. \n\n\n\nPrime ESPAÇO para avançar',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -471,7 +478,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "Explanation_PAL" ---
     text_Explain_PAL = visual.TextStim(win=win, name='text_Explain_PAL',
-        text='Na primeira tarefa, vamos mostrar um par de imagens : um local e um objeto. Analisa se há uma associação entre o par. \n\nAo fim de 2,5 SEGUNDOS vai aparecer abaixo uma barra de avaliação. Seleciona o nível de associação entre o par onde:\n\n1 = Pouco relacionado\n2 = Intermédio\n3 = Fortemente relacionado\n\n\nPrime ESPAÇO para avançar\n',
+        text='Na primeira tarefa, vamos mostrar um par de imagens : \num local e um objeto.\n\nAnalisa se há uma associação entre o par. \n\nPrime ESPAÇO para avançar',
         font='Arial',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.5, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -479,11 +486,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         depth=0.0);
     key_explain_PAL = keyboard.Keyboard(deviceName='key_explain_PAL')
     
+    # --- Initialize components for Routine "Explain_PAL" ---
+    text_explain_rating = visual.TextStim(win=win, name='text_explain_rating',
+        text='Ao fim de 2,5 SEGUNDOS vai aparecer abaixo uma barra de avaliação. Seleciona o nível de associação entre o par onde:\n\n1 = Pouco relacionado\n2 = Intermédio\n3 = Fortemente relacionado\n\n\nPrime ESPAÇO para avançar',
+        font='Arial',
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=0.0);
+    key_explain_ = keyboard.Keyboard(deviceName='key_explain_')
+    
     # --- Initialize components for Routine "Explain_Rating" ---
     text_explain_rate = visual.TextStim(win=win, name='text_explain_rate',
-        text="Prime a tecla indicada como '1', '2', ou '3' no teclado numérico (ao lado das flechas) para selecionar o nível de associação do par. Tens 2,5 SEGUNDOS para responderes. Se não conseguires responder a tempo ou te enganares em alguma(s), não faz mal. Continua e faz o teu melhor!\n\nPrime ESPAÇO para um exemplo",
+        text="Prime a tecla indicada como '1', '2', ou '3' no teclado numérico (ao lado das flechas) para selecionar o nível de associação do par.\n\nTens 2,5 SEGUNDOS para responderes. \n\nSe não conseguires responder a tempo ou te enganares em alguma(s), não faz mal. Continua e faz o teu melhor!\n\nPrime ESPAÇO para um exemplo",
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.25, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.5, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -492,7 +509,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -511,7 +528,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_ex_scene', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(-200,0), draggable=False, size=1.0,
+        ori=0.0, pos=(-250,0), draggable=False, size=1.0,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -519,12 +536,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_ex_object', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(300, 0), draggable=False, size=1.0,
+        ori=0.0, pos=(300, 0), draggable=False, size=None,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
     slider_example = visual.Slider(win=win, name='slider_example',
-        startValue=None, size=(0.83, 0.04), pos=(0, -0.25), units=win.units,
+        startValue=None, size=(0.83, 0.04), pos=(0, -0.3), units=win.units,
         labels=['1 - Pouco','2 - Intermédio','3 - Fortemente'], ticks=(1, 2, 3), granularity=1.0,
         style='rating', styleTweaks=(), opacity=None,
         labelColor='LightGray', markerColor='Red', lineColor='White', colorSpace='rgb',
@@ -533,7 +550,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_example = visual.TextStim(win=win, name='text_example',
         text='Relacionados?\n',
         font='Arial',
-        pos=(0, 0.25), draggable=False, height=0.06, wrapWidth=None, ori=0.0, 
+        pos=(0, 0.35), draggable=False, height=0.06, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-3.0);
@@ -550,7 +567,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_start_PAL = visual.TextStim(win=win, name='text_start_PAL',
         text='Vamos começar? \n\nSe tiveres alguma dúvida chama o experimentador.\n\n\nPrime a tecla ESPAÇO quando estiveres pronto',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.5, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
@@ -559,7 +576,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -578,7 +595,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_scene_encode', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(-200, 0), draggable=False, size=1.0,
+        ori=0.0, pos=(-250, 0), draggable=False, size=1.0,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -586,7 +603,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_object_encode', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(300, 0), draggable=False, size=1.0,
+        ori=0.0, pos=(300, 0), draggable=False, size=None,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -598,7 +615,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         languageStyle='LTR',
         depth=-3.0);
     slider_cong = visual.Slider(win=win, name='slider_cong',
-        startValue=None, size=(0.83, 0.035), pos=(0, -0.25), units=win.units,
+        startValue=None, size=(0.83, 0.035), pos=(0, -0.3), units=win.units,
         labels=['1 - Pouco','2 - Intermédio','3 - Fortemente'], ticks=(1, 2, 3), granularity=1.0,
         style='rating', styleTweaks=(), opacity=None,
         labelColor='LightGray', markerColor='Red', lineColor='White', colorSpace='rgb',
@@ -659,7 +676,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_explain_old_new = visual.TextStim(win=win, name='text_explain_old_new',
         text="No primeiro teste de memória, vamos apresentar imagens de locais.\n\nSe reconheceres a imagem como sendo uma das que viste na primeira tarefa, prime a FLECHA ESQUERDA '<-'\n\nSe a imagem for nova, que não faz parte das imagens que aprendeste, então prime a FLECHA DIREITA '->'\n\nTens 3 SEGUNDOS para responder o mais acertadamente possível. Se não conseguires responder a tempo ou errares alguma(s), não faz mal, continua. Faz o teu melhor!\n\nPrime ESPAÇO para um exemplo",
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.6, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -668,7 +685,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -687,7 +704,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_exemplo_old_new', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=1.0,
+        ori=0.0, pos=(0, -0.12), draggable=False, size=1.0,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=True, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -713,7 +730,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -759,7 +776,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_explain_2afc = visual.TextStim(win=win, name='text_explain_2afc',
         text='Vão aparecer três imagens: um local que viste anteriormente, e dois objetos. Um dos objetos viste antes associado ao local, durante a primeira tarefa. \n\nSe o objeto associado estiver em cima, prime a FLECHA de CIMA. \nSe o objeto associado for o de baixo, prime a FLECHA de BAIXO.\n\nTens 3 SEGUNDOS para responder o mais acertadamente possível. Se não conseguires responder a tempo ou errares alguma(s), não faz mal, continua. Faz o teu melhor!\n\nPrime ESPAÇO para um exemplo. ',
         font='Arial',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.6, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=1.3, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -768,7 +785,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -787,7 +804,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_ex_2AFC', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(-200, 0), draggable=False, size=1.0,
+        ori=0.0, pos=(-250, 0), draggable=False, size=1.0,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -822,7 +839,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "blank" ---
     cross_25 = visual.ShapeStim(
         win=win, name='cross_25', vertices='cross',
-        size=(0.25, 0.25),
+        size=(0.1, 0.1),
         ori=0.0, pos=(0, 0), draggable=False, anchor='center',
         lineWidth=1.0,
         colorSpace='rgb', lineColor='white', fillColor='white',
@@ -850,15 +867,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_target', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=[0,0], draggable=False, size=1.0,
+        ori=0.0, pos=[0,0], draggable=False, size=None,
         color=[1,1,1], colorSpace='rgb', opacity=None,
-        flipHoriz=True, flipVert=False,
+        flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-2.0)
     image_lure = visual.ImageStim(
         win=win,
         name='image_lure', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=[0,0], draggable=False, size=1.0,
+        ori=0.0, pos=[0,0], draggable=False, size=None,
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
@@ -1168,6 +1185,147 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # the Routine "Explanation_PAL" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
+    # --- Prepare to start Routine "Explain_PAL" ---
+    # create an object to store info about Routine Explain_PAL
+    Explain_PAL = data.Routine(
+        name='Explain_PAL',
+        components=[text_explain_rating, key_explain_],
+    )
+    Explain_PAL.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    # create starting attributes for key_explain_
+    key_explain_.keys = []
+    key_explain_.rt = []
+    _key_explain__allKeys = []
+    # store start times for Explain_PAL
+    Explain_PAL.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    Explain_PAL.tStart = globalClock.getTime(format='float')
+    Explain_PAL.status = STARTED
+    thisExp.addData('Explain_PAL.started', Explain_PAL.tStart)
+    Explain_PAL.maxDuration = None
+    # keep track of which components have finished
+    Explain_PALComponents = Explain_PAL.components
+    for thisComponent in Explain_PAL.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "Explain_PAL" ---
+    Explain_PAL.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_explain_rating* updates
+        
+        # if text_explain_rating is starting this frame...
+        if text_explain_rating.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_explain_rating.frameNStart = frameN  # exact frame index
+            text_explain_rating.tStart = t  # local t and not account for scr refresh
+            text_explain_rating.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_explain_rating, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'text_explain_rating.started')
+            # update status
+            text_explain_rating.status = STARTED
+            text_explain_rating.setAutoDraw(True)
+        
+        # if text_explain_rating is active this frame...
+        if text_explain_rating.status == STARTED:
+            # update params
+            pass
+        
+        # *key_explain_* updates
+        waitOnFlip = False
+        
+        # if key_explain_ is starting this frame...
+        if key_explain_.status == NOT_STARTED and tThisFlip >= 2-frameTolerance:
+            # keep track of start time/frame for later
+            key_explain_.frameNStart = frameN  # exact frame index
+            key_explain_.tStart = t  # local t and not account for scr refresh
+            key_explain_.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_explain_, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'key_explain_.started')
+            # update status
+            key_explain_.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_explain_.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_explain_.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_explain_.status == STARTED and not waitOnFlip:
+            theseKeys = key_explain_.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            _key_explain__allKeys.extend(theseKeys)
+            if len(_key_explain__allKeys):
+                key_explain_.keys = _key_explain__allKeys[-1].name  # just the last key pressed
+                key_explain_.rt = _key_explain__allKeys[-1].rt
+                key_explain_.duration = _key_explain__allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer], 
+                playbackComponents=[]
+            )
+            # skip the frame we paused on
+            continue
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            Explain_PAL.forceEnded = routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in Explain_PAL.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "Explain_PAL" ---
+    for thisComponent in Explain_PAL.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for Explain_PAL
+    Explain_PAL.tStop = globalClock.getTime(format='float')
+    Explain_PAL.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('Explain_PAL.stopped', Explain_PAL.tStop)
+    # check responses
+    if key_explain_.keys in ['', [], None]:  # No response was made
+        key_explain_.keys = None
+    thisExp.addData('key_explain_.keys',key_explain_.keys)
+    if key_explain_.keys != None:  # we had a response
+        thisExp.addData('key_explain_.rt', key_explain_.rt)
+        thisExp.addData('key_explain_.duration', key_explain_.duration)
+    thisExp.nextEntry()
+    # the Routine "Explain_PAL" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
     # --- Prepare to start Routine "Explain_Rating" ---
     # create an object to store info about Routine Explain_Rating
     Explain_Rating = data.Routine(
@@ -1235,7 +1393,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         waitOnFlip = False
         
         # if key_explain_rate is starting this frame...
-        if key_explain_rate.status == NOT_STARTED and tThisFlip >= 2-frameTolerance:
+        if key_explain_rate.status == NOT_STARTED and tThisFlip >= 3-frameTolerance:
             # keep track of start time/frame for later
             key_explain_rate.frameNStart = frameN  # exact frame index
             key_explain_rate.tStart = t  # local t and not account for scr refresh
@@ -1342,6 +1500,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -1378,7 +1538,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -1496,7 +1656,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # update component parameters for each repeat
         image_ex_scene.setSize(ex_scene_size)
         image_ex_scene.setImage(ex_scene_encode)
-        image_ex_object.setSize(ex_object_size)
         image_ex_object.setImage(ex_object_encode)
         slider_example.reset()
         # create starting attributes for key_ex_rate
@@ -1958,7 +2117,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         extraInfo=expInfo, 
         originPath=-1, 
         trialList=data.importConditions(
-        'Encode_Pairs.xlsx', 
+        'encode_pairs.xlsx', 
         selection='0:60'
     )
     , 
@@ -1994,6 +2153,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -2030,7 +2191,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -2148,7 +2309,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # update component parameters for each repeat
         image_scene_encode.setSize(Scene_Size)
         image_scene_encode.setImage(Scene)
-        image_object_encode.setSize(Object_Size)
         image_object_encode.setImage(Object_Encode)
         # Run 'Begin Routine' code from code_debugPAL
         print(f"trial {trial_encode.thisN}, image = {Scene}")
@@ -3332,6 +3492,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -3368,7 +3530,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -3877,6 +4039,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -3913,7 +4077,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -4571,6 +4735,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -4607,7 +4773,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -5156,6 +5322,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         blank.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
+        # Run 'Begin Routine' code from debug_jitterITI
+        print(f"Trial {thisN}: ITI = {jitter_ITI}")
         # store start times for blank
         blank.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         blank.tStart = globalClock.getTime(format='float')
@@ -5192,7 +5360,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # *cross_25* updates
             
             # if cross_25 is starting this frame...
-            if cross_25.status == NOT_STARTED and tThisFlip >= 2.25-frameTolerance:
+            if cross_25.status == NOT_STARTED and tThisFlip >= jitter_ITI-frameTolerance:
                 # keep track of start time/frame for later
                 cross_25.frameNStart = frameN  # exact frame index
                 cross_25.tStart = t  # local t and not account for scr refresh
@@ -5315,15 +5483,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         key_2AFC.rt = []
         _key_2AFC_allKeys = []
         image_target.setPos(Target_pos)
-        image_target.setSize(Object_Size)
         image_target.setImage(Object_Encode)
         image_lure.setPos(Lure_pos)
-        image_lure.setSize(Lure_size)
         image_lure.setImage(Obj_Lure)
         # Run 'Begin Routine' code from code_debug_2AFC
-        print(f"trial {trial_asso.thisN}, image = {image_scene_2AFC}")
-        print(f"trial {trial_asso.thisN}, image = {image_target}")
-        print(f"trial {trial_asso.thisN}, image = {image_lure}")
+        print(f"trial {trial_asso.thisN}, image = {Scene}")
+        print(f"trial {trial_asso.thisN}, image = {Object_Encode}")
+        print(f"trial {trial_asso.thisN}, image = {Obj_Lure}")
         # store start times for trial_2AFC
         trial_2AFC.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         trial_2AFC.tStart = globalClock.getTime(format='float')

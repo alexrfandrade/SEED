@@ -1,0 +1,132 @@
+**********1st COMPONENT .PSYEXP:
+code_EEG_open
+
+//Begin Experiment:
+
+import time
+from psychopy import logging
+from psychopy import event
+from psychopy.hardware import brainproducts
+import cv2
+import numpy as np
+import subprocess
+#import os
+#import pyaudio
+import numpy as np
+rcs = brainproducts.RemoteControlServer()
+
+cwd = os.getcwd()
+
+//End Experiment:
+#rcs.sendAnnotation('Experiment', 'End')
+rcs.sendAnnotation('End','Init')
+rcs.stopRecording()
+cap.release()
+out.release()
+cv2.destroyAllWindows()
+#stream.stop_stream()
+#stream.close()
+#audio.terminate()
+subprocess.run(['taskkill', '/F', '/T', '/PID', str(ffmpeg_process.pid)])
+ffmpeg_process.wait()
+
+----------------------------------------------
+************* ENCODE component:
+1******* EEG_obj_encode
+
+///Begin routine:
+if hasattr(image_object_encode, 'trigger_sent'):
+    del image_object_encode.trigger_sent
+
+///Each Frame:
+if image_object_encode.status == STARTED and not hasattr(image_object_encode, 'trigger_sent'):
+    rcs.sendAnnotation('Stim', image_object_encode.image)
+    image_object_encode.trigger_sent = True
+
+2*********EEG_rating
+
+//Begin Routine:
+if hasattr(key_rate, 'trigger_sent'):
+    del key_rate.trigger_sent
+
+//Each Frame:
+if key_rate.status == STARTED and key_rate.keys and not hasattr(key_rate, 'trigger_sent'):
+    
+    ## Send response marker
+    rcs.sendAnnotation('Rating', str(key_rate.keys))
+    ## Send RT marker - removed because unnecessary
+    #rt_ms= int (key_rate.rt * 1000)
+    #rcs.sendAnnotation(f"RT_{rt_ms}", "Response")
+    
+    key_rate.trigger_sent = True
+
+------------------------------------------------
+****************OLD_NEW_TASK
+
+1************code_EEG_old
+
+///Begin routine:
+if hasattr(image_old_new, 'trigger_sent'):
+    del image_old_new.trigger_sent
+
+//Each FRame:
+if image_old_new.status == STARTED and not hasattr(image_old_new, 'trigger_sent'):
+    rcs.sendAnnotation('Item', image_old_new.image)
+    image_old_new.trigger_sent = True
+
+2***********EEG_key_old
+///Begin Routine:
+if hasattr(key_item, 'item_trigger_sent'):
+    del key_item.item_trigger_sent
+
+//Each Frame:
+if key_item.status == STARTED and key_item.keys and not hasattr(key_item, 'item_trigger_sent'):
+    rcs.sendAnnotation('Resp_Item', str(key_item.keys))
+    #rcs.sendAnnotation('RT_Item', str(key_item.rt))
+    key_item.item_trigger_sent = True
+
+
+--------------------------------------------------------
+***************************trial_2AFC
+
+
+1****************eeg_IMAGE_AFC
+////Begin Routine:
+if hasattr(image_target, 'trigger_sent'):
+    del image_target.trigger_sent
+
+//////Each Frame:
+if image_target.status == STARTED and not hasattr(image_target, 'trigger_sent'):
+    rcs.sendAnnotation('AFC', image_target.image)
+    image_target.trigger_sent = True
+
+
+
+2************************EEG_Key_2AFC
+////Begin Routine:
+if hasattr(key_2AFC, 'asso_trigger_sent'):
+    del key_2AFC.asso_trigger_sent
+
+//////Each Frame:
+if key_2AFC.status == STARTED and key_2AFC.keys and not hasattr(key_2AFC, 'asso_trigger_sent'):
+    rcs.sendAnnotation('Resp_Asso', str(key_2AFC.keys))
+    #rcs.sendAnnotation('RT_Asso', str(key_2AFC.rt))
+    key_rate.asso_trigger_sent = True
+
+--------------------------------------------------------
+********************EEEG_ CLOSE
+
+///begin Routine:
+rcs.sendAnnotation('End', 'Init')
+
+///Each FRame:
+ret, frame= map.read()
+if ret:
+    cv2.putText(frame, "End", (0, 450), 
+                cv2.FONT_HERSHEY_SIMPLEX, 0.5, 
+                (0, 255, 255), 
+                1, 
+                cv2.LINE_AA)
+    
+    out.write(frame)
+
