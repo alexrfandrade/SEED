@@ -1,0 +1,1011 @@
+[ simnibs 4.5.0 - 2026-06-24 11:22:58,527 - 51552 ]INFO: Running simulations in the directory: /Users/meissane/Documents/ECM/SSE/SimNIBS/simnibs/leadfield_mPFC/20260624_112255
+[ simnibs 4.5.0 - 2026-06-24 11:22:58,528 - 51552 ]INFO: Head Mesh:          /Users/meissane/Documents/ECM/SSE/SimNIBS/simnibs/m2m_ernie/ernie.msh
+[ simnibs 4.5.0 - 2026-06-24 11:22:58,528 - 51552 ]INFO: Subject Path:       m2m_ernie
+[ simnibs 4.5.0 - 2026-06-24 11:22:58,528 - 51552 ]INFO: Simulation Folder:  /Users/meissane/Documents/ECM/SSE/SimNIBS/simnibs/leadfield_mPFC/20260624_112255
+[ simnibs 4.5.0 - 2026-06-24 11:22:59,030 - 51552 ]INFO: EEG Cap: /Users/meissane/Applications/SimNIBS-4.5/simnibs/resources/ElectrodeCaps_MNI/EEG10-10_UI_Jurak_2007.csv
+[ simnibs 4.5.0 - 2026-06-24 11:22:59,147 - 51552 ]INFO: Placing Electrodes
+[ simnibs 4.5.0 - 2026-06-24 11:23:18,959 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 3.6464e-02 -8.2215e+00  9.7345e+01]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 1
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:23:29,296 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 1.0058e-02  8.6107e+01 -4.9184e+00]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 2
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:23:41,936 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [29.7997 82.2296 -8.4348]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 3
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:23:55,498 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-53.7119  64.0577 -10.6925]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 4
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:05,617 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-34.6485  75.4381  19.5457]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 5
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:15,187 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 0.2072 80.4102 32.4934]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 6
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:27,424 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [35.7689 76.0132 20.3839]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 7
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:39,513 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 54.4935  64.5619 -10.4195]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 8
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:49,391 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-69.5524  38.0578 -50.7556]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 9
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:24:59,081 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-68.9673  38.4068 -11.0843]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 10
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:08,711 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-62.8512  45.9544  16.0199]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 11
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:17,898 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-49.0956  52.4537  39.2769]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 12
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:27,330 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-27.4597  57.3354  56.6351]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 13
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:36,604 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 0.3529 59.5753 64.4247]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 14
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:46,276 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [28.5534 57.7275 57.4989]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 15
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:25:55,813 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [50.7769 52.9859 40.2164]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 16
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:05,195 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [64.3374 46.4254 16.4728]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 17
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:14,708 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 70.1889  38.8773 -10.7506]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 18
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:24,548 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 70.348   38.3786 -50.3276]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 19
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:34,211 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-77.8418  10.4767 -50.2839]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 20
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:44,457 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-76.6688  10.7566 -10.336 ]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 21
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:26:54,016 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-74.235   16.8584  23.8477]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 22
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:03,659 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-58.9775  22.2307  53.8189]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 23
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:13,718 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-33.1062  26.2229  75.9515]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 24
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:23,798 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 0.5783 27.9205 85.1456]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 25
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:33,512 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [34.3811 26.3914 76.2503]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 26
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:43,323 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [60.8492 22.5619 54.5283]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 27
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:27:53,056 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [76.006  17.1885 24.2602]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 28
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:03,342 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [78.335  11.0827 -9.9917]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 29
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:13,473 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 78.9739  10.7162 -49.8321]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 30
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:23,273 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-79.8488 -17.4089 -48.8382]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 31
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:32,735 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-82.3897 -16.8956  -9.3223]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 32
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:46,213 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-81.0417 -14.2351  26.3116]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 33
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:28:55,628 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-67.7221 -11.2784  61.154 ]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 34
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:05,075 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-38.3364  -9.1381  86.4369]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 35
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:14,938 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-29.2999  81.5619  -8.5504]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 36
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:26,773 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [38.5233 -9.1292 86.7821]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 37
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:36,864 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 68.4461 -11.2464  61.9558]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 38
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:46,477 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 82.484  -14.2109  27.1065]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 39
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:29:56,860 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 83.9685 -16.8687  -8.905 ]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 40
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:07,152 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 81.0037 -17.3789 -48.3603]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 41
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:18,900 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-87.6414 -48.106  -48.0953]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 42
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:28,876 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-81.7833 -45.9341  -7.3723]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 43
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:38,905 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-80.2352 -46.8076  30.31  ]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 44
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:48,701 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-66.4279 -47.6191  65.2821]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 45
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:30:58,152 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-37.0723 -48.1829  89.5164]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 46
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:08,099 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 3.0588e-02 -4.8393e+01  9.8448e+01]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 47
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:17,888 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 37.1608 -48.1926  89.6965]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 48
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:28,001 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 66.3836 -47.6332  65.4655]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 49
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:37,619 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 80.4029 -46.83    30.7638]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 50
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:47,259 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 82.5307 -45.9583  -6.8511]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 51
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:31:57,523 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 87.7429 -48.0013 -47.4075]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 52
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:07,567 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-68.2466 -71.8711 -43.6555]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 53
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:17,583 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-72.5473 -74.1864  -4.3174]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 54
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:27,601 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-68.9686 -78.0779  26.1498]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 55
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:37,514 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-55.925  -81.6003  54.0114]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 56
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:47,464 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-30.9815 -83.915   72.7941]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 57
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:32:57,555 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ -0.4085 -84.6416  79.3491]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 58
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:33:07,553 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 30.3082 -83.7456  73.2472]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 59
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:33:29,205 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 55.1521 -81.2288  54.3295]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 60
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:33:39,334 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 68.173  -77.6241  26.5806]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 61
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:33:49,249 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 72.3034 -73.7188  -3.7716]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 62
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:33:59,467 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 68.86   -72.0157 -43.1827]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 63
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:09,444 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-51.4204 -94.9906 -39.6467]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 64
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:19,766 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [-55.1185 -98.8817  -0.3945]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 65
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:29,603 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ -36.9878 -105.0591   33.3468]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 66
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:39,690 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [  -0.2652 -107.113    45.7263]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 67
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:49,745 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [  36.3359 -104.552    33.4061]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 68
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:34:59,641 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 5.4819e+01 -9.8181e+01  1.3073e-02]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 69
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:09,762 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 51.9245 -95.2563 -39.2866]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 70
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:19,712 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ -29.368  -114.5743    4.0633]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 71
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:29,511 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ 1.0142e-02 -1.1848e+02  8.2485e+00]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 72
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:39,332 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [  29.2588 -114.004     4.2627]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 73
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:49,064 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [   0.  -116.2  -30.5]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 74
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:35:58,974 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [ -27.5827 -110.6888  -35.0382]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 75
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:36:08,957 - 51552 ]INFO: Placing Electrode:
+definition: plane
+shape: ellipse
+centre: [  27.7117 -110.6796  -34.8342]
+pos_ydir: []
+dimensions: [28.2, 28.2]
+thickness:[4]
+channelnr: 76
+number of holes: 0
+
+[ simnibs 4.5.0 - 2026-06-24 11:37:30,026 - 51552 ]INFO: Running Leadfield
+[ simnibs 4.5.0 - 2026-06-24 11:37:30,027 - 51552 ]INFO: Using isotropic conductivities
+[ simnibs 4.5.0 - 2026-06-24 11:37:56,849 - 51552 ]INFO: Assembling FEM Matrix
+[ simnibs 4.5.0 - 2026-06-24 11:38:07,195 - 51552 ]INFO: 10.34 s to assemble FEM matrix
+[ simnibs 4.5.0 - 2026-06-24 11:38:07,208 - 51552 ]INFO: Computing gradient matrix
+[ simnibs 4.5.0 - 2026-06-24 11:38:16,218 - 51552 ]INFO: Running Simulation 1 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:38:16,253 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:38:16,254 - 51552 ]INFO: Using solver options: hypre
+[ simnibs 4.5.0 - 2026-06-24 11:38:20,566 - 51552 ]INFO: Time to set up KSP:   3.5904 s
+[ simnibs 4.5.0 - 2026-06-24 11:38:41,723 - 51552 ]INFO: Time to solve:  21.1375 s
+[ simnibs 4.5.0 - 2026-06-24 11:38:43,453 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 62.24%
+[ simnibs 4.5.0 - 2026-06-24 11:38:44,136 - 51552 ]INFO: Running Simulation 2 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:38:44,162 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:39:05,226 - 51552 ]INFO: Time to solve:  21.0443 s
+[ simnibs 4.5.0 - 2026-06-24 11:39:07,001 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 68.74%
+[ simnibs 4.5.0 - 2026-06-24 11:39:08,053 - 51552 ]INFO: Running Simulation 3 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:39:08,078 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:39:28,697 - 51552 ]INFO: Time to solve:  20.5993 s
+[ simnibs 4.5.0 - 2026-06-24 11:39:31,049 - 51552 ]INFO: Running Simulation 4 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:39:31,074 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:39:51,832 - 51552 ]INFO: Time to solve:  20.7367 s
+[ simnibs 4.5.0 - 2026-06-24 11:39:54,600 - 51552 ]INFO: Running Simulation 5 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:39:54,627 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:40:14,443 - 51552 ]INFO: Time to solve:  19.7956 s
+[ simnibs 4.5.0 - 2026-06-24 11:40:16,171 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 25.06%
+[ simnibs 4.5.0 - 2026-06-24 11:40:16,963 - 51552 ]INFO: Running Simulation 6 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:40:16,989 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:40:37,262 - 51552 ]INFO: Time to solve:  20.2531 s
+[ simnibs 4.5.0 - 2026-06-24 11:40:38,994 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 17.14%
+[ simnibs 4.5.0 - 2026-06-24 11:40:40,042 - 51552 ]INFO: Running Simulation 7 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:40:40,069 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:41:00,700 - 51552 ]INFO: Time to solve:  20.6106 s
+[ simnibs 4.5.0 - 2026-06-24 11:41:03,185 - 51552 ]INFO: Running Simulation 8 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:41:03,210 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:41:24,167 - 51552 ]INFO: Time to solve:  20.9363 s
+[ simnibs 4.5.0 - 2026-06-24 11:41:26,986 - 51552 ]INFO: Running Simulation 9 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:41:27,012 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:41:47,958 - 51552 ]INFO: Time to solve:  20.9254 s
+[ simnibs 4.5.0 - 2026-06-24 11:41:50,409 - 51552 ]INFO: Running Simulation 10 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:41:50,436 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:42:11,177 - 51552 ]INFO: Time to solve:  20.7182 s
+[ simnibs 4.5.0 - 2026-06-24 11:42:14,086 - 51552 ]INFO: Running Simulation 11 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:42:14,112 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:42:35,473 - 51552 ]INFO: Time to solve:  21.3365 s
+[ simnibs 4.5.0 - 2026-06-24 11:42:37,908 - 51552 ]INFO: Running Simulation 12 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:42:37,938 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:42:58,758 - 51552 ]INFO: Time to solve:  20.7995 s
+[ simnibs 4.5.0 - 2026-06-24 11:43:01,531 - 51552 ]INFO: Running Simulation 13 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:43:01,558 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:43:22,318 - 51552 ]INFO: Time to solve:  20.7385 s
+[ simnibs 4.5.0 - 2026-06-24 11:43:24,706 - 51552 ]INFO: Running Simulation 14 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:43:24,732 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:43:45,319 - 51552 ]INFO: Time to solve:  20.5666 s
+[ simnibs 4.5.0 - 2026-06-24 11:43:48,130 - 51552 ]INFO: Running Simulation 15 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:43:48,161 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:44:08,905 - 51552 ]INFO: Time to solve:  20.7235 s
+[ simnibs 4.5.0 - 2026-06-24 11:44:11,320 - 51552 ]INFO: Running Simulation 16 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:44:11,346 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:44:31,896 - 51552 ]INFO: Time to solve:  20.5283 s
+[ simnibs 4.5.0 - 2026-06-24 11:44:34,621 - 51552 ]INFO: Running Simulation 17 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:44:34,647 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:44:55,669 - 51552 ]INFO: Time to solve:  21.0017 s
+[ simnibs 4.5.0 - 2026-06-24 11:44:58,099 - 51552 ]INFO: Running Simulation 18 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:44:58,135 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:45:18,252 - 51552 ]INFO: Time to solve:  20.0975 s
+[ simnibs 4.5.0 - 2026-06-24 11:45:21,074 - 51552 ]INFO: Running Simulation 19 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:45:21,109 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:46:02,075 - 51552 ]INFO: Time to solve:  23.5769 s
+[ simnibs 4.5.0 - 2026-06-24 11:46:04,531 - 51552 ]INFO: Running Simulation 20 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:46:04,564 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:46:25,686 - 51552 ]INFO: Time to solve:  21.1020 s
+[ simnibs 4.5.0 - 2026-06-24 11:46:28,442 - 51552 ]INFO: Running Simulation 21 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:46:28,467 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:46:49,374 - 51552 ]INFO: Time to solve:  20.8865 s
+[ simnibs 4.5.0 - 2026-06-24 11:46:51,872 - 51552 ]INFO: Running Simulation 22 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:46:51,897 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:47:12,868 - 51552 ]INFO: Time to solve:  20.9509 s
+[ simnibs 4.5.0 - 2026-06-24 11:47:15,671 - 51552 ]INFO: Running Simulation 23 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:47:15,697 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:47:36,521 - 51552 ]INFO: Time to solve:  20.8014 s
+[ simnibs 4.5.0 - 2026-06-24 11:47:38,986 - 51552 ]INFO: Running Simulation 24 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:47:39,010 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:47:59,743 - 51552 ]INFO: Time to solve:  20.7141 s
+[ simnibs 4.5.0 - 2026-06-24 11:48:02,548 - 51552 ]INFO: Running Simulation 25 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:48:02,574 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:48:23,330 - 51552 ]INFO: Time to solve:  20.7329 s
+[ simnibs 4.5.0 - 2026-06-24 11:48:25,782 - 51552 ]INFO: Running Simulation 26 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:48:25,808 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:48:46,323 - 51552 ]INFO: Time to solve:  20.4950 s
+[ simnibs 4.5.0 - 2026-06-24 11:48:49,034 - 51552 ]INFO: Running Simulation 27 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:48:49,058 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:49:10,056 - 51552 ]INFO: Time to solve:  20.9783 s
+[ simnibs 4.5.0 - 2026-06-24 11:49:12,473 - 51552 ]INFO: Running Simulation 28 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:49:12,499 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:49:34,924 - 51552 ]INFO: Time to solve:  22.4003 s
+[ simnibs 4.5.0 - 2026-06-24 11:49:38,819 - 51552 ]INFO: Running Simulation 29 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:49:38,855 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:50:02,440 - 51552 ]INFO: Time to solve:  23.5545 s
+[ simnibs 4.5.0 - 2026-06-24 11:50:05,460 - 51552 ]INFO: Running Simulation 30 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:50:05,494 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:50:28,992 - 51552 ]INFO: Time to solve:  23.4745 s
+[ simnibs 4.5.0 - 2026-06-24 11:50:30,817 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 12.34%
+[ simnibs 4.5.0 - 2026-06-24 11:50:31,893 - 51552 ]INFO: Running Simulation 31 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:50:31,923 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:50:54,168 - 51552 ]INFO: Time to solve:  22.2254 s
+[ simnibs 4.5.0 - 2026-06-24 11:50:55,801 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 11.02%
+[ simnibs 4.5.0 - 2026-06-24 11:50:56,471 - 51552 ]INFO: Running Simulation 32 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:50:56,497 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:51:18,783 - 51552 ]INFO: Time to solve:  22.2662 s
+[ simnibs 4.5.0 - 2026-06-24 11:51:22,304 - 51552 ]INFO: Running Simulation 33 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:51:22,338 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:51:43,828 - 51552 ]INFO: Time to solve:  21.4657 s
+[ simnibs 4.5.0 - 2026-06-24 11:51:46,428 - 51552 ]INFO: Running Simulation 34 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:51:46,454 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:52:09,718 - 51552 ]INFO: Time to solve:  23.2430 s
+[ simnibs 4.5.0 - 2026-06-24 11:52:12,498 - 51552 ]INFO: Running Simulation 35 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:52:12,523 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:52:34,230 - 51552 ]INFO: Time to solve:  21.6875 s
+[ simnibs 4.5.0 - 2026-06-24 11:52:36,080 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 22.87%
+[ simnibs 4.5.0 - 2026-06-24 11:52:36,760 - 51552 ]INFO: Running Simulation 36 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:52:36,786 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:52:57,799 - 51552 ]INFO: Time to solve:  20.9961 s
+[ simnibs 4.5.0 - 2026-06-24 11:53:00,850 - 51552 ]INFO: Running Simulation 37 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:53:00,883 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:53:23,272 - 51552 ]INFO: Time to solve:  22.3641 s
+[ simnibs 4.5.0 - 2026-06-24 11:53:25,860 - 51552 ]INFO: Running Simulation 38 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:53:25,892 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:53:48,888 - 51552 ]INFO: Time to solve:  22.9747 s
+[ simnibs 4.5.0 - 2026-06-24 11:53:51,898 - 51552 ]INFO: Running Simulation 39 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:53:51,929 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:54:18,071 - 51552 ]INFO: Time to solve:  26.1206 s
+[ simnibs 4.5.0 - 2026-06-24 11:54:20,696 - 51552 ]INFO: Running Simulation 40 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:54:20,745 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:54:45,389 - 51552 ]INFO: Time to solve:  24.6175 s
+[ simnibs 4.5.0 - 2026-06-24 11:54:47,241 - 51552 ]WARNING: The current calibration error exceeded 10%! Estimated error value: 72.37%
+[ simnibs 4.5.0 - 2026-06-24 11:54:48,407 - 51552 ]INFO: Running Simulation 41 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:54:48,448 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:55:09,555 - 51552 ]INFO: Time to solve:  21.0814 s
+[ simnibs 4.5.0 - 2026-06-24 11:55:12,038 - 51552 ]INFO: Running Simulation 42 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:55:12,066 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:55:33,168 - 51552 ]INFO: Time to solve:  21.0781 s
+[ simnibs 4.5.0 - 2026-06-24 11:55:35,881 - 51552 ]INFO: Running Simulation 43 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:55:35,910 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:55:58,066 - 51552 ]INFO: Time to solve:  22.1314 s
+[ simnibs 4.5.0 - 2026-06-24 11:56:00,430 - 51552 ]INFO: Running Simulation 44 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:56:00,456 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:56:21,702 - 51552 ]INFO: Time to solve:  21.2274 s
+[ simnibs 4.5.0 - 2026-06-24 11:56:24,230 - 51552 ]INFO: Running Simulation 45 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:56:24,256 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:56:45,147 - 51552 ]INFO: Time to solve:  20.8725 s
+[ simnibs 4.5.0 - 2026-06-24 11:56:47,107 - 51552 ]INFO: Running Simulation 46 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:56:47,137 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:57:08,100 - 51552 ]INFO: Time to solve:  20.9438 s
+[ simnibs 4.5.0 - 2026-06-24 11:57:10,734 - 51552 ]INFO: Running Simulation 47 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:57:10,760 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:57:31,439 - 51552 ]INFO: Time to solve:  20.6584 s
+[ simnibs 4.5.0 - 2026-06-24 11:57:33,365 - 51552 ]INFO: Running Simulation 48 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:57:33,391 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:57:55,214 - 51552 ]INFO: Time to solve:  21.8069 s
+[ simnibs 4.5.0 - 2026-06-24 11:57:58,749 - 51552 ]INFO: Running Simulation 49 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:57:58,782 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:58:25,677 - 51552 ]INFO: Time to solve:  26.8683 s
+[ simnibs 4.5.0 - 2026-06-24 11:58:28,926 - 51552 ]INFO: Running Simulation 50 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:58:28,964 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:58:52,031 - 51552 ]INFO: Time to solve:  23.0421 s
+[ simnibs 4.5.0 - 2026-06-24 11:58:55,640 - 51552 ]INFO: Running Simulation 51 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:58:55,667 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:59:18,244 - 51552 ]INFO: Time to solve:  22.5539 s
+[ simnibs 4.5.0 - 2026-06-24 11:59:20,928 - 51552 ]INFO: Running Simulation 52 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:59:20,961 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 11:59:41,993 - 51552 ]INFO: Time to solve:  21.0125 s
+[ simnibs 4.5.0 - 2026-06-24 11:59:44,880 - 51552 ]INFO: Running Simulation 53 of 75
+[ simnibs 4.5.0 - 2026-06-24 11:59:44,911 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:00:05,645 - 51552 ]INFO: Time to solve:  20.7162 s
+[ simnibs 4.5.0 - 2026-06-24 12:00:08,278 - 51552 ]INFO: Running Simulation 54 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:00:08,310 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:00:31,832 - 51552 ]INFO: Time to solve:  23.4970 s
+[ simnibs 4.5.0 - 2026-06-24 12:00:34,717 - 51552 ]INFO: Running Simulation 55 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:00:34,750 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:00:56,008 - 51552 ]INFO: Time to solve:  21.2340 s
+[ simnibs 4.5.0 - 2026-06-24 12:00:58,665 - 51552 ]INFO: Running Simulation 56 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:00:58,691 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:01:26,679 - 51552 ]INFO: Time to solve:  27.9605 s
+[ simnibs 4.5.0 - 2026-06-24 12:01:29,725 - 51552 ]INFO: Running Simulation 57 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:01:29,758 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:01:51,421 - 51552 ]INFO: Time to solve:  21.6380 s
+[ simnibs 4.5.0 - 2026-06-24 12:01:54,068 - 51552 ]INFO: Running Simulation 58 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:01:54,093 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:02:14,137 - 51552 ]INFO: Time to solve:  20.0250 s
+[ simnibs 4.5.0 - 2026-06-24 12:02:17,150 - 51552 ]INFO: Running Simulation 59 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:02:17,183 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:02:37,675 - 51552 ]INFO: Time to solve:  20.4701 s
+[ simnibs 4.5.0 - 2026-06-24 12:02:40,106 - 51552 ]INFO: Running Simulation 60 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:02:40,134 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:03:00,355 - 51552 ]INFO: Time to solve:  20.1988 s
+[ simnibs 4.5.0 - 2026-06-24 12:03:03,213 - 51552 ]INFO: Running Simulation 61 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:03:03,243 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:03:23,520 - 51552 ]INFO: Time to solve:  20.2588 s
+[ simnibs 4.5.0 - 2026-06-24 12:03:26,015 - 51552 ]INFO: Running Simulation 62 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:03:26,043 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:03:47,054 - 51552 ]INFO: Time to solve:  20.9925 s
+[ simnibs 4.5.0 - 2026-06-24 12:03:50,068 - 51552 ]INFO: Running Simulation 63 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:03:50,097 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:04:10,120 - 51552 ]INFO: Time to solve:  20.0043 s
+[ simnibs 4.5.0 - 2026-06-24 12:04:12,636 - 51552 ]INFO: Running Simulation 64 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:04:12,665 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:04:33,420 - 51552 ]INFO: Time to solve:  20.7333 s
+[ simnibs 4.5.0 - 2026-06-24 12:04:36,157 - 51552 ]INFO: Running Simulation 65 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:04:36,186 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:04:56,404 - 51552 ]INFO: Time to solve:  20.1989 s
+[ simnibs 4.5.0 - 2026-06-24 12:04:58,913 - 51552 ]INFO: Running Simulation 66 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:04:58,947 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:05:19,397 - 51552 ]INFO: Time to solve:  20.4252 s
+[ simnibs 4.5.0 - 2026-06-24 12:05:22,343 - 51552 ]INFO: Running Simulation 67 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:05:22,371 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:05:43,848 - 51552 ]INFO: Time to solve:  21.4570 s
+[ simnibs 4.5.0 - 2026-06-24 12:05:47,840 - 51552 ]INFO: Running Simulation 68 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:05:47,874 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:06:11,298 - 51552 ]INFO: Time to solve:  23.4029 s
+[ simnibs 4.5.0 - 2026-06-24 12:06:14,204 - 51552 ]INFO: Running Simulation 69 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:06:14,235 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:06:39,208 - 51552 ]INFO: Time to solve:  24.9517 s
+[ simnibs 4.5.0 - 2026-06-24 12:06:41,574 - 51552 ]INFO: Running Simulation 70 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:06:41,608 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:07:04,008 - 51552 ]INFO: Time to solve:  22.3778 s
+[ simnibs 4.5.0 - 2026-06-24 12:07:08,979 - 51552 ]INFO: Running Simulation 71 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:07:09,020 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:07:37,893 - 51552 ]INFO: Time to solve:  28.8354 s
+[ simnibs 4.5.0 - 2026-06-24 12:07:41,134 - 51552 ]INFO: Running Simulation 72 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:07:41,163 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:08:03,242 - 51552 ]INFO: Time to solve:  22.0592 s
+[ simnibs 4.5.0 - 2026-06-24 12:08:06,059 - 51552 ]INFO: Running Simulation 73 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:08:06,091 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:08:26,914 - 51552 ]INFO: Time to solve:  20.8052 s
+[ simnibs 4.5.0 - 2026-06-24 12:08:29,385 - 51552 ]INFO: Running Simulation 74 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:08:29,415 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:08:51,335 - 51552 ]INFO: Time to solve:  21.9021 s
+[ simnibs 4.5.0 - 2026-06-24 12:08:54,385 - 51552 ]INFO: Running Simulation 75 of 75
+[ simnibs 4.5.0 - 2026-06-24 12:08:54,410 - 51552 ]DEBUG: Solving FEM System
+[ simnibs 4.5.0 - 2026-06-24 12:09:15,740 - 51552 ]INFO: Time to solve:  21.3081 s
+[ simnibs 4.5.0 - 2026-06-24 12:09:18,427 - 51552 ]INFO: =====================================
+[ simnibs 4.5.0 - 2026-06-24 12:09:18,427 - 51552 ]INFO: SimNIBS finished running leadfield
+[ simnibs 4.5.0 - 2026-06-24 12:09:18,427 - 51552 ]INFO: Final HDF5 file:
+[ simnibs 4.5.0 - 2026-06-24 12:09:18,427 - 51552 ]INFO: /Users/meissane/Documents/ECM/SSE/SimNIBS/simnibs/leadfield_mPFC/20260624_112255/ernie_leadfield_EEG10-10_UI_Jurak_2007.hdf5
+[ simnibs 4.5.0 - 2026-06-24 12:09:18,427 - 51552 ]INFO: =====================================
